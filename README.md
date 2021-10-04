@@ -106,7 +106,7 @@ Add a `Your_Full_Name.md` file to the `profiles` directory. Use any combination 
 
 Here's a full working example:
 
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=oussamabonnor1&show_icons=true&theme=dracula&line_height=27" alt="Oussama's github stats"/>
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=oussamabouchikhi&show_icons=true&theme=dracula&line_height=27" alt="Oussama's github stats"/>
 
 Read the [Github stats docs](https://github.com/anuraghazra/github-readme-stats) to find out how to customize your card!
 
