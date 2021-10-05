@@ -21,5 +21,3 @@ Université Oran 1 Ahmed Ben Bella
 ### Profile Link
 
 [alaaedaouimeur](https://github.com/alaaedaouimeur)
-
-https://github.com/oussamabouchikhi)
