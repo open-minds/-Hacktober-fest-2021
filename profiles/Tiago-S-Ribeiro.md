@@ -20,4 +20,4 @@ BSc - Instituto Superior de Engenharia do Porto
 
 ### Profile Link
 
-[oussamabouchikhi](https://github.com/Tiago-S-Ribeiro)
+[Tiago-S-Ribeiro](https://github.com/Tiago-S-Ribeiro)
