@@ -4,3 +4,5 @@
 - [djawed-bkh](https://github.com/djawed-bkh)
 - [Tiago-S-Ribeiro](https://github.com/Tiago-S-Ribeiro)
 - [kebirabed](https://github.com/kebirabed)
+- [Pratham Mishra](https://github.com/Pratham-Mishra178)
+
