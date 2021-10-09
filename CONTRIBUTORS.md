@@ -6,3 +6,4 @@
 - [kebirabed](https://github.com/kebirabed)
 - [Pratham Mishra](https://github.com/Pratham-Mishra178)
 - [Aya Helmaoui](https://github.com/Ayahelmaoui)
+- [Anselmus R](https://github.com/anselmusr)
