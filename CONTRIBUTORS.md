@@ -8,3 +8,4 @@
 - [Aya Helmaoui](https://github.com/Ayahelmaoui)
 - [Boussebha Wassim](https://github.com/wassim31)
 - [Anselmus R](https://github.com/anselmusr)
+- [Shubhrajyoti](https://github.com/Shubhrajyoti24)
