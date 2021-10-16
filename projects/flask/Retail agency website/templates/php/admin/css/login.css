@@ -1,0 +1,253 @@
+@charset "utf-8";
+
+/* @backgrounds :: modify or add yours below 
+------------------------------------------------------------------- */
+body{ background:#DEE3E7; }
+/* @form wrappers 
+---------------------------------- */
+.smartLogin-wrap{ padding:30px; }
+.smartLogin, 
+.smartLogin *{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.smartLogin {
+	font-family:  Roboto, Arial, Helvetica, sans-serif;
+	line-height: 1.231;
+	font-weight: 400;
+	font-size: 14px;
+	color: #34495E;
+}
+
+.smart-container{
+	margin:20px auto;
+	margin-top:50px;
+	background:#fff;
+	max-width:340px;
+	padding:15px 0;
+	padding-bottom:20px;
+	transform: scale3d(0, 0, 0);
+	-moz-transform: scale3d(0, 0, 0);
+	-webkit-transform: scale3d(0, 0, 0);
+	-webkit-box-shadow: 0 0 6px rgba(0, 0, 0, .15);	
+	-moz-box-shadow: 0 0 6px rgba(0, 0, 0, .15);	
+	box-shadow: 0 0 6px rgba(0, 0, 0, .15);	
+	transition: all .55s cubic-bezier(.55, 0, .1, 1), opacity 0s;
+	-moz-transition: all .55s cubic-bezier(.55, 0, .1, 1), opacity 0s;
+	-webkit-transition: all .55s cubic-bezier(.55, 0, .1, 1), opacity 0s;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	opacity: 0;				
+}
+
+.smartBounce .smart-container {
+    transform: scale3d(1, 1, 1);
+    -moz-transform: scale3d(1, 1, 1);
+    -webkit-transform: scale3d(1, 1, 1);
+    opacity: 1;	
+}
+
+
+.smartLogin .elem-group{ margin-bottom:10px; }
+
+/* @form header + footer sections 
+----------------------------------------- */
+.smartLogin .frm-header,
+.smartLogin .frm-footer {
+	overflow:hidden;
+	padding:20px 30px;
+}
+.smartLogin .frm-footer{ padding-top:5px; }
+.smartLogin .frm-header h4 { 
+	font-family:Roboto, Arial, Helvetica, sans-serif;
+	text-align: center;
+	text-transform:uppercase;
+	font-size:20px;
+	font-weight:700; 
+	color:#3498DB; 
+	padding:0;
+	margin:0;
+		 
+}
+
+.smartLogin .frm-header h4 i{ font-size:28px; margin-right:3px; color:#E1E6E9; }
+
+/* @form body  
+------------------------------------------------------------ */	
+.smartLogin .frm-body{ 
+	padding:0 30px;
+}
+
+
+/* @element general styling :: fonts :: adjust accordingly
+------------------------------------------------------------- */
+.smartLogin :not(output):-moz-ui-invalid,
+.smartLogin input:invalid { box-shadow: none; }
+.smartLogin label, 
+.smartLogin input,
+.smartLogin button{
+	margin: 0;  
+	font-size: 14px;
+	font-family:Roboto, Arial, Helvetica, sans-serif;
+	font-weight:400;
+	color: #8A92A5;
+	outline:none;
+}
+
+/* @remove browser specific styling
+----------------------------------------------- */
+.smartLogin .flo-input{
+	-webkit-tap-highlight-color:transparent;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);		
+	-webkit-border-radius:0px;
+	border-radius: 0px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+/* @labels font-size styling :: adjust to fit your needs 
+--------------------------------------------------------- */
+.smartLogin .field-label{ font-size:14px; }
+
+
+/* @universal rules for all elements 
+---------------------------------------------------- */
+.smartLogin .flo-input,
+.smartLogin .flo-button,
+.smartLogin .flo-notification{ 
+	-webkit-transition:all 0.5s ease-in-out;
+	-moz-transition:all 0.5s ease-in-out;
+	-ms-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+	transition:all 0.5s ease-in-out;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	outline:none;
+}
+
+/* @control border-size :: color etc for these elements 
+----------------------------------------------------------- */
+.smartLogin .flo-input{
+	background:#EDF0F6;
+	position: relative;
+	vertical-align: top;
+	border: 1px solid #D1DEE7;
+	display: -moz-inline-stack;
+    display: inline-block;
+    *display: inline;
+	color: #8A92A5;
+	outline:none;
+	padding:10px;
+	height: 42px;
+	width: 100%;
+	*zoom: 1;
+}
+
+.smartLogin .flo-input:hover{ border-color:#D1DEE7; }
+.smartLogin .flo-input:focus{ 
+	border-color: #00acee;
+	background:#fff;
+	-webkit-box-shadow:0px 0px 3px #00acee inset; 
+	-moz-box-shadow:0px 0px 3px #00acee inset; 
+	-o-box-shadow:0px 0px 3px #00acee inset; 	
+	box-shadow:0px 0px 3px #00acee inset; 
+	color: #3C3C3C; 
+ }
+
+/* @buttons 
+----------------------------------------------------- */
+.smartLogin .flo-button {
+    border: 0;
+	height: 42px;
+	width:100%;
+	color: #fff; 
+	line-height: 1;
+	font-size:16px;
+	font-weight:bold; 
+    cursor: pointer;
+	padding: 0 18px;
+	text-align: center;
+	vertical-align: top;
+    background: #3498DB;
+	display: inline-block;
+	-webkit-user-drag: none;
+	text-transform:uppercase;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.08);
+}
+
+/* @buttons :hover, :active states 
+---------------------------------------------------------------- */
+.smartLogin .flo-button:hover, 
+.smartLogin .flo-button:active{ color: #fff; background: #2980B9; }
+
+
+
+/* @validaion - error and success
+------------------------------------- */
+.smartLogin .state-error .flo-input{
+	background:#FDE9E1;
+	border-color:#F5AE96;
+}
+
+.smartLogin .state-error .flo-input:focus{
+	-webkit-box-shadow:0px 0px 3px #E94E1B inset;
+	-moz-box-shadow:0px 0px 3px #E94E1B inset;
+	-o-box-shadow:0px 0px 3px #E94E1B inset;
+	box-shadow:0px 0px 3px #E94E1B inset;
+	border-color:#E94E1B;
+}
+
+.smartLogin .state-error + em{ 
+	display: block!important;
+	margin-top: 6px;
+	padding: 0 3px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-style: normal;
+	line-height: normal;
+	color:#E94E1B;
+	font-size:0.85em;
+  
+}
+
+.smartLogin .state-success .flo-input{
+	background:#F0FEE9;
+	border-color:#A5D491;
+}
+
+.smartLogin .state-success .flo-input:focus{ 
+	-webkit-box-shadow:0px 0px 3px #A5D491 inset; 
+	-moz-box-shadow:0px 0px 3px #A5D491 inset; 
+	-o-box-shadow:0px 0px 3px #A5D491 inset; 
+	box-shadow:0px 0px 3px #A5D491 inset; 
+}
+
+/* @notifications
+-------------------------------------------------------------- */
+.smartLogin .form-msg{ display:none; }
+.smartLogin .flo-notification { color: #444; padding:15px; position:relative; margin-bottom:10px; }
+.smartLogin .flo-notification p{ margin:0; padding:0 15px; padding-left:5px; line-height:normal;  }
+.smartLogin .flo-notification .close-btn{
+	margin-top: -7px;
+	padding: inherit;
+	position: absolute;
+	text-decoration:none; 
+    font: bold 20px/20px Arial, sans-serif;
+	opacity: 0.65; 	
+	color: inherit;
+    display: block;    
+    right:1px;
+	top:14%;
+}
+
+.smartLogin .flo-notification .close-btn:hover{ opacity: 1; }
+.smartLogin .alert-info { color:#163161; background-color: #cfe6fc; }
+.smartLogin .alert-success { color:#336633; background-color: #d2f7ad; }
+.smartLogin .alert-warning { color: #CC6600; background-color: #fae7a2; }
+.smartLogin .alert-error { color:#990000; background-color: #FBDBCF; }
+
