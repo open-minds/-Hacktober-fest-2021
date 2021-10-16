@@ -1,0 +1,1139 @@
+/*
+Theme: Hasta
+Author: Codelayers
+Version: 1.0
+Designed and Development by: Codelayers
+*/
+
+
+
+/*===============================================
+-------------------------------------------------
+image hover styles
+-------------------------------------------------
+================================================*/
+
+/* =========== image hovers============= */
+
+/*image hover style 1
+ ------------------------------ */
+.img-hover-holder-1 {
+	position: relative;
+	width: 100%;
+	padding: 20px;
+	margin: 0px;
+	float: left;
+	border: 1px solid #e4e4e4;
+}
+.img-hover-1 {
+	position: relative;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+	z-index:1;
+	top:0px;
+	transition: all 0.3s ease-out 0s;
+	overflow: hidden;
+}
+.img-hover-1 img {
+	position: relative;
+	top:0px;
+	transition: all 0.3s ease-out 0s;
+}
+.img-hover-1 .text-box {
+	position: absolute;
+	width: 100%;
+	height:100%;
+	padding: 20px;
+	margin: 0px;
+	float: left;
+	z-index:0;
+	transition: all 0.3s ease-out 0s;
+	background-color:#fd602c;
+}
+.img-hover-holder-1:hover .img-hover-1 img {
+	top:215px;
+}
+
+/*image hover style 2
+ ------------------------------ */
+.img-hover-holder-2 {
+	position: relative;
+	width: 100%;
+	padding: 20px;
+	margin: 0px;
+	float: left;
+	border: 1px solid #e4e4e4;
+}
+.img-hover-2 {
+	position: relative;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+	z-index:0;
+	top:0px;
+	transition: all 0.3s ease-out 0s;
+	overflow: hidden;
+}
+.img-hover-2 .text-box {
+	position: absolute;
+	width: 100%;
+	height:100%;
+	padding: 20px;
+	margin: 0px;
+	float: left;
+	z-index:1;
+	opacity:0;
+	transition: all 0.3s ease-out 0s;
+	background-color:rgba(0, 0, 0, 0.5);
+}
+.img-hover-2 .text-box .icon-1 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	float:left;
+	top: -53px;
+	left:60px;
+	padding: 0px;
+	margin: 0px;
+	color:#fff;
+	line-height:50px;
+	text-align:center;
+	margin-right:20px;
+	background-color: #fd602c;
+	border-radius: 100%;
+}
+.img-hover-2 .text-box .icon-1.two {
+	left:119px;
+	top: -53px;
+}
+.img-hover-2 .text-box .icon-1:hover, .img-hover-2 .text-box .icon-2:hover {
+	color:#242424;
+	background-color: #fff;
+}
+
+.img-hover-holder-2:hover .text-box {
+	opacity:1;
+}
+.img-hover-holder-2:hover .text-box .icon-1 {
+	top: 80px;
+}
+.img-hover-holder-2:hover .text-box .icon-1.two {
+	top: 80px;
+	transition: all 0.5s ease-out 0s;
+}
+
+
+
+/*image hover style 3
+ ------------------------------ */
+.img-hover-holder-3 {
+	position: relative;
+	width: 100%;
+	padding: 20px;
+	margin: 0px;
+	float: left;
+	border: 1px solid #e4e4e4;
+}
+.img-hover-3 {
+	position: relative;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+	z-index:0;
+	transition: all 0.3s ease-out 0s;
+	overflow: hidden;
+}
+.img-hover-3 .text-box {
+	position: absolute;
+	width: 100%;
+	height:100%;
+	padding: 20px;
+	margin: 0px;
+	float: left;
+	z-index:1;
+	left:-251px;
+	transition: all 0.3s ease-out 0s;
+	background-color:rgba(0, 0, 0, 0.7);
+}
+.img-hover-3:hover .text-box {
+	left:0;
+}
+
+/*image hover style 4
+ ------------------------------ */
+.img-hover-holder-4 {
+	position: relative;
+	width: 100%;
+	padding: 20px;
+	margin: 0px;
+	float: left;
+	border: 1px solid #e4e4e4;
+}
+.img-hover-4 {
+	position: relative;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+	z-index:0;
+	transition: all 0.3s ease-out 0s;
+	overflow: hidden;
+}
+.img-hover-4 .text-box {
+	position: absolute;
+	width: 100%;
+	height:100%;
+	padding: 10px 20px 20px 20px;
+	margin: 0px;
+	float: left;
+	z-index:1;
+	top:154px;
+	transition: all 0.3s ease-out 0s;
+	background-color:rgba(0, 0, 0, 0.7);
+}
+.img-hover-4:hover .text-box {
+	top:0;
+}
+
+/*===============================================
+-------------------------------------------------
+	Button styles
+-------------------------------------------------
+================================================*/
+
+/* =========== Buttons ============= */
+
+/*Button style
+ ------------------------------ */
+ 
+.sh-btn{
+	padding: 15px 35px;
+	margin: 0px;
+	display: inline-block;
+	box-shadow: none;
+	border-radius: 0; 
+}
+/*Button border radius
+ ------------------------------ */
+.sh-btn.sh-btn-round{
+	border-radius:4px;
+}
+.sh-btn.sh-btn-xround-1{
+	border-radius:10px;
+}
+.sh-btn.sh-btn-xround-2{
+	border-radius:20px;
+}
+.sh-btn.sh-btn-xround-3{
+	border-radius:30px;
+}
+.sh-btn.sh-btn-xround-4{
+	border-radius:40px;
+}
+.sh-btn.sh-btn-xround-5{
+	border-radius:50px;
+}
+.sh-btn.sh-btn-xround-6{
+	border-radius:60px;
+}
+.sh-btn.sh-btn-xround-7{
+	border-radius:70px;
+}
+/*Button sizes
+ ------------------------------ */
+ .sh-btn.sh-btn-tiny{
+	font-size:12px;
+	padding: 5px 10px;
+}
+.sh-btn.sh-btn-small{
+	font-size:14px;
+	padding: 10px 20px;
+}
+.sh-btn.sh-btn-medium{
+	font-size:16px;
+	padding: 15px 35px;
+}
+.sh-btn.sh-btn-large{
+	font-size:20px;
+	padding: 20px 50px;
+}
+.sh-btn.margin{
+	margin:0 15px 15px 0;
+}
+/*Button Colors
+ ------------------------------ */
+ 
+ /*Button dark
+ ------------------------------ */
+.sh-btn.sh-btn-dark{
+	color:#fff;
+	background-color:#242424;
+}
+.sh-btn.sh-btn-dark:hover{
+	color:#fff;
+	background-color:#3e3e3e;
+}  
+ /*Button white
+ ------------------------------ */
+.sh-btn.sh-btn-white{
+	color:#242424;
+	background-color:#fff;
+}
+.sh-btn.sh-btn-white:hover{
+	color:#242424;
+	background-color:#f6f6f6;
+} 
+ /*Button orange
+ ------------------------------ */
+.sh-btn.sh-btn-orange{
+	color:#fff;
+	background-color:#fd602c;
+}  
+.sh-btn.sh-btn-orange:hover{
+	color:#fff;
+	background-color:#242424;
+} 
+ 
+ /*Button blue
+ ------------------------------ */
+.sh-btn.sh-btn-blue{
+	color:#fff;
+	background-color:#24bfff;
+}  
+.sh-btn.sh-btn-blue:hover{
+	color:#fff;
+	background-color:#242424;
+} 
+ /*Button green
+ ------------------------------ */
+.sh-btn.sh-btn-green{
+	color:#fff;
+	background-color:#96cc37;
+}  
+.sh-btn.sh-btn-green:hover{
+	color:#fff;
+	background-color:#242424;
+} 
+ /*Button yellow
+ ------------------------------ */
+.sh-btn.sh-btn-yellow{
+	color:#fff;
+	background-color:#ffd904;
+}  
+.sh-btn.sh-btn-yellow:hover{
+	color:#fff;
+	background-color:#242424;
+}
+ /*Button red
+ ------------------------------ */
+.sh-btn.sh-btn-red{
+	color:#fff;
+	background-color:#ff3f04;
+}  
+.sh-btn.sh-btn-red:hover{
+	color:#fff;
+	background-color:#242424;
+}
+ /*Button pink
+ ------------------------------ */
+.sh-btn.sh-btn-pink{
+	color:#fff;
+	background-color:#ff3e94;
+}  
+.sh-btn.sh-btn-pink:hover{
+	color:#fff;
+	background-color:#242424;
+}
+
+/*Button Borders
+ ------------------------------ */
+
+/* button borders
+ ------------------------------ */
+.sh-btn.sh-btn-border {
+	color: #242424;
+	border: 2px solid;
+}
+/* button border white
+ ------------------------------ */
+.sh-btn.sh-btn-border.white {
+	color:#fff;
+	border-color:#fff;
+}
+.sh-btn.sh-btn-border:hover.white {
+	color:#242424;
+	background-color:#fff;
+	border-color:#fff;
+}
+/* button border dark
+ ------------------------------ */
+.sh-btn.sh-btn-border.dark {
+	color:#242424;
+	border-color:#242424;
+}
+.sh-btn.sh-btn-border:hover.dark {
+	color:#fff;
+	background-color:#242424;
+	border-color:#242424;
+}
+/* button border red
+ ------------------------------ */
+.sh-btn.sh-btn-border.red {
+	color:#fd4912;
+	border-color:#fd4912;
+}
+.sh-btn.sh-btn-border:hover.red {
+	color:#fff;
+	background-color:#fd4912;
+	border-color:#fd4912;
+}
+/* button border orange
+ ------------------------------ */
+.sh-btn.sh-btn-border.orange {
+	color:#ff9804;
+	border-color:#ff9804;
+}
+.sh-btn.sh-btn-border:hover.orange {
+	color:#fff;
+	background-color:#ff9804;
+	border-color:#ff9804;
+}
+/* button border yellow
+ ------------------------------ */
+.sh-btn.sh-btn-border.yellow {
+	color:#ffcd04;
+	border-color:#ffcd04;
+}
+.sh-btn.sh-btn-border:hover.yellow {
+	color:#fff;
+	background-color:#ffcd04;
+	border-color:#ffcd04;
+}
+/* button border green
+ ------------------------------ */
+.sh-btn.sh-btn-border.green {
+	color:#92ca19;
+	border-color:#92ca19;
+}
+.sh-btn.sh-btn-border:hover.green {
+	color:#fff;
+	background-color:#92ca19;
+	border-color:#92ca19;
+}
+/* button border blue
+ ------------------------------ */
+.sh-btn.sh-btn-border.blue {
+	color:#15cbff;
+	border-color:#15cbff;
+}
+.sh-btn.sh-btn-border:hover.blue {
+	color:#fff;
+	background-color:#15cbff;
+	border-color:#15cbff;
+}
+
+
+
+/*===============================================
+-------------------------------------------------
+	Call to action
+-------------------------------------------------
+================================================*/
+
+/* =========== call to action ============= */
+
+/*call to action
+ ------------------------------ */
+ 
+.call-to-action {
+    border: 1px solid #e4e4e4;
+    border-radius: 4px;
+    float: left;
+    margin: 0 0 15px;
+    padding: 25px;
+    width: 100%;
+}
+
+
+
+/*===============================================
+-------------------------------------------------
+	lists
+-------------------------------------------------
+================================================*/
+
+/* list style 1
+ ------------------------------ */
+ 
+.list-style-1 {
+	width: 100%;
+	padding: 0px;
+	margin: 0px 0px 10px 0px;
+	float: left;
+}
+.list-style-1 .icon {
+	width: 32px;
+	height: 32px;
+	padding: 0px;
+	margin: 0px 10px 0px 0px;
+	float: left;
+	text-align: center;
+	line-height: 32px;
+	color: #fff;
+	border-radius: 100%;
+	background-color: #06d0d8;
+}
+.list-style-1 .text {
+	padding: 5px 0 0 42px;
+	margin: 0px;
+	display: block;
+}
+
+/* list style 1 with border
+ ------------------------------ */
+.list-style-1.icon-border .icon {
+	color:#06d0d8;
+	background-color: #fff;
+	border:1px solid #06d0d8;
+}
+
+/* list style 2
+ ------------------------------ */
+.list-style-2 {
+	width: 100%;
+	padding: 0px;
+	margin: 0px 0px 10px 0px;
+	float: left;
+}
+.list-style-2 .icon {
+	width: 18px;
+	height: 18px;
+	padding: 0px;
+	margin: 3px 0px 0px 0px;
+	float: left;
+	font-size: 12px;
+	text-align: center;
+	line-height: 15px;
+	color: #06d0d8;
+	border-radius: 100%;
+	border: 1px solid #06d0d8;
+}
+.list-style-2 .text {
+	padding: 0px 0 0 28px;
+	margin: 0px;
+	display: block;
+}
+
+
+/* list style 3
+ ------------------------------ */
+ 
+ol.list-style-3 {
+	list-style-type: none;
+ list-style-type: decimal !ie; /*IE 7- hack*/
+	margin: 0;
+	margin-left: 18px;
+	padding: 0;
+	counter-reset: li-counter;
+}
+ol.list-style-3 li {
+	position: relative;
+	margin: 0px;
+	padding-left: 20px;
+	min-height: 3em;
+	list-style-type: none;
+}
+ol.list-style-3 li:before {
+	position: absolute;
+	top: 0;
+	left: -15px;
+	width: 28px;
+	height: 28px;
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+	color: #f5f5f5;
+	border-radius: 50%;
+	background-color: #464646;
+	content: counter(li-counter);
+	counter-increment: li-counter;
+}
+
+/* list style 4
+ ------------------------------ */
+.list-style-4 {
+	width: 100%;
+	padding: 0px;
+	margin: 0px 0px 10px 0px;
+	float: left;
+}
+.list-style-4  .icon {
+	width: 40px;
+	height: 40px;
+	padding: 0px;
+	margin: 0px 10px 0px 0px;
+	float: left;
+	text-align: center;
+	line-height: 39px;
+	color: #fff;
+	border-radius: 100%;
+}
+.list-style-4  .text {
+	padding: 5px 0 0 42px;
+	margin: 0px;
+	display: block;
+}
+.list-style-4 .icon.red {
+	background-color: #fc4242;
+}
+.list-style-4 .icon.blue {
+	background-color: #2f92ee;
+}
+.list-style-4 .icon.green {
+	background-color: #3fc35f;
+}
+.list-style-4 .icon.violet {
+	background-color: #b659fe;
+}
+.list-style-4 .icon.orange {
+	background-color: #ff881e;
+}
+
+
+/* list style 4 with border
+ ------------------------------ */
+
+.list-style-4.item-border {
+	padding: 0px 0px 10px 0px;
+	border-bottom: 1px solid #ececec;
+}
+.list-style-4.item-border.last {
+	padding: 0px 0px 10px 0px;
+	border-bottom: none;
+}
+
+
+
+/*===============================================
+-------------------------------------------------
+	Message boxes
+-------------------------------------------------
+================================================*/
+
+/* message boxes
+ ------------------------------ */
+/*message boxes*/
+.messagebox_title {
+	padding-bottom: 30px;
+}
+.info-box {
+	background-color: #34b0ff;
+}
+.success-box {
+	background-color: #7ebd24;
+}
+.error-box {
+	background-color: #fa482b;
+}
+.download-box {
+	background-color: #F30;
+}
+.warning-box {
+	background-color: #f7c929;
+}
+.mboxes_close {
+	width: 15px;
+	height: 15px;
+	padding: 0px;
+	margin: 0px;
+	float: right;
+	text-align: right;
+}
+.mboxes_close i {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 500;
+}
+.success-box, .error-box, .warning-box, .info-box span.text-white {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+}
+.success-box, .error-box, .warning-box, .info-box {
+	padding: 20px;
+	margin-bottom: 30px;
+	border-radius: 4px;
+}
+
+
+/*===============================================
+-------------------------------------------------
+	social icons
+-------------------------------------------------
+================================================*/
+
+/* social icons
+ ------------------------------ */
+ 
+.social-icons-list{
+	width:100%;
+    margin: 0;
+    padding: 0;
+}
+.social-icons-list li {
+    display:inline-block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.social-icons-list li a {
+    color: #242424;
+	display:inline-block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 39px;
+    margin: 0 5px 5px 0;
+    padding: 0;
+    text-align: center;
+    width: 40px;
+}
+
+/* social icon sizes
+ ------------------------------ */
+.social-icons-list.icon-round li a {
+	border-radius:100%; 
+}
+
+
+/* social icon sizes
+ ------------------------------ */
+.social-icons-list.icon-large li a {
+    font-size: 40px;
+    width: 100px;
+	height: 100px;
+    line-height: 94px;   
+}
+.social-icons-list.icon-medium li a {
+    font-size: 25px;
+    width: 80px;
+	height: 80px;
+    line-height: 84px;   
+}
+.social-icons-list.icon-small li a {
+    font-size: 18px;
+    width: 60px;
+	height: 60px;
+    line-height: 60px;   
+}
+.social-icons-list.icon-tiny li a {
+    font-size: 14px;
+    width: 40px;
+	height: 40px;
+    line-height: 40px;   
+}
+.social-icons-list.icon-xtiny li a {
+    font-size: 12px;
+    width: 30px;
+	height: 30px;
+    line-height: 27px;   
+}
+
+/* social icon colors
+ ------------------------------ */
+.social-icons-list.dark li a {
+    color: #fff;
+	background-color: #242424;
+}
+.social-icons-list.dark li a:hover {
+    color: #fff;
+	background-color: #3e3e3e;
+}
+
+/* social icons light
+ ------------------------------ */
+.social-icons-list.light li a {
+    color: #242424;
+	background-color: #fff;
+	border:1px solid #e4e4e4;
+}
+.social-icons-list.light li a:hover {
+    color: #fff;
+	background-color: #242424;
+	border:1px solid #242424;
+}
+
+/* social icon red
+ ------------------------------ */
+.social-icons-list.red li a {
+    color: #fff;
+	background-color: #f83712;
+}
+.social-icons-list.red li a:hover {
+    color: #fff;
+	background-color: #242424;
+}
+
+/* social icon blue
+ ------------------------------ */
+.social-icons-list.blue li a {
+    color: #fff;
+	background-color: #15cbff;
+}
+.social-icons-list.blue li a:hover {
+    color: #fff;
+	background-color: #242424;
+}
+
+/* social icon green
+ ------------------------------ */
+.social-icons-list.green li a {
+    color: #fff;
+	background-color: #34c23e;
+}
+.social-icons-list.green li a:hover {
+    color: #fff;
+	background-color: #242424;
+}
+/* social icon yellow
+ ------------------------------ */
+.social-icons-list.yellow li a {
+    color: #fff;
+	background-color: #fedf0e;
+}
+.social-icons-list.yellow li a:hover {
+    color: #fff;
+	background-color: #242424;
+}
+/* social icon pink
+ ------------------------------ */
+.social-icons-list.pink li a {
+    color: #fff;
+	background-color: #f83dab;
+}
+.social-icons-list.pink li a:hover {
+    color: #fff;
+	background-color: #242424;
+}
+
+/* social icon violet
+ ------------------------------ */
+.social-icons-list.violet li a {
+    color: #fff;
+	background-color: #ce3df8;
+}
+.social-icons-list.violet li a:hover {
+    color: #fff;
+	background-color: #242424;
+}
+
+
+/*===============================================
+-------------------------------------------------
+	divider lines
+-------------------------------------------------
+================================================*/
+
+/* Divider Lines
+ ------------------------------ */
+.sh-divider-line {
+	width: 100%;
+}
+.sh-divider-line.dashed {
+	border-bottom: 1px dashed;
+}
+.sh-divider-line.solid {
+	border-bottom: 1px solid;
+}
+.sh-divider-line.doubble {
+	border-bottom: double;
+	line-height:40px;
+}
+.sh-divider-line.margin {
+	padding:5px 0;
+}
+
+/* Divider Line less width
+ ------------------------------ */
+.sh-divider-line.less-width-1 {
+    width: 10%;
+	margin:0 auto;
+}
+.sh-divider-line.less-width-2 {
+    width: 20%;
+	margin:0 auto;
+}
+.sh-divider-line.less-width-3 {
+    width: 30%;
+	margin:0 auto;
+}
+.sh-divider-line.less-width-4 {
+    width: 40%;
+	margin:0 auto;
+}
+.sh-divider-line.less-width-5 {
+    width: 50%;
+	margin:0 auto;
+}
+.sh-divider-line.less-width-6 {
+    width: 60%;
+	margin:0 auto;
+}
+.sh-divider-line.less-width-7 {
+    width: 70%;
+	margin:0 auto;
+}
+.sh-divider-line.less-width-8 {
+    width: 80%;
+	margin:0 auto;
+}
+.sh-divider-line.less-width-9 {
+    width: 90%;
+	margin:0 auto;
+}
+/* Divider Line colors
+ ------------------------------ */
+ 
+ /* Divider Line dark
+ ------------------------------ */
+.sh-divider-line.dark {
+	border-bottom-color:#242424;
+}
+
+/* Divider Line light
+ ------------------------------ */
+.sh-divider-line.light {
+	border-bottom-color:#e4e4e4;
+}
+/* Divider Line red
+ ------------------------------ */
+.sh-divider-line.red {
+	border-bottom-color:#f83712;
+}
+/* Divider Line green
+ ------------------------------ */
+.sh-divider-line.green {
+	border-bottom-color:#2bc220;
+}
+/* Divider Line blue
+ ------------------------------ */
+.sh-divider-line.blue {
+	border-bottom-color:#30d1f4;
+}
+
+
+/*===============================================
+-------------------------------------------------
+	Widget Styles lines
+-------------------------------------------------
+================================================*/
+
+/* widget holder
+ ------------------------------ */
+	
+.widget-holder {
+	width: 100%;
+	padding: 30px;
+	margin: 0 0 40px 0;
+	float: left;
+	border: 1px solid #e4e4e4;
+}
+
+/* Post widget
+ ------------------------------ */
+
+.posts-widget-image {
+	padding:0px;
+	margin:0px;
+	float:left;
+}
+.posts-widget-text {
+	display: block;
+    margin: 0;
+    padding: 0 0 0 99px;
+    text-align: left;
+}
+
+.posts-widget-text .blog-post-info {
+	width: 100%;
+}
+.posts-widget-text .blog-post-info span {
+	font-size: 13px;
+	color: #b9b9b9;
+	margin-right: 15px;
+}
+
+
+/* Twitter widget
+ ------------------------------ */	
+.twitter-widget-icon {
+	width: 32px;
+	height: 32px;
+	padding: 0px;
+	font-size: 14px;
+	color: #161616;
+	text-align: center;
+	line-height: 33px;
+	margin: 0 10px 0 0;
+	float: left;
+	border-radius: 100%;
+	background-color: #fdce16;
+}
+.twitter-widget-icon .title {
+	width: 85%;
+	padding: 5px 0 0 0;
+	margin: 0;
+	float: right;
+}
+
+/* Testimonials widget
+ ------------------------------ */	
+ 
+.testimonials-widget {
+	width: 100%;
+	padding: 0px;
+	margin: 0 0 40px 0;
+	float: left;
+}
+.testimonials-widget .text-box {
+	width: 100%;
+	padding: 30px;
+	margin: 0 0 25px 0;
+	float: left;
+	border: 1px solid #e4e4e4;
+}
+.testimonials-widget .image {
+	width:100px;
+	height:100px;
+    float: left;
+    margin: 0;
+    padding: 0;
+	overflow:hidden;
+	border-radius:100%;
+}
+.testimonials-widget .info {
+    display: block;
+    margin: 0;
+    padding: 0 0 0 120px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1169px){
+	
+
+	
+	}
+	
+@media only screen and (min-width: 768px) and (max-width: 999px){
+	
+.img-hover-holder-1 {
+    width: 80%;
+}
+.img-hover-holder-2 {
+    width: 80%;
+}
+.img-hover-holder-3 {
+    width: 80%;
+}
+.img-hover-holder-4 {
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	}
+
+@media only screen and (min-width: 640px) and (max-width: 767px){
+	
+.img-hover-holder-1 {
+    width: 46%;
+}	
+.img-hover-holder-2 {
+    width: 46%;
+}	
+.img-hover-holder-3 {
+    width: 46%;
+}	
+.img-hover-holder-4 {
+    width: 46%;
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+	
+@media only screen and (min-width: 480px) and (max-width: 639px){
+	
+.img-hover-holder-1 {
+    width: 63%;
+}	
+.img-hover-holder-2 {
+    width: 63%;
+}	
+.img-hover-holder-3 {
+    width: 63%;
+}	
+.img-hover-holder-4 {
+    width: 63%;
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+	
+@media only screen and (max-width: 479px){
+	
+	
+	
+
+	
+	}
+	
+	
+	
+	
+	
+

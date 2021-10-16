@@ -1,0 +1,2524 @@
+/* Responsive CSS Styles Table of Contents */
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1169px){
+a.logo {
+    margin: 1px 0px 0px 50px;
+}
+.team-box1:hover .hover-box, .team-box1.active .hover-box {
+    top: 82px;
+}
+.team-box1 .hover-box {
+    top: 320px;
+}
+.social-icons-1 li.first {
+    margin-left: 12px;
+}
+.pricetable-holder .arrow {
+	display:none;
+}
+.feature-box2 .content-box {
+    padding: 31px 0px 0px;
+}
+.feature-box2 .content-box .arrow-left {
+    top: 84px;
+}
+.feature-box4 .iconbox-mtiny {
+    top: 149px;
+}
+.team-holder2 .img-holder .icon-box {
+    top: 261px;
+}
+.team-holder2:hover .icon-box {
+	top:206px;
+	}
+.team-holder2 .social-icons-1 {
+    margin: 2px 0px 0px;
+}
+.team-holder2 .social-icons-1 li.first {
+    margin-left: 0px;
+}
+.post-author-image {
+    top: 193px;
+}
+.blog-holder2 .text-box-right.more-padding-1 {
+    padding: 0px 0px 0px 0;
+}
+.search-smallicon2 {
+	top:20px;
+	right:-800px;
+}
+.blog-holder3 .blog-img-holder .overlay .post-info {
+    padding: 112px 0 0 44px;
+}
+.blog-holder3.two .blog-img-holder .overlay .post-info {
+    padding: 234px 0 0 30px;
+}
+.testimonials5 .social-icons-2 li:first-child a {
+	margin-left:15px;
+}
+.feature-box12 .iconcircle-small {
+    left: 109px;
+}
+.email_input {
+    width: 86%;
+}
+.blog-holder4 .post-infoicon{
+	margin-bottom:8px;
+	 }
+.team-holder4 .icon-holder .social-icons-2 li:first-child {
+    margin-top:20px;
+}
+.team-holder4 .icon-holder {
+	min-height: 233px;
+}
+div.demo {
+    width: 100%;
+}
+.feature-box4 .iconbox-xtiny {
+    top: 0;
+}
+.team-holder5:hover .image-holder .hover-box {
+	top:80px;
+}
+.header-inner.two .overlay {
+    height: 160px;
+}
+.header-inner .title {
+    padding: 52px 0 0;
+}
+.header-inner.two {
+    height: 160px;
+}
+.feature-box31 .image-holder .price {
+    left: 75px;
+    top: 170px;
+}
+
+/*===== blog2 styles =======*/
+.blog2-header-box .image-holder .text-box.top-padding {
+    padding-top: 123px;
+}
+
+/*===== Cafe Layout styles =======*/
+.logo-holder {
+    top: -10px;
+}
+.header-inner-2 .title {
+    padding: 253px 0 0;
+}
+.header-inner-2 {
+    height: 427px;
+}
+/*===== Wedding Layout styles =======*/
+.row.wedding-groomsman .col-md-4{
+	width:100%;
+	}
+.row.wedding-bridesmaids .col-md-4{
+	width:100%;
+	}
+.header-inner-2.less-margin {
+    height: 320px;
+    margin: -81px 0 0;
+}
+
+/*===== Shop Layout styles =======*/
+
+.gallery .previews a {
+    cursor: pointer;
+    display: inline;
+    margin-bottom: 9px;
+	margin-top:10px;
+}
+
+/*===== Agency Layout styles =======*/
+.navbar-header .logo-box {
+    width: 220px;
+}
+.navbar-header .logo-box.big-1 {
+    width:250px;
+}
+.navbar-header .logo-box.big-2 {
+    width:350px;
+}
+.navbar-header .logo-box.big-3 {
+    width:370px;
+}
+/*===== Charity Layout styles =======*/
+.feature-box-79 .btn.morepadd {
+    padding: 15px 20px;
+}
+.feature-box-83 {
+	width:90%;
+}
+/*===== medical Layout styles =======*/
+.section-copyrights ul.social-icons-3.less-margin {
+    margin-left: 0;
+}
+/*===== creative Layout styles =======*/
+.feature-box-90 {
+	width: 95%;
+	padding:30px;
+	float: left;
+	margin:0 0 0 0;
+}
+.feature-box-90:before .col-md-3 {
+	width: 100%;
+}
+.feature-box-90 span {
+	font-size:18px;
+}
+
+.feature-box-90 .title {
+	font-size:14px;
+}
+/*===== hosting Layout styles =======*/
+.feature-box-93 .overlay {
+    padding: 0;
+}
+.feature-box-95 {
+    min-height: 785px;
+}
+#search-topic #tsearch {
+    font-size: 18px;
+    height: 80px;
+    width: 82%;
+}
+/*===== corporate inner pages =======*/
+.error-title-big {
+    font-size: 160px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 999px){
+	
+	.sticky-wrapper{ height:500px;}
+	
+.container{ width:94%;}
+
+.bmargin{
+	margin-bottom:40px;
+	}
+.section-side-image .image-holder.two {
+    width: auto;
+}
+.team-box1 {
+	width:80%;
+	margin:0 auto;
+}
+.team-box1:hover .hover-box, .team-box1.active .hover-box {
+    top: 160px;
+}
+.team-box1 .hover-box {
+    top: 361px;
+}
+.sub-title {
+    width: 70%;
+}
+.pricetable-holder .arrow {
+	display:none;
+}
+.feature-box2 .content-box {
+    padding: 74px 0px 0px;
+}
+
+.colmargin{ 
+	margin:0 0 70px 0;
+}
+.feature-box4 .iconbox-mtiny {
+    top: 213px;
+}
+.team-holder2 .img-holder .icon-box {
+    top: 405px;
+}
+.team-holder2:hover .icon-box {
+	top:350px;
+	}
+.team-holder2 .social-icons-1 {
+    margin: 2px 0px 0px;
+}
+.team-holder2 .social-icons-1 li.first {
+    margin-left: 0px;
+}
+.post-author-image {
+    top: 222px;
+}
+.socialicon-holder {
+    padding: 20px 0px 0px 237px;
+}
+.contact-info-holder{
+	margin-bottom:30px;
+	}
+.contact-info-holder .sideline {
+	display:none;
+}
+.feature-box7{
+	margin-bottom:30px;
+	}
+.item-holder {
+	margin-bottom:30px;
+}
+
+#header {
+    padding: 0 0 15px 0;
+}
+#header2 {
+	top:0px;
+	border-bottom: none;
+	background-color:#161616;
+    }
+#header4 {
+	top:0px;
+	border-bottom: none;
+	background-color:#161616;
+    }
+#header3 {
+	height:80px;
+    }
+.menu-main {
+	background-color:#161616;
+    }
+.menu-main2 {
+	background-color:#fff;
+    }
+.sec-topmargin {
+    margin-top:0px;
+}
+.search-smallicon2 {
+	top:20px;
+	right:-580px;
+}
+.client-list2 .col-md-4 {
+    border-right: none;
+}
+.blog-holder3 .blog-img-holder, .blog-holder3.two .blog-img-holder {
+    margin: 0 0 30px 0;
+}
+.testimonials5 .social-icons-2 li:first-child a {
+	margin-left:80px;
+}
+.testimonials5 {
+	margin-bottom:80px;
+}
+.background-imgholder-full.img1, .background-imgholder-full.img2 {
+	background:none;
+	height:auto;
+}
+
+.feature-box12 {
+	margin-bottom:80px;
+}
+.feature-box12 .iconbox-small {
+    left: 310px;
+}
+.email_input {
+    width: 80%;
+}
+.team-holder4 .icon-holder .social-icons-2 li:first-child {
+    margin-top:20px;
+}
+.team-holder4 .icon-holder {
+	min-height: 341px;
+}
+.pricetable-holder2 th .title-header.first {
+	margin-top:28px;
+}
+.pricetable-holder2 a.btn2 {
+	padding:10px 20px;
+}
+.pricetable-holder2 a.btn13 {
+	padding:10px 20px;
+}
+.col-divider-margin {
+	margin-top:0px;
+}
+.col-divider-margin-1, .col-divider-margin-2, .col-divider-margin-3, .col-divider-margin-4, .col-divider-margin-5, .col-divider-margin-6{
+	margin-top:0px;
+	}
+
+
+	
+/*===== gym styles =======*/
+
+.shape-bpadding2 {
+    padding-bottom: 0px;
+}	
+.feature-box24.two .inner {
+    width: 80%;
+}
+.seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 100%;
+  }
+  
+/*===== Construction styles =======*/  
+.team-holder5 .image-holder .hover-box {
+	top:380px;
+}
+.header-inner.two .overlay {
+    height: 160px;
+}
+.header-inner .title {
+    padding: 52px 0 0;
+}
+.header-inner.two {
+    height: 160px;
+}
+
+/*===== Restaurant styles =======*/ 
+.feature-box31 .image-holder .price {
+    left: 110px;
+    top: 242px;
+}
+
+/*===== grayscale styles =======*/ 
+.sec-dummy-top-padding {
+	padding-top:80px;
+}
+.tab-text-holder {
+	padding: 30px;
+}
+.team-holder8:hover .hover-box, .team-holder8.active .hover-box {
+    top: 173px;
+}
+
+/*===== Cafe Layout styles =======*/
+.logo-holder {
+    top: -10px;
+}
+.master-slider.margintop-2 {
+    top: 0px;
+}
+.logo-holder img {
+	width:30%;
+	margin-bottom:100px;
+}
+.special-menu-holder {
+    width: 100%;
+	margin-top:30px;
+}
+
+#header8 .menu-bg {
+	background:none;
+}
+#header8 {
+	top: 0;
+}
+.header-inner-2 {
+    height: 320px;
+    margin: 0;
+}
+.header-inner-2 .title {
+    padding: 118px 0 0;
+}
+
+/*===== Wedding Layout styles =======*/
+.section-less-padding.top-margin {
+    margin-top:0px;
+}
+/*===== Fashion Layout styles =======*/
+.team-holder12 .image-holder .hover-box {
+    top: 425px;
+}
+.team-holder12:hover .image-holder .hover-box {
+	top:280px;
+}
+/*===== Hair saloon Layout styles =======*/
+.topbar.more-padding {
+    padding: 10px 0 10px;
+}
+#header9, #header10 {
+    top:0px;
+}
+.footer-holder .social-icons-3 {
+    margin-left: 0;
+}
+.header-inner-2.less-margin {
+    height: 241px;
+}
+.header-inner-2 .title.padding-1 {
+    padding-top: 118px;
+}
+/*===== School Layout styles =======*/
+#header10 .menu-bg {
+    min-height: 90px;
+}
+.five-cols .col-md-1, .five-cols .col-sm-1, .five-cols .col-lg-1 {
+    width: 33%;
+}
+.header-inner.less-margin-2 {
+    margin: 0;
+}
+.header-inner.three {
+    height: 240px;
+}
+.header-inner .title-2 {
+    padding: 85px 0 0;
+}
+
+
+.classes-table table, thead, tbody, th, td, tr { 
+display: block; 
+}
+.classes-table thead tr { 
+position: absolute;
+top: -9999px;
+left: -9999px;
+}
+		
+.classes-table tr { border: 1px solid #ccc; }
+		
+.classes-table td { 
+border: none;
+border-bottom: 1px solid #eee; 
+position: relative;
+padding-left: 50%; 
+}
+		
+.classes-table td:before { 
+position: absolute;
+top: 6px;
+left: 6px;
+width: 45%; 
+padding-right: 10px; 
+white-space: nowrap;
+}
+		
+.classes-table td:nth-of-type(1):before { content: "Time"; }
+.classes-table td:nth-of-type(2):before { content: "Monday"; }
+.classes-table td:nth-of-type(3):before { content: "Tuesday"; }
+.classes-table td:nth-of-type(4):before { content: "Wednesday"; }
+.classes-table td:nth-of-type(5):before { content: "Thursday"; }
+.classes-table td:nth-of-type(6):before { content: "Friday"; }
+.classes-table td:nth-of-type(7):before { content: "Saturday"; }
+
+.table-style-2 td:nth-of-type(1):before { content: "TLD"; }
+.table-style-2 td:nth-of-type(2):before { content: "Registration"; }
+.table-style-2 td:nth-of-type(3):before { content: "Domain Transfer"; }
+.table-style-2 td:nth-of-type(4):before { content: "DNS Management"; }
+.table-style-2 td:nth-of-type(5):before { content: "Whois Privacy"; }
+.table-style-2 td:nth-of-type(6):before { content: ""; }
+
+
+
+
+/*===== Portfolio Layout styles =======*/
+.main-bg-2 {
+    top: 0;
+}
+.menu-main-3 {
+	background-color:#161616;
+}
+
+/*===== Realestate Layout styles =======*/
+
+.team-holder13 .img-holder .icon-box {
+    top: 408px;
+}
+.team-holder13:hover .icon-box, .team-holder13.active .icon-box {
+	top: 350px;
+}
+.feature-box68 .image-holder .post-date-box {
+    top: 0;
+}
+
+/*===== Shop Layout styles =======*/
+.shop-product-holder .image-holder .hoverbox {
+    width: 91%;
+}
+/*===== Agency Layout styles =======*/
+.navbar-header .logo-box {
+    width: 220px;
+}
+.navbar-header .logo-box.big-1 {
+    width:250px;
+}
+.navbar-header .logo-box.big-2 {
+    width:350px;
+}
+.navbar-header .logo-box.big-3 {
+    width:370px;
+}
+/*===== Charity Layout styles =======*/
+.boxed-title-3 {
+    width: 100%;
+}
+/*===== medical Layout styles =======*/
+
+.section-copyrights ul.social-icons-3.less-margin {
+    margin-left: 0;
+}
+/*===== creative Layout styles =======*/
+.feature-box-91 .title1 {
+    padding: 0;
+}
+.feature-box-91 .post-date-box {
+    font-size: 31px;
+    height: auto;
+    padding: 25px;
+    width: 130px;
+}
+.feature-box-91 .post-date-box span {
+    font-size: 14px;
+    padding: 8px 0 0;
+}
+/*===== hosting Layout styles =======*/
+.feature-box-93{
+	padding: 50px;
+	
+}
+.pricetable-holder5 {
+	margin-bottom:50px;
+}
+.feature-box-96 {
+    background-color: #f6f6f6;
+}
+.feature-box-98{
+	background:none;
+}
+#search-topic #tsearch {
+    font-size: 18px;
+    height: 80px;
+    width: 75%;
+}
+/*===== corporate inner pages =======*/
+.error_holder {
+    width: 100%;
+}
+.blog-holder-12 .post-date-box {
+    font-size: 21px;
+    height: 80px;
+    padding: 10px 0 0;
+    width: 80px;
+}
+.blog-holder-12 .post-date-box span {
+    font-size: 12px;
+    padding-top: 0;
+}
+.blog-holder-12 .post-date-box.two {
+    top: 110px;
+}
+.blog-holder-12:hover .image-holder .overlay .icon {
+	top:80px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media only screen and (min-width: 640px) and (max-width: 767px){
+
+
+.container{ width:94%;}
+
+.bmargin{
+	margin-bottom:40px;
+	}
+.section-side-image .text-inner {
+    padding: 80px 80px 80px 40px;
+}
+.section-side-image .text-inner.two {
+    padding: 0px 80px 80px 40px;
+}
+.sub-title {
+    width: 80%;
+}
+.team-box1 {
+	width:50%;
+    top: 391px;
+	margin:0 auto;
+}
+.team-box1:hover .hover-box, .team-box1.active .hover-box {
+    top: 150px;
+}
+.team-box1 .hover-box {
+    top: 361px;
+}
+.pricetable-holder .arrow {
+	display:none;
+}
+
+.sec-padding {
+    padding: 60px 0px;
+}
+.sec-tpadding{
+	padding:60px 0 0 0;
+	}
+.sec-bpadding{
+	padding:0 0 60px 0;
+	}
+.feature-box2 .content-box {
+    position: relative;
+    padding: 39px 0px 49px;
+}
+.colmargin{ 
+	margin:0 0 60px 0;
+}
+.feature-box4 .iconbox-mtiny {
+	display:none;
+}
+.team-holder2 .img-holder .icon-box {
+    top: 559px;
+}
+.team-holder2:hover .icon-box {
+	top:494px;
+	}
+.team-holder2 .social-icons-1 {
+    margin: 2px 0px 0px;
+}
+.team-holder2 .social-icons-1 li.first {
+    margin-left: 0px;
+}
+.item-holder{
+	margin-bottom:30px;
+	}
+.tabs-content {
+    width: 100%;
+    padding: 0% 0% 0%;
+}
+.video-wrapper {
+	margin-bottom:30px;
+}
+.post-author-image {
+    top: 416px;
+}
+.contact-info-holder{
+	margin-bottom:30px;
+	}
+.socialicon-holder {
+    padding: 20px 0px 0px 176px;
+}
+.contact-info-holder .sideline {
+	display:none;
+}
+
+.img-holder{
+	margin-top:30px;
+	}
+.section-side-image .text-inner {
+    padding: 80px 15px 80px 15px;
+}
+.blog-holder2 .img-holder {
+    margin-top: 0px;
+}
+#header2 {
+	top:0px;
+	border-bottom: none;
+	background-color:#161616;
+    }
+#header4 {
+	top:0px;
+	border-bottom: none;
+	background-color:#161616;
+    }
+.menu-main {
+	background-color:#161616;
+    }
+.menu-main2 {
+	background-color:#fff;
+    }
+.sec-topmargin {
+    margin-top:0px;
+}
+.search-smallicon2 {
+	top:20px;
+	right:-450px;
+}
+.client-list2 .col-md-4 {
+    border-right: none;
+}
+.blog-holder3 .blog-img-holder, .blog-holder3.two .blog-img-holder {
+    margin: 0 0 30px 0;
+}
+.testimonials5 {
+	margin-bottom:80px;
+}
+.testimonials5 .social-icons-2 li:first-child a {
+	margin-left:180px;
+}
+.testimonials5 {
+	margin-bottom:80px;
+}
+.background-imgholder-full.img1, .background-imgholder-full.img2 {
+	background:none;
+	height:auto;
+}
+.feature-box12 {
+	margin-bottom:80px;
+}
+.feature-box12 .iconbox-small {
+    left: 246px;
+}
+.email_input {
+    width: 74%;
+}
+.team-holder4 .icon-holder .social-icons-2 li:first-child {
+    margin-top:100px;
+}
+.team-holder4 .image-holder.lesswidth2 {
+    width: 70%;
+}
+.team-holder4 .icon-holder {
+    min-height: 550px;
+    width: 30%;
+}
+.team-holder4 .icon-holder .social-icons-2 {
+	width: 30%;
+	margin-left:70px;
+}
+.team-holder4 .icon-holder .social-icons-2 li a {
+	font-size:28px;
+	margin-bottom:30px;
+}
+
+
+.team-holder9 .icon-holder .social-icons-2 li:first-child {
+    margin-top:100px;
+}
+.team-holder9 .image-holder.lesswidth2 {
+    width: 70%;
+}
+.team-holder9 .icon-holder {
+    min-height: 550px;
+    width: 30%;
+}
+.team-holder9 .icon-holder .social-icons-2 {
+	width: 30%;
+	margin-left:70px;
+}
+.team-holder9 .icon-holder .social-icons-2 li a {
+	font-size:28px;
+	margin-bottom:30px;
+}
+
+
+.pricetable-holder2 a.btn2 {
+	padding:6px 5px;
+}
+.pricetable-holder2 a.btn13 {
+	padding:6px 0px;
+}
+.feature-box21 .text-box {
+    padding: 60px;
+}
+.feature-box22.margin-bottom {
+	margin-bottom:60px;
+}
+.blog-holder3.two .blog-img-holder .overlay .post-info {
+    padding: 35px 0 0 30px;
+}
+.feature-box20{ margin-bottom:80px;}
+
+.feature-box20 .iconbox-tiny {
+    left: 258px;
+}
+.col-divider-margin {
+	margin-top:0px;
+}
+.col-divider-margin-1, .col-divider-margin-2, .col-divider-margin-3, .col-divider-margin-4, .col-divider-margin-5, .col-divider-margin-6{
+	margin-top:0px;
+	}
+.sub-title-2 {
+    width: 90%;
+}
+
+/*.text-box.padding-1, .text-box.padding-2, .text-box.padding-3, .text-box.padding-4, .text-box.padding-5, .text-box.padding-6, .text-box.padding-7, .text-box.padding-8, .text-box.padding-9 {
+    padding: 0;
+}*/
+
+/*===== gym styles =======*/
+.feature-box24 .inner {
+    width: 70%;
+}
+.section-title-3 {
+    font-size: 40px;
+}
+.bottom-shape1 {
+    height: 107px;
+}
+.shape-bpadding2 {
+    padding-bottom: 0px;
+}
+.feature-box26 .img-holder {
+	border:none;
+}
+.bottom-shape3 {
+    height: 100px;
+}
+.feature-box24.two .inner {
+    width: 100%;
+}
+.seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 100%;
+  }
+.team-holder5 .image-holder .hover-box {
+	top:450px;
+	width: 70%;
+}
+.header-inner.two .overlay {
+    height: 200px;
+}
+.header-inner.two {
+    height: 200px;
+}
+
+/*===== grayscale styles =======*/
+.team-holder6 {
+	width: 45%;
+	margin-right:20px;
+}
+.sec-dummy-top-padding {
+	padding-top:80px;
+}
+.team-holder8:hover .hover-box, .team-holder8.active .hover-box {
+    top: 173px;
+}
+/*===== Blog1 styles =======*/
+.header-title-box {
+    padding: 89px 0;
+}
+/*===== blog2 styles =======*/
+.blog2-header-box .image-holder .text-box.top-padding {
+    padding-top: 146px;
+}
+
+/*===== Cafe Layout styles =======*/
+.logo-holder {
+    top: -10px;
+}
+.master-slider.margintop-2 {
+    top: 0px;
+}
+.logo-holder img {
+	width:30%;
+	margin-bottom:100px;
+}
+.special-menu-holder {
+    width: 100%;
+	margin-top:30px;
+}
+.header-inner-2 {
+    height:349px;
+    margin: -80px 0 0;
+
+}
+.team-holder7.two:hover .info-box {
+    bottom: 230px;
+}
+.header-inner-2 {
+    height: 267px;
+    margin: 0;
+}
+.header-inner-2 .title {
+    padding: 118px 0 0;
+}
+/*===== Wedding Layout styles =======*/
+.section-less-padding.top-margin {
+    margin-top:0px;
+}
+.text-box.padding-left-7{
+	padding:0px;
+}
+/*===== Fashion Layout styles =======*/
+.feature-box-51 .image-holder .hover-box {
+    width: 51%;
+}
+.feature-box53.left-padding {
+    padding-left: 0px;
+	margin-bottom:30px;
+}
+.team-holder12 .image-holder .hover-box {
+    width: 67%;
+}
+.team-holder12 .image-holder .hover-box {
+    top: 460px;
+}
+.team-holder12:hover .image-holder .hover-box {
+	top:290px;
+}
+/*===== Hair saloon Layout styles =======*/
+.topbar.more-padding {
+    padding: 10px 0 10px;
+}
+#header9, #header10 {
+    top:0px;
+}
+.footer-holder .social-icons-3 {
+    margin-left: 0;
+}
+.header-inner-2.less-margin {
+    height: 200px;
+    margin: 0;
+}
+.header-inner-2 .title.padding-1 {
+    padding-top: 61px;
+}
+
+/*===== Transport Layout styles =======*/
+.feature-box61 .title-line-7{
+	display:none;
+	}
+.feature-box61 .text {
+    width: 64%;
+}
+/*===== School Layout styles =======*/
+#header10 .menu-bg {
+    min-height: 90px;
+}
+.five-cols .col-md-1, .five-cols .col-sm-1, .five-cols .col-lg-1 {
+    width: 100%;
+}
+.parallax-section45 {
+	background-color:#fc4242;
+}
+.header-inner.less-margin-2 {
+    margin: 0;
+}
+.header-inner.three {
+    height: 200px;
+}
+.header-inner .title-2 {
+    padding: 85px 0 0;
+}
+.classes-table table, thead, tbody, th, td, tr { 
+display: block; 
+}
+.classes-table thead tr { 
+position: absolute;
+top: -9999px;
+left: -9999px;
+}
+		
+.classes-table tr { border: 1px solid #ccc; }
+		
+.classes-table td { 
+border: none;
+border-bottom: 1px solid #eee; 
+position: relative;
+padding-left: 50%; 
+}
+		
+.classes-table td:before { 
+position: absolute;
+top: 6px;
+left: 6px;
+width: 45%; 
+padding-right: 10px; 
+white-space: nowrap;
+}
+		
+.classes-table td:nth-of-type(1):before { content: "Time"; }
+.classes-table td:nth-of-type(2):before { content: "Monday"; }
+.classes-table td:nth-of-type(3):before { content: "Tuesday"; }
+.classes-table td:nth-of-type(4):before { content: "Wednesday"; }
+.classes-table td:nth-of-type(5):before { content: "Thursday"; }
+.classes-table td:nth-of-type(6):before { content: "Friday"; }
+.classes-table td:nth-of-type(7):before { content: "Saturday"; }
+
+.table-style-2 td:nth-of-type(1):before { content: "TLD"; }
+.table-style-2 td:nth-of-type(2):before { content: "Registration"; }
+.table-style-2 td:nth-of-type(3):before { content: "Domain Transfer"; }
+.table-style-2 td:nth-of-type(4):before { content: "DNS Management"; }
+.table-style-2 td:nth-of-type(5):before { content: "Whois Privacy"; }
+.table-style-2 td:nth-of-type(6):before { content: ""; }
+
+
+/*===== Portfolio Layout styles =======*/
+.header-title-box-2 .title {
+    font-size: 61px;
+	padding: 0;
+    line-height: 55px;
+}
+.main-bg-2 {
+    top: 0;
+}
+.menu-main-3 {
+	background-color:#161616;
+}
+/*===== Realestate Layout styles =======*/
+.team-holder13 {
+    width: 45%;
+	margin-right:10px
+}
+/*===== Law Layout styles =======*/
+.team-holder14 {
+    width: 48%;
+	margin-right:10px;
+}
+.feature-box68 .image-holder .post-date-box {
+    top: 0;
+}
+/*===== Shop Layout styles =======*/
+.shop-product-holder .image-holder .hoverbox {
+    width: 53%;
+}
+/*===== Agency Layout styles =======*/
+.navbar-header .logo-box {
+    width: 220px;
+}
+.navbar-header .logo-box.big-1 {
+    width:250px;
+}
+.navbar-header .logo-box.big-2 {
+    width:350px;
+}
+.navbar-header .logo-box.big-3 {
+    width:370px;
+}
+.team-holder2.two {
+    width: 48%;
+	margin-right:10px;
+}
+.team-holder2.two:hover .icon-box, .team-holder2.two.active .icon-box {
+    top: 281px;
+}
+/*===== Charity Layout styles =======*/
+.boxed-title-3 {
+    width: 100%;
+}
+/*===== University Layout styles =======*/
+.feature-box-81 {
+    width: 70%;
+}
+/*===== medical Layout styles =======*/
+
+.section-copyrights ul.social-icons-3.less-margin {
+    margin-left: 0;
+}
+/*===== creative Layout styles =======*/
+.feature-box-91 .title1 {
+    padding: 0;
+}
+.feature-box-91 .post-date-box {
+    font-size: 31px;
+    height: auto;
+    padding: 25px;
+    width: 130px;
+}
+.feature-box-91 .post-date-box span {
+    font-size: 14px;
+    padding: 8px 0 0;
+}
+/*===== hosting Layout styles =======*/
+.feature-box-93{
+	padding: 50px;
+	
+}
+.pricetable-holder5 {
+	margin-bottom:50px;
+}
+.feature-box-96 {
+    background-color: #f6f6f6;
+}
+.feature-box-98{
+	background:none;
+}
+#search-topic #tsearch {
+    font-size: 16px;
+    height: 60px;
+    width: 70%;
+}
+#search-topic #searchsubmit {
+    font-size: 15px;
+    height: 60px;
+}
+/*===== corporate inner pages =======*/
+.error_holder {
+    width: 100%;
+}
+.blog-holder-12 .post-date-box {
+    font-size: 21px;
+    height: 80px;
+    padding: 10px 0 0;
+    width: 80px;
+}
+.blog-holder-12 .post-date-box span {
+    font-size: 12px;
+    padding-top: 0;
+}
+.blog-holder-12 .post-date-box.two {
+    top: 93px;
+}
+.blog-holder-12:hover .image-holder .overlay .icon {
+	top:60px;
+}
+.blog-holder-12 .image-holder .overlay {
+    padding: 13px;
+}
+.blog-holder-12 .post-date-box.three.four {
+    top: 93px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 639px){
+	
+.container{ width:94%;}
+
+.section-side-image .text-inner {
+    padding: 80px 80px 80px 40px;
+}
+.section-side-image .text-inner.two {
+    padding: 0px 80px 80px 40px;
+}
+.sub-title {
+    width: 100%;
+}
+.team-box1 {
+	width:60%;
+	margin:0 auto;
+}
+.team-box1:hover .hover-box, .team-box1.active .hover-box {
+    top: 150px;
+}
+.team-box1 .hover-box {
+    top: 320px;
+}
+.pricetable-holder .arrow {
+	display:none;
+}
+
+.sec-padding {
+    padding: 40px 0px;
+}
+.sec-tpadding{
+	padding:40px 0 0 0;
+	}
+.sec-bpadding{
+	padding:0 0 40px 0;
+	}
+.feature-box2 .content-box {
+    padding: 53px 0px 53px;
+}
+.colmargin{ 
+	margin:0 0 50px 0;
+}
+.tabs-content1 .padding-left-3 {
+    padding: 0px 0px 0px 0px;
+}
+.feature-box4 .iconbox-mtiny {
+	display:none;
+}
+.team-holder2 .img-holder .icon-box {
+    top: 559px;
+}
+.team-holder2:hover .icon-box {
+	top:435px;
+	}
+.team-holder2 .social-icons-1 {
+    margin: 2px 0px 0px;
+}
+.team-holder2 .social-icons-1 li.first {
+    margin-left: 0px;
+}
+.team-holder2 {
+	margin-bottom:30px;
+}
+.item-holder {
+	margin-bottom:30px;
+}
+.video-wrapper {
+	margin-bottom:30px;
+}
+.contact-info-holder{
+	margin-bottom:30px;
+	}
+.socialicon-holder {
+    padding: 20px 0px 0px 110px;
+}
+.contact-info-holder .sideline {
+	display:none;
+}
+.img-holder{
+	margin-top:30px;
+	}
+.section-side-image .text-inner {
+    padding: 80px 15px 80px 15px;
+}
+.blog-holder2 .img-holder {
+    margin-top: 0px;
+}
+#header2 {
+	top:0px;
+	border-bottom: none;
+	background-color:#161616;
+    }
+#header4 {
+	top:0px;
+	border-bottom: none;
+	background-color:#161616;
+    }
+.menu-main {
+	background-color:#161616;
+    }
+.menu-main2 {
+	background-color:#fff;
+    }
+.sec-topmargin {
+    margin-top:0px;
+}
+.search-smallicon2 {
+	top:20px;
+	right:-300px;
+}
+.client-list2 .col-md-4 {
+    border-right: none;
+}
+.blog-holder3 .blog-img-holder, .blog-holder3.two .blog-img-holder {
+    margin: 0 0 30px 0;
+}
+.blog-holder3 .blog-img-holder .overlay .post-info {
+    padding: 79px 0 0 44px;
+}
+.blog-holder3.two .blog-img-holder .overlay .post-info {
+    padding: 177px 0 0 30px;
+}
+.blog-holder3 .blog-img-holder .post-info .post-infoicon {
+    margin-bottom: 5px;
+}
+.testimonials5 {
+	margin-bottom:80px;
+}
+.testimonials5 {
+	margin-bottom:80px;
+}
+.testimonials5 .social-icons-2 li:first-child a {
+	margin-left:100px;
+}
+.testimonials5 {
+	margin-bottom:80px;
+}
+.background-imgholder-full.img1, .background-imgholder-full.img2 {
+	background:none;
+	height:auto;
+}
+.feature-box12 {
+	margin-bottom:80px;
+}
+.feature-box12 .iconbox-small {
+    left: 171px;
+}
+.bmargin{
+	margin-bottom:40px;
+	}
+.email_input {
+    width: 60%;
+}
+.blog-holder4 .post-infoicon{
+	margin-bottom:8px;
+	 }
+.blog-holder4 .col-xs-6 {
+    width: 100%;
+}
+.team-holder4 .icon-holder .social-icons-2 li:first-child {
+    margin-top:60px;
+}
+.team-holder4 .icon-holder {
+    min-height: 434px;
+}
+.team-holder4 .icon-holder .social-icons-2 {
+	width: 16%;
+	margin-left:30px;
+}
+.team-holder4 .icon-holder .social-icons-2 li a {
+	font-size:28px;
+	margin-bottom:30px;
+}
+
+.team-holder9 .icon-holder .social-icons-2 li:first-child {
+    margin-top:60px;
+}
+.team-holder9 .icon-holder {
+    min-height: 434px;
+}
+.team-holder9 .icon-holder .social-icons-2 {
+	width: 16%;
+	margin-left:30px;
+}
+.team-holder9 .icon-holder .social-icons-2 li a {
+	font-size:28px;
+	margin-bottom:30px;
+}
+
+
+.pricetable-holder2 a.btn2 {
+	padding:6px 0px;
+}
+.pricetable-holder2 a.btn13 {
+	padding:6px 0px;
+}
+.pricetable-holder2 th .title-header {
+    font-size: 10px;
+    padding: 8px;
+}
+.topbar-left-items {
+    width: 100%;
+}
+.topbar-middle-logo {
+    width: 100%;
+	margin:10px 0 0 0;
+}
+.topbar-right-items {
+    width: 100%;
+	margin:0 0 10px 0;
+}
+.feature-box20{
+	margin-bottom:80px;
+	}
+.feature-box20 .iconbox-tiny {
+    left: 186px;
+}
+.feature-box21 .text-box {
+    padding: 50px;
+}
+.blog-holder3.two .blog-img-holder .overlay .post-info {
+    padding: 35px 0 0 30px;
+}
+.col-divider-margin {
+	margin-top:0px;
+}
+.col-divider-margin-1, .col-divider-margin-2, .col-divider-margin-3, .col-divider-margin-4, .col-divider-margin-5, .col-divider-margin-6{
+	margin-top:0px;
+	}
+.sub-title-2 {
+    width: 90%;
+}
+
+/*.text-box.padding-1, .text-box.padding-2, .text-box.padding-3, .text-box.padding-4, .text-box.padding-5, .text-box.padding-6, .text-box.padding-7, .text-box.padding-8, .text-box.padding-9 {
+    padding: 0;
+}*/
+
+/*===== gym styles =======*/
+
+.top-shape1{
+	height:108px;
+	top:-108px;
+	}
+.top-shape2{
+	height:108px;
+	top:-108px;
+	}
+.section-title-3 {
+    font-size: 40px;
+}
+.shape-bpadding2 {
+    padding-bottom: 0px;
+}
+.feature-box26 .img-holder {
+	border:none;
+}
+.bottom-shape3 {
+    height: 100px;
+}
+.feature-box24.two .inner {
+    padding: 22px 20px 20px;
+}
+.seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 100%;
+  }
+  
+ /*===== construction styles =======*/
+.team-holder5 .image-holder .hover-box {
+	top:480px;
+	width: 90%;
+}
+.header-inner.two .overlay {
+    height: 150px;
+}
+.header-inner.two {
+    height: 150px;
+}
+.header-inner .title {
+    padding: 51px 0 0;
+}
+ /*===== grayscale styles =======*/
+.team-holder6 {
+	width: 90%;
+}
+.sec-dummy-top-padding {
+	padding-top:60px;
+}
+.tab-text-holder {
+	padding: 30px;
+}
+/*===== Blog1 styles =======*/
+.header-title-box {
+    padding: 70px 0;
+}
+.header-title-box .title {
+    font-size: 60px;
+}
+/*===== blog2 styles =======*/
+.blog2-header-box .image-holder .text-box.top-padding {
+    padding-top: 110px;
+}
+/*===== Cafe Layout styles =======*/
+.logo-holder {
+    top: -10px;
+}
+.master-slider.margintop-2 {
+    top: 0px;
+}
+.logo-holder img {
+	width:40%;
+	margin-bottom:150px;
+}
+.special-menu-holder {
+    width: 100%;
+	margin-top:30px;
+}
+.header-inner-2 {
+    height:282px;
+    margin: -80px 0 0;
+
+}
+.team-holder7.two:hover .info-box {
+    bottom: 230px;
+}
+.header-inner-2 {
+    height: 200px;
+    margin: 0;
+}
+.header-inner-2 .title {
+    padding: 81px 0 0;
+}
+/*===== Wedding Layout styles =======*/
+.section-less-padding.top-margin {
+    margin-top:0px;
+}
+.text-box.padding-left-7{
+	padding:0px;
+}
+/*===== Fashion Layout styles =======*/
+.feature-box-51 .image-holder .hover-box {
+    width: 73%;
+}
+.feature-box53.left-padding {
+    padding-left: 0px;
+}
+.team-holder12 .image-holder .hover-box {
+    width: 90%;
+}
+.team-holder12 .image-holder .hover-box {
+    top: 460px;
+}
+.team-holder12:hover .image-holder .hover-box {
+	top:290px;
+}
+/*===== Hair saloon Layout styles =======*/
+.topbar.more-padding {
+    padding: 10px 0 10px;
+}
+#header9, #header10 {
+    top:0px;
+}
+.footer-holder .social-icons-3 {
+    margin-left: 0;
+}
+.header-inner-2.less-margin {
+    height: 150px;
+    margin: 0;
+}
+.header-inner-2 .title.padding-1 {
+    padding-top: 40px;
+}
+/*===== School Layout styles =======*/
+#header10 .menu-bg {
+    min-height: 90px;
+}
+.five-cols .col-md-1, .five-cols .col-sm-1, .five-cols .col-lg-1 {
+    width: 100%;
+}
+.header-inner.less-margin-2 {
+    margin: 0;
+}
+.header-inner.three {
+    height: 150px;
+}
+.header-inner .title-2 {
+    padding: 40px 0 0;
+}
+.classes-table table, thead, tbody, th, td, tr { 
+display: block; 
+}
+.classes-table thead tr { 
+position: absolute;
+top: -9999px;
+left: -9999px;
+}
+		
+.classes-table tr { border: 1px solid #ccc; }
+		
+.classes-table td { 
+border: none;
+border-bottom: 1px solid #eee; 
+position: relative;
+padding-left: 50%; 
+}
+		
+.classes-table td:before { 
+position: absolute;
+top: 6px;
+left: 6px;
+width: 45%; 
+padding-right: 10px; 
+white-space: nowrap;
+}
+		
+.classes-table td:nth-of-type(1):before { content: "Time"; }
+.classes-table td:nth-of-type(2):before { content: "Monday"; }
+.classes-table td:nth-of-type(3):before { content: "Tuesday"; }
+.classes-table td:nth-of-type(4):before { content: "Wednesday"; }
+.classes-table td:nth-of-type(5):before { content: "Thursday"; }
+.classes-table td:nth-of-type(6):before { content: "Friday"; }
+.classes-table td:nth-of-type(7):before { content: "Saturday"; }
+
+.table-style-2 td:nth-of-type(1):before { content: "TLD"; }
+.table-style-2 td:nth-of-type(2):before { content: "Registration"; }
+.table-style-2 td:nth-of-type(3):before { content: "Domain Transfer"; }
+.table-style-2 td:nth-of-type(4):before { content: "DNS Management"; }
+.table-style-2 td:nth-of-type(5):before { content: "Whois Privacy"; }
+.table-style-2 td:nth-of-type(6):before { content: ""; }
+
+/*===== Portfolio Layout styles =======*/
+.header-title-box-2 .title {
+    font-size: 61px;
+    line-height: 55px;
+	padding:0px;
+}
+.main-bg-2 {
+    top: 0;
+}
+.menu-main-3 {
+	background-color:#161616;
+}
+/*===== Realestate Layout styles =======*/
+
+.team-holder13 .img-holder .icon-box {
+    top: 528px;
+}
+.team-holder13:hover .icon-box, .team-holder13.active .icon-box {
+	top: 461px;
+}
+
+/*===== Law Layout styles =======*/
+.team-holder14 {
+    width: 93%;
+}
+.feature-box68 .image-holder .post-date-box {
+    top: 0;
+}
+
+/*===== Shop Layout styles =======*/
+.feature-box69 .title1 {
+    font-size: 36px;
+    padding: 76px 0 0 50px;
+}
+.shop-product-holder .image-holder .hoverbox {
+    width: 71%;
+}
+/*===== Agency Layout styles =======*/
+.navbar-header .logo-box {
+    width: 220px;
+}
+.navbar-header .logo-box.big-1 {
+    width:250px;
+}
+.navbar-header .logo-box.big-2 {
+    width:350px;
+}
+.navbar-header .logo-box.big-3 {
+    width:370px;
+}
+.team-holder2.two:hover .icon-box, .team-holder2.two.active .icon-box {
+    top: 461px;
+}
+
+/*===== Charity Layout styles =======*/
+.boxed-title-3 {
+    width: 100%;
+}
+/*===== University Layout styles =======*/
+.feature-box-81 {
+    width: 90%;
+}
+/*===== medical Layout styles =======*/
+
+.section-copyrights ul.social-icons-3.less-margin {
+    margin-left: 0;
+}
+/*===== creative Layout styles =======*/
+.feature-box-91 .title1 {
+    padding: 0;
+}
+.feature-box-91 .post-date-box {
+    font-size: 31px;
+    height: auto;
+    padding: 10px;
+    width: 130px;
+}
+.feature-box-91 .post-date-box span {
+    font-size: 11px;
+    padding: 0px 0 0;
+}
+.feature-box-91 .post-date-box .divider-line.margin {
+    margin: 5px 0;
+}
+.feature-box-91 .title1 {
+    font-size: 14px;
+}
+.feature-box-91 .text-box.padding-5 {
+    padding: 10px;
+}
+/*===== hosting Layout styles =======*/
+.domain-search-home #domain-searchform #dsearch {
+    width: 53%;
+}
+.section-small-title-6 {
+    font-size: 40px;
+}
+.section-title-6 {
+    font-size: 37px;
+}
+.feature-box-93{
+	padding: 40px 20px;
+	
+}
+.pricetable-holder5 {
+	margin-bottom:50px;
+}
+.feature-box-96 {
+    background-color: #f6f6f6;
+}
+.feature-box-98{
+	background:none;
+}
+#search-topic #tsearch {
+    font-size: 16px;
+    height: 60px;
+    width: 65%;
+}
+#search-topic #searchsubmit {
+    font-size: 15px;
+    height: 60px;
+}
+/*===== corporate inner pages =======*/
+.error_holder {
+    width: 100%;
+}
+.blog-holder-12 .post-date-box {
+    font-size: 21px;
+    height: 70px;
+    padding: 5px 0 0;
+    width: 70px;
+}
+.blog-holder-12 .post-date-box span {
+    font-size: 12px;
+    padding-top: 0;
+}
+.blog-holder-12 .post-date-box.two {
+    top: 65px;
+}
+.blog-holder-12:hover .image-holder .overlay .icon {
+	top:60px;
+}
+.blog-holder-12 .image-holder .overlay {
+    padding: 0;
+}
+.blog-holder-12 .image-holder .overlay .icon {
+    font-size: 12px;
+    height: 40px;
+    line-height: 41px;
+    width: 40px;
+}
+.blog-holder-12 .post-date-box.three.four {
+    top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 479px){
+
+.container{ width:94%;}
+
+.btn {
+	padding: 10px 15px;
+	margin-bottom:20px;
+}
+.text-box-right {
+    float: left;
+    margin: 20px 0 20px 0;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+}
+.text-box-left {
+    float: left;
+    margin: 20px 0 20px 0;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+}
+.text-box-right.more-padding-1 {
+    padding: 0 0 0 0px;
+}
+.text-box-right.more-padding-3 {
+    padding: 0 0 0 0px;
+}
+.text-box-right.more-padding-4 {
+    padding: 0 0 0 0px;
+}
+.sub-title {
+    width: 100%;
+}
+.section-title {
+    font-size: 32px;
+}
+.section-side-image .text-inner {
+    padding: 80px 80px 80px 40px;
+}
+.section-side-image .text-inner.two {
+    padding: 0px 80px 80px 40px;
+}
+.team-box1 {
+	width:80%;
+	margin:0 auto;
+}
+.team-box1:hover .hover-box, .team-box1.active .hover-box {
+    top: 120px;
+}
+.team-box1 .hover-box {
+    top: 320px;
+}
+.pricetable-holder .arrow {
+	display:none;
+}
+
+.sec-padding {
+    padding: 35px 0px;
+}
+.sec-tpadding{
+	padding:35px 0 0 0;
+	}
+.sec-bpadding{
+	padding:0 0 35px 0;
+	}
+.feature-box2 .content-box {
+    padding: 30px 0px 30px;
+}
+.colmargin{ 
+	margin:0 0 50px 0;
+}
+.tabs-content1 .padding-left-3 {
+    padding: 0px 0px 0px 0px;
+}
+.feature-box4 .iconbox-mtiny {
+	display:none;
+}
+.tabs-content1 .btn5{
+	margin-bottom:20px;
+	float:left;
+	}
+.team-holder2 .img-holder .icon-box {
+    top: 315px;
+}
+.team-holder2:hover .icon-box {
+	top:260px;
+	}
+.team-holder2 .social-icons-1 {
+    margin: 2px 0px 0px;
+}
+.team-holder2 .social-icons-1 li.first {
+    margin-left: 0px;
+}
+.team-holder2 {
+	margin-bottom:30px;
+}
+.item-holder {
+	margin-bottom:30px;
+}
+.video-wrapper {
+	margin-bottom:20px;
+}
+.post-author-image {
+    top: 178px;
+}
+.contact-info-holder{
+	margin-bottom:30px;
+	}
+.socialicon-holder {
+    padding: 20px 0px 0px 25px;
+}
+.contact-info-holder .sideline {
+	display:none;
+}
+.team-holder3 .text-box-right {
+	width:100%;
+	padding: 0px 0px 0px 0px;
+}
+.btn3.green2 {
+	padding: 8px 15px;
+}
+.btn5.green2 {
+	padding: 8px 15px;
+}
+.img-holder{
+	margin-top:30px;
+	}
+.section-side-image .text-inner {
+    padding: 80px 15px 80px 15px;
+}	
+.blog-holder2 .img-holder {
+    margin-top: 0px;
+}	
+#header2 {
+	top:0px;
+	border-bottom: none;
+	background-color:#161616;
+    }
+#header4 {
+	top:0px;
+	border-bottom: none;
+	background-color:#161616;
+    }
+.menu-main {
+	background-color:#161616;
+    }
+.menu-main2 {
+	background-color:#fff;
+    }
+.sec-topmargin {
+    margin-top:0px;
+}	
+.search-smallicon2 {
+	top:20px;
+	right:-100px;
+}	
+.client-list2 .col-md-4 {
+    border-right: none;
+}	
+.blog-holder3 .blog-img-holder, .blog-holder3.two .blog-img-holder {
+    margin: 0 0 80px 0;
+}	
+.blog-holder3 .blog-img-holder .overlay .content-box {
+    padding: 14px 0 0 50px;
+}	
+.blog-holder3 .blog-img-holder .overlay .post-info {
+    padding: 57px 0 0 44px;
+}	
+.blog-holder3.two .blog-img-holder .overlay .post-info {
+    padding: 185px 0 0 4px;
+}	
+.blog-holder3 .blog-img-holder .post-info .post-infoicon {
+    margin-bottom: 5px;
+}
+.testimonials5 {
+	margin-bottom:80px;
+}
+.testimonials5 .social-icons-2 li:first-child a {
+	margin-left:25px;
+}
+.testimonials5 {
+	margin-bottom:80px;
+}
+.background-imgholder-full.img1, .background-imgholder-full.img2 {
+	background:none;
+	height:auto;
+}
+.feature-box12 {
+	margin-bottom:80px;
+}
+.feature-box12 .iconbox-small {
+    left: 101px;
+}
+.bmargin{
+	margin-bottom:40px;
+	}
+.email_input {
+    width: 63%;
+	height: 55px;
+}
+.email_submit {
+    padding: 15px 12px;
+}
+.blog-holder4 .post-infoicon{
+	margin-bottom:8px;
+	 }
+.blog-holder4 .col-xs-6 {
+    width: 100%;
+}
+.team-holder4 .icon-holder {
+    min-height: 279px;
+}
+.pricetable-holder2 a.btn2 {
+	padding:6px 0px;
+}
+.pricetable-holder2 a.btn13 {
+	padding:6px 0px;
+}
+.pricetable-holder2 th .title-header {
+    font-size: 10px;
+    padding: 8px;
+}
+.pricetable-holder2 th .price {
+    font-size: 14px;
+}
+
+.pricetable-holder2 .table {
+		overflow-x: auto;
+		display: block;
+	}
+.topbar-left-items {
+    width: 100%;
+}
+.topbar-middle-logo {
+    width: 100%;
+	margin:10px 0 0 0;
+}
+.topbar-right-items {
+    width: 100%;
+	margin:0 0 10px 0;
+}
+.feature-box20{
+	margin-bottom:80px;
+	}
+.feature-box20 .iconbox-tiny {
+    left: 110px;
+}
+.feature-box21 .text-box {
+    padding: 30px;
+}
+.feature-box22 .text-box-right {
+	width:100%;
+	float:left;
+	padding:0px;
+	margin:150px 0 0 0;
+}
+
+.feature-box22 .iconbox-xlarge {
+	margin-right:90%;
+}
+.video-wrapper {
+	margin-bottom:30px;
+}
+.text-box-right.less-padding-1 {
+    padding: 0;
+}
+.team-holder3.two .image-left {
+    padding: 0 0 0 0;
+}
+div.demo {
+    width: 237px;
+}
+.blog-holder3.two .blog-img-holder .overlay .post-info {
+    padding: 35px 0 0 30px;
+}
+.btn.appstore {
+	margin-bottom:15px;
+}
+.col-divider-margin {
+	margin-top:0px;
+}
+.text-box-right.more-padding-2 {
+    padding: 0 0 0 0;
+}
+.col-divider-margin-1, .col-divider-margin-2, .col-divider-margin-3, .col-divider-margin-4, .col-divider-margin-5, .col-divider-margin-6{
+	margin-top:0px;
+	}
+.sub-title-2 {
+    width: 90%;
+}
+.sec-dummy-top-padding {
+    padding-top: 30px;
+}
+
+/*.text-box.padding-1, .text-box.padding-2, .text-box.padding-3, .text-box.padding-4, .text-box.padding-5, .text-box.padding-6, .text-box.padding-7, .text-box.padding-8, .text-box.padding-9 {
+    padding: 0;
+}*/
+
+/*===== gym styles =======*/
+.top-shape1{
+	top:-92px;
+	height:92px;
+	}
+.top-shape2{
+	top:-92px;
+	height:92px;
+	}
+.section-title-3 {
+    font-size: 30px;
+}
+.feature-box24 .inner {
+    padding: 30px;
+}
+.shape-bpadding2 {
+    padding-bottom: 0px;
+}
+.feature-box26 .img-holder {
+	border:none;
+}
+.bottom-shape3 {
+    height: 100px;
+}
+.feature-box24.two .inner {
+    padding: 10px 0px 10px;
+}
+.seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 100%;
+  }
+	
+/*===== Construction styles =======*/	
+.feature-box30 .text-box-right {
+    padding: 0 0 0 0;
+}	
+.header-inner.two .overlay {
+    height: 100px;
+}
+.header-inner.two {
+    height: 100px;
+}
+.header-inner .title {
+	font-size: 24px;
+    padding: 15px 0 0;
+}
+/*===== Restaurant styles =======*/	
+.feature-box33 .post-date-box {
+    top: 601px;
+}
+.sec-bpadding-3 {
+    padding-bottom: 60px;
+}
+.sec-tpadding-3 {
+    padding-top: 60px;
+}
+.section-title-4 {
+    font-size: 50px;
+}
+/*===== grayscale layout styles =======*/	
+
+.blog-holder8 .col-xs-9 {
+    width: 100%;
+}
+.blog-holder8 .col-xs-3 {
+    width: 100%;
+}
+.tab-text-holder {
+	padding: 30px;
+}
+/*===== Blog1 styles =======*/
+.header-title-box {
+    padding: 70px 0;
+}
+.header-title-box .title {
+    font-size: 40px;
+}
+/*===== blog2 styles =======*/
+.blog2-header-box .image-holder .text-box.top-padding {
+    padding-top: 60px;
+	font-size:18px;
+}
+.blog2-header-box .image-holder .text-box .title {
+	font-size:18px;
+	margin-bottom:0px;
+}
+.blog2-header-box .image-holder .text-box .post-info span {
+    font-size: 10px;
+    margin-right: 20px;
+}
+/*===== Cafe Layout styles =======*/
+.logo-holder {
+    top: -10px;
+}
+.master-slider.margintop-2 {
+    top: 0px;
+}
+.logo-holder img {
+	width:40%;
+	margin-bottom:150px;
+}
+.special-menu-holder {
+    width: 100%;
+	margin-top:30px;
+}
+.team-holder7.two {
+    max-height: 415px;
+}
+.header-inner-2 {
+    height: 133px;
+    margin: 0;
+}
+.header-inner-2 .title {
+    padding: 42px 0 0;
+	font-size:22px;
+}
+/*===== Wedding Layout styles =======*/
+.section-less-padding.top-margin {
+    margin-top:0px;
+}
+.text-box.padding-left-7{
+	padding:0px;
+	}
+
+.client-list3 img {
+	width: 90%;
+}
+/*===== Fashion Layout styles =======*/
+.feature-box53.left-padding {
+    padding-left: 0px;
+}
+/*===== Mechanic Layout styles =======*/
+.feature-box55 .text-holder {
+    padding: 20px;
+}
+/*===== Hair saloon Layout styles =======*/
+.topbar.more-padding {
+    padding: 10px 0 10px;
+}
+#header9, #header10 {
+    top:0px;
+}
+.footer-holder .social-icons-3 {
+    margin-left: 0;
+}
+.header-inner-2.less-margin {
+    height: 99px;
+    margin: 0;
+}
+.header-inner-2 .title.padding-1 {
+    padding-top: 13px;
+}
+/*===== Transport Layout styles =======*/
+.feature-box61 .text {
+	padding:15px;
+}
+.parallax-section42 .title1 {
+	font-size:40px;
+	line-height:40px;
+}
+/*===== School Layout styles =======*/
+#header10 .menu-bg {
+    min-height: 90px;
+}
+.five-cols .col-md-1, .five-cols .col-sm-1, .five-cols .col-lg-1 {
+    width: 100%;
+}
+.header-inner.less-margin-2 {
+    margin: 0;
+}
+.header-inner.three {
+    height: 100px;
+}
+.header-inner .title-2 {
+    padding: 10px 0 0;
+}
+.classes-table table, thead, tbody, th, td, tr { 
+display: block; 
+}
+.classes-table thead tr { 
+position: absolute;
+top: -9999px;
+left: -9999px;
+}
+		
+.classes-table tr { border: 1px solid #ccc; }
+		
+.classes-table td { 
+border: none;
+border-bottom: 1px solid #eee; 
+position: relative;
+padding-left: 50%; 
+}
+		
+.classes-table td:before { 
+position: absolute;
+top: 6px;
+left: 6px;
+width: 45%; 
+padding-right: 10px; 
+white-space: nowrap;
+}
+		
+.classes-table td:nth-of-type(1):before { content: "Time"; }
+.classes-table td:nth-of-type(2):before { content: "Monday"; }
+.classes-table td:nth-of-type(3):before { content: "Tuesday"; }
+.classes-table td:nth-of-type(4):before { content: "Wednesday"; }
+.classes-table td:nth-of-type(5):before { content: "Thursday"; }
+.classes-table td:nth-of-type(6):before { content: "Friday"; }
+.classes-table td:nth-of-type(7):before { content: "Saturday"; }
+
+.table-style-2 td:nth-of-type(1):before { content: "TLD"; }
+.table-style-2 td:nth-of-type(2):before { content: "Registration"; }
+.table-style-2 td:nth-of-type(3):before { content: "Domain Transfer"; }
+.table-style-2 td:nth-of-type(4):before { content: "DNS Management"; }
+.table-style-2 td:nth-of-type(5):before { content: "Whois Privacy"; }
+.table-style-2 td:nth-of-type(6):before { content: ""; }
+
+/*===== Portfolio Layout styles =======*/
+.header-title-box-2 .title {
+    font-size: 40px;
+    line-height: 40px;
+	padding:0px;
+}
+.main-bg-2 {
+    top: 0;
+}
+.menu-main-3 {
+	background-color:#161616;
+}
+/*===== Realestate Layout styles =======*/
+
+.team-holder13 .img-holder .icon-box {
+    top: 350px;
+}
+.team-holder13:hover .icon-box, .team-holder13.active .icon-box {
+	top: 285px;
+}
+.feature-box68 .image-holder .post-date-box {
+    top: 0;
+}
+
+/*===== Winery Layout styles =======*/
+.parallax-section51 .title {
+    font-size: 35px;
+}
+
+/*===== Shop Layout styles =======*/
+.feature-box69 .title1 {
+    font-size: 20px;
+    padding: 42px 0 0 50px;
+}
+.feature-box69 .title2 {
+	font-size: 20px;
+    padding: 0 0 0 50px;
+}
+.parallax-section-title {
+    font-size: 30px;
+}
+/*===== Agency Layout styles =======*/
+.navbar-header .logo-box {
+    width: 220px;
+}
+.navbar-header .logo-box.big-1 {
+    width:250px;
+}
+.navbar-header .logo-box.big-2 {
+    width:250px;
+}
+.navbar-header .logo-box.big-3 {
+    width:250px;
+}
+.team-holder2.two:hover .icon-box, .team-holder2.two.active .icon-box {
+    top: 277px;
+}
+/*===== Personal Layout styles =======*/
+.section-title-5 {
+    font-size: 20px;
+
+}
+/*===== medical Layout styles =======*/
+
+.section-copyrights ul.social-icons-3.less-margin {
+    margin-left: 0;
+}
+
+/*===== creative Layout styles =======*/
+.feature-box-91 .title1 {
+    padding: 0;
+}
+.feature-box-91 .post-date-box {
+    font-size: 14px;
+    height: auto;
+    padding: 10px;
+    width: 80px;
+	right:0px;
+}
+.feature-box-91 .post-date-box span {
+    font-size: 11px;
+    padding: 0px 0 0;
+}
+.feature-box-91 .post-date-box .divider-line.margin {
+    margin: 5px 0;
+}
+.feature-box-91 .title1 {
+    font-size: 14px;
+}
+.feature-box-91 .text-box.padding-5 {
+    padding: 10px;
+}
+
+/*===== hosting Layout styles =======*/
+.section-small-title-6 {
+    font-size: 40px;
+}
+.section-title-6 {
+    font-size: 37px;
+}
+.feature-box-93{
+	padding: 20px 20px;
+	
+}
+.pricetable-holder5 {
+	margin-bottom:50px;
+}
+.feature-box-96 {
+    background-color: #f6f6f6;
+}
+.feature-box-98{
+	background:none;
+}
+#domain-search-holder #dsearch {
+    font-size: 14px;
+    height: 48px;
+    width: 100%;
+}
+#domain-search-holder .drlist {
+    height: 48px;
+    width: 102px;
+}
+#domain-search-holder #searchsubmit {
+    font-size: 14px;
+    height: 48px;
+    padding: 4px 25px;
+}
+#search-topic #tsearch {
+    font-size: 16px;
+    height: 60px;
+    width: 100%;
+}
+#search-topic #searchsubmit {
+    font-size: 15px;
+    height: 60px;
+}
+/*===== corporate inner pages =======*/
+.error-title-big {
+    font-size: 80px;
+}
+.error_holder {
+    width: 100%;
+}
+.blog-holder-12 .post-date-box {
+    font-size: 14px;
+    height: 40px;
+    padding: 5px 0 0;
+    width: 40px;
+	line-height: 11px;
+}
+.blog-holder-12 .post-date-box span {
+    font-size: 10px;
+    padding-top: 0;
+}
+.blog-holder-12 .post-date-box.two {
+    top: 39px;
+}
+.blog-holder-12:hover .image-holder .overlay .icon {
+	top:30px;
+}
+.blog-holder-12 .image-holder .overlay {
+    padding: 0;
+}
+.blog-holder-12 .image-holder .overlay .icon {
+    font-size: 12px;
+    height: 40px;
+    line-height: 41px;
+    width: 40px;
+}
+.blog-holder-12 .post-date-box.three {
+    top: 22px;
+}
+.blog-holder-12 .post-date-box.three span {
+    padding-top: 13px;
+}
+.blog-holder-12 .post-date-box.three.four {
+    top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

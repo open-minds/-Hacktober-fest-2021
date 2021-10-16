@@ -1,0 +1,83 @@
+body{ font-family: "Open Sans", Helvetica, Arial, sans-serif; font-size:100%; margin:0; padding:0; }
+.DTTT_container{ position:relative; top:8px; margin-left:10px; }
+.sftables{ padding:30px;  }
+.sftables table.dataTable.no-footer, 
+.sftables table.dataTable.no-footer th { border-bottom:0; }
+.sftables table.dataTable.no-footer th{ border-bottom:1px solid #bbb; }
+.sftables table {
+	width: 100%;
+	-webkit-box-shadow:0 1px 1px -1px rgba(0,0,0,.1);
+	-moz-box-shadow:0 1px 1px -1px rgba(0,0,0,.1);
+	box-shadow:0 1px 1px -1px rgba(0,0,0,.1);
+	border-collapse: separate;
+	border: 1px solid #bbb;
+	border-bottom:1px solid #bbb!important;
+	border-left:0;
+	border-spacing: 0;
+	font-size:12px;
+}
+.sftables table th,
+.sftables table td{
+	border: 1px solid #bbb;
+	border-width:0 1px;
+	padding: 10px 20px;
+}
+.sftables table th {
+	background-color: #F5F5F5;
+	vertical-align: top;
+	text-align: left;
+	font-size: 11px;
+	font-weight: 700;	
+	border-right: 0;
+	border-top:0;
+	color: #000;
+	text-transform:uppercase;
+
+}
+.sftables table td {  
+	line-height:normal;
+	border-right:0; 
+	border-top:0; 
+	color:#000; 
+}
+
+.sftables table tr:nth-child(even) {background-color: #F9F9F9;}
+.sftables table tr:nth-child(odd) {background-color: #fff; }
+.sftables table thead tr th { background-color:#f9f9f9!important; color:#2975B6; }
+.sftables .sftable-wrap{ border:1px solid #bbb; border-width:1px 0; }
+.sftables .dataTables_filter,
+.sftables .dataTables_length,
+.sftables .dataTables_info,
+.sftables .dataTables_paginate{ padding:10px 0; }
+.sftables .dataTables_info{ padding-top:20px; }
+.dwnload{ text-align:right; display:inline-block; float:right; position:relative; right:20px; top:12px;}
+.dwnload a,
+.dwnload span { 
+	font-size:11px;
+	letter-spacing:2px;
+	text-decoration:none;
+	text-transform:uppercase; 
+	display:inline-block;
+	background:#3498DB;
+	padding:0 20px;
+	height:32px;
+	line-height:32px;
+	text-align:center; 
+	color:#fff;  
+}
+
+.dwnload a:hover,
+.dwnload span:hover{ background:#206593; }
+.dwnload i{ font-size:14px; }
+.dwnload a{
+	-webkit-border-radius:0 5px 5px 0;
+	-ms-border-radius:0 5px 5px 0;
+	border-radius:0 5px 5px 0;
+	position:relative;
+	right:3px;
+}
+.dwnload span{
+	-webkit-border-radius:5px 0 0 5px;
+	-ms-border-radius:5px 0 0 5px;
+	border-radius:5px 0 0 5px;
+}

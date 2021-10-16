@@ -1,0 +1,5698 @@
+/*
+Template: Hasta
+Author: Codelayers
+Version: 1.0
+Design and Developed by: Codelayers
+*/
+
+
+/*
+======================================
+[ CSS TABLE CONTENT ]
+======================================
+
+    [Table of contents]
+
+	1. Gym
+	2. Restaurant
+	3. Construction
+	4. grayscale
+	5. Blog 1
+	6. Cafe	
+	7. Wedding	
+	8. Fashion
+	9. Mechanic	
+	10.Hairsaloon	
+	11 Transport	
+	12. School
+	13. Portfolio
+	14. Realestate
+	15. Beauty
+	16. Law
+	17. Shop	
+	18. Agency	
+	19. charity
+	20. University	
+	21.Personal	
+	22 Medical
+	23. Creative
+	24. Hosting
+	25. Corporate innerpage styles
+
+	
+======================================
+[ END CSS TABLE CONTENT ]
+======================================
+*/
+
+
+/*===============================================
+-------------------------------------------------
+Gym layout Styles
+-------------------------------------------------
+================================================*/
+
+/* =========== section top and bottom shapes ============= */
+			
+.section {
+	position: relative;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+.top-shape1 {
+	position: absolute;
+	width: 100%;
+	height: 151px;
+	padding: 0px;
+	margin: 0px;
+	top: -151px;
+	left: 0px;
+	z-index: 2;
+	background: url(../images/top-shape1.png) center top no-repeat;
+}
+.top-shape1.white {
+	background: url(../images/top-shape2.png) center top no-repeat;
+}
+.top-shape2 {
+	width: 100%;
+	height: 151px;
+	padding: 0px;
+	float: left;
+	margin: 0px;
+	z-index: 2;
+	background: url(../images/top-shape2.png) center top no-repeat;
+}
+.top-shape3 {
+	position: absolute;
+	width: 100%;
+	height: 151px;
+	padding: 0px;
+	margin: 0px;
+	top: -151px;
+	left: 0px;
+	z-index: 2;
+	background: url(../images/top-shape2.png) center top no-repeat;
+}
+.bottom-shape1 {
+	position: absolute;
+	width: 100%;
+	height: 151px;
+	padding: 0px;
+	margin: 0px;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	background: url(../images/bottom-shape1.png) center top no-repeat;
+}
+.bottom-shape2 {
+	position: absolute;
+	width: 100%;
+	height: 151px;
+	padding: 0px;
+	margin: 0px;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	background: url(../images/bottom-shape2.png) center top no-repeat;
+}
+.bottom-shape3 {
+	width: 100%;
+	height: 151px;
+	padding: 0px;
+	float: left;
+	margin: 0px;
+	z-index: 5;
+	background: url(../images/bottom-shape3.png) center top no-repeat;
+}
+.bottom-shape4 {
+	position: absolute;
+	width: 100%;
+	height: 151px;
+	padding: 0px;
+	margin: 0px;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	background: url(../images/bottom-shape4.png) center top no-repeat;
+}
+.bottom-shape5 {
+	width: 100%;
+	height: 151px;
+	padding: 0px;
+	margin: 0px;
+	background: url(../images/bottom-shape1.png) center top no-repeat;
+}
+.top-shape2.dark {
+	background: url(../images/top-shape3.png) center top no-repeat;
+}
+.top-shape2.red {
+	background: url(../images/top-shape4.png) center top no-repeat;
+}
+.shape-bpadding2 {
+	padding-bottom: 80px;
+}
+.top-shape2.red2 {
+	background: url(../images/top-shape5.png) center top no-repeat;
+}
+/* =========== Header for inner pages ============= */
+
+/*header inner
+ ------------------------------ */
+.header-inner {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+	z-index: 0;
+	overflow: hidden
+}
+.header-inner .overlay {
+	position: absolute;
+	z-index: 1;
+}
+.header-inner .inner {
+	position: absolute;
+	width: 100%;
+	padding: 0;
+	margin: 0px;
+	float: left;
+	z-index: 3;
+}
+.header-inner.img1 {
+	background: url(../images/147.jpg) center top no-repeat;
+}
+/*inner page header title
+ ------------------------------ */
+.header-inner .title {
+	padding: 100px 0 0 0;
+	margin: 0px;
+	font-size: 30px;
+	font-weight: 700;
+}
+/*inner page header title 2
+ ------------------------------ */
+.header-inner .title-2 {
+	padding: 133px 0 0 0;
+	margin: 0px;
+	font-size: 30px;
+	font-weight: 700;
+}
+.header-inner.two .overlay {
+	height: 248px;
+}
+.header-inner.two {
+	height: 248px;
+}
+.price-big {
+	font-size: 26px;
+}
+.header-inner-2 {
+	position: relative;
+	width: 100%;
+	height: 500px;
+	padding: 0px;
+	margin: -168px 0 0 0;
+	top: 0;
+	float: left;
+	z-index: 0;
+	overflow: hidden
+}
+.header-inner-2.less-margin {
+	height: 400px;
+	margin: -81px 0 0 0;
+}
+.header-inner-2.less-margin-2 {
+	margin: -111px 0 0 0;
+}
+.header-inner.less-margin-2 {
+	margin: -111px 0 0 0;
+}
+.header-inner-2 .overlay {
+	position: absolute;
+	z-index: 1;
+}
+.header-inner-2 .inner {
+	position: absolute;
+	width: 100%;
+	padding: 0;
+	margin: 0px;
+	float: left;
+	z-index: 3;
+}
+.header-inner-2 .title {
+	padding: 300px 0 0 0;
+	margin: 0px;
+	font-size: 30px;
+	font-weight: 700;
+}
+.header-inner-2 .title.padding-1 {
+	padding-top: 150px;
+}
+.header-inner.three {
+	height: 300px;
+}
+/* =========== parallax sections ============= */
+
+.parallax-section16 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/131.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+.parallax-section17 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/135.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+.parallax-section18 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/142.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+.parallax-section19 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/164.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+/* =========== feature boxes ============= */
+
+/* Feature Box24
+ ------------------------------ */
+ 
+.feature-box24 {
+	position: relative;
+	width: 100%;
+	float: left;
+	padding: 0px;
+	z-index: 0;
+}
+.feature-box24 .overlay {
+	position: absolute;
+	z-index: 1;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.feature-box24.two .overlay {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.feature-box24 .inner {
+	padding: 100px 40px 40px 40px;
+	position: absolute;
+	width: 100%;
+	text-align: left;
+	margin: 0px;
+	z-index: 3;
+}
+.feature-box24.two .inner {
+	padding: 60px 40px 40px 40px;
+}
+.feature-box24 .inner .but {
+	padding: 0px;
+	margin: 0px;
+	float: left;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #e93e21;
+	text-decoration: underline;
+}
+.feature-box24 .inner .but:hover {
+	color: #fff;
+}
+/* Feature Box25
+ ------------------------------ */ 
+.feature-box25 {
+	width: 100%;
+	float: left;
+	padding: 25px;
+	min-height: 325px;
+	background-color: #e93e21;
+}
+.feature-box25 .list {
+	width: 100%;
+	float: left;
+	padding: 0;
+}
+.feature-box25 .list li {
+	width: 100%;
+	float: left;
+	color: #fff;
+	padding: 14px 0;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.feature-box25 .list li:last-child {
+	border-bottom: none;
+}
+/* Feature Box26
+ ------------------------------ */ 
+.feature-box26 {
+	width: 100%;
+	float: left;
+	padding: 0px;
+}
+.feature-box26 .img-holder {
+	width: 100%;
+	float: left;
+	padding: 10px;
+	margin: 0 0 20px 0;
+	border: 2px solid #101010;
+}
+.feature-box26 form select {
+	width: 100%;
+	padding: 7px;
+	border: 1px solid #e4e4e4;
+}
+.feature-box26 .input {
+	width: 100%;
+	padding: 7px;
+	color: #727272;
+	margin-top: 20px;
+	border: 1px solid #e4e4e4;
+}
+/* Feature Box27
+ ------------------------------ */ 
+.feature-box27 {
+	position: relative;
+	width: 100%;
+	float: left;
+	padding: 0px;
+}
+/* Price Table 4
+ -----------------------------------------------*/
+ 
+.pricetable-holder4 {
+	width: 100%;
+	padding: 10px;
+	margin: 0px;
+	float: left;
+	border-radius: 2px;
+	transition: all 0.3s ease-out 0s;
+	border: 2px solid #101010;
+}
+.pricetable-holder4 .inner-holder {
+	width: 100%;
+	padding: 30px;
+	margin: 0px;
+	float: left;
+	border-radius: 2px;
+	transition: all 0.3s ease-out 0s;
+	background-color: #101010;
+}
+.pricetable-holder4 .title {
+	font-size: 28px;
+	font-weight: 500;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.pricetable-holder4 .price {
+	color: #fff;
+	font: bold 50px "Open Sans", sans-serif;
+	padding: 8px 0 0 0;
+	text-align: center;
+}
+.pricetable-holder4 .price sup {
+	font-size: 22px;
+	font-style: normal;
+}
+.pricetable-holder4 .duration {
+	width: 100%;
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 0 0 20px 0;
+	border-bottom: 1px solid #3b3b3b;
+	font-style: normal;
+	font-weight: 500;
+}
+.pricetable-holder4 ul.plan_features {
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 0px;
+	margin: 0px 0px 50px 0;
+}
+.pricetable-holder4 ul.plan_features li {
+	padding: 15px 0;
+	border-bottom: 1px solid #3b3b3b;
+}
+.pricetable-holder4 ul.plan_features li:last-child {
+	border-bottom: none;
+}
+/* hover styles
+ -----------------------------------------------*/
+.pricetable-holder4:hover, .pricetable-holder4.active {
+	border: 2px solid #e93e21;
+}
+.pricetable-holder4:hover .inner-holder, .pricetable-holder4.active .inner-holder {
+	background-color: #e93e21;
+}
+.pricetable-holder4:hover ul.plan_features li, .pricetable-holder4.active ul.plan_features li {
+	color: #fff;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.pricetable-holder4:hover .duration, .pricetable-holder4.active .duration {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.pricetable-holder4:hover ul.plan_features li:last-child, .pricetable-holder4.active ul.plan_features li:last-child {
+	border-bottom: none;
+}
+.pricetable-holder4:hover .title, .pricetable-holder4.active .title {
+	color: #fff;
+}
+.pricetable-holder4:hover .btn.btn-dark, .pricetable-holder4.active .btn.btn-dark {
+	color: #242424;
+	background-color: #fff;
+}
+/* social big icons
+ -----------------------------------------------*/
+.socialicon-big {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+.socialicon-big li {
+	padding: 0px;
+	margin: 0px;
+	float: left;
+	text-align: center;
+}
+.socialicon-big li a {
+	width: 75px;
+	height: 75px;
+	padding: 0px;
+	margin: 0 15px 5px 0;
+	text-align: center;
+	font-size: 30px;
+	color: #242424;
+	line-height: 70px;
+	float: left;
+	border-radius: 100%;
+	background-color: #fff;
+}
+.socialicon-big li a:hover {
+	color: #fff;
+	background-color: #161616;
+}
+/* Gym Timetable
+ ------------------------------ */
+ 
+/* Feature Box28
+ ------------------------------ */ 
+.feature-box28 {
+	width: 100%;
+	float: left;
+	padding: 13px 20px 20px 20px;
+	margin: 0 0 15px 0;
+	text-align: center;
+	border-radius: 4px;
+	border: 1px solid #e4e4e4;
+	transition: all 0.3s ease-out 0s;
+}
+.feature-box28:hover {
+	color: #fff;
+	background-color: #e93e21;
+	border: 1px solid #e93e21;
+}
+.feature-box28:hover h5 {
+	color: #fff;
+}
+.seven-cols .col-md-1,  .seven-cols .col-sm-1,  .seven-cols .col-lg-1 {
+	width: 14.285714285714285714285714285714%;
+}
+.five-cols .col-md-1,  .five-cols .col-sm-1,  .five-cols .col-lg-1 {
+	width: 20%;
+}
+/*===============================================
+-------------------------------------------------
+Restaurant layout Styles
+-------------------------------------------------
+================================================*/
+
+/* Feature Box31
+ ------------------------------ */
+.feature-box31 {
+	position: relative;
+	width: 100%;
+	float: left;
+	padding: 0px;
+}
+.feature-box31 .image-holder {
+	position: relative;
+}
+.feature-box31 .divider-line2 {
+	border-bottom: 1px solid #ea3628;
+}
+.feature-box31 .image-holder .price {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	margin: 0;
+	color: #fff;
+	top: 204px;
+	left: 87px;
+	font-size: 20px;
+	padding: 0px;
+	line-height: 75px;
+	font-weight: 600;
+	background-color: #ea3628;
+}
+/* Feature Box32
+ ------------------------------ */
+.feature-box32 {
+	width: 100%;
+}
+.feature-box32 .iconbox-large {
+	color: #ea3628;
+	font-size: 30px;
+	line-height: 120px;
+}
+/* Feature Box33
+ ------------------------------ */
+.feature-box33 {
+	width: 100%;
+	float: left;
+	padding: 0px;
+	background-color: #fff;
+}
+.feature-box33 .image-holder {
+	position: relative;
+}
+.feature-box33 .post-date-box {
+	position: absolute;
+	left: 97px;
+	top: 283px;
+	background-color: #ea3628;
+}
+/* Feature Box34
+ ------------------------------ */
+.feature-box34 {
+	width: 100%;
+	float: left;
+	padding: 0px;
+	border: 1px solid #e4e4e4;
+}
+.feature-box34 .image-holder {
+	width: auto;
+	float: left;
+}
+.feature-box34 .text-box-right {
+	padding: 15px 10px 10px 160px
+}
+/* =========== parallax sections ============= */
+
+.parallax-section21 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/194.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+.parallax-section22 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/196.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+.parallax-section23 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/200.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+.parallax-section24 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/208.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+/*============ blog styles ============ */	
+
+.blog-holder7 {
+	width: 100%;
+	float: left;
+	border: 1px solid #e4e4e4;
+	transition: all 0.3s ease-out 0s;
+	background-color: #fff;
+}
+/*============ Reservation Form ============ */	
+
+.res-form-holder {
+	width: 100%;
+	float: left;
+	transition: all 0.3s ease-out 0s;
+}
+.res-form-holder input {
+	width: 100%;
+	padding: 10px;
+	float: left;
+	margin-bottom: 24px;
+	border: 1px solid #e4e4e4;
+}
+.res-form-holder input.half-width {
+	width: 48%;
+	margin-right: 22px;
+}
+.res-form-holder input.half-width.last {
+	margin-right: 0px;
+}
+.res-form-holder .btn-res {
+	width: 100%;
+	padding: 15px;
+	margin: 30px 0 0 0;
+	color: #fff;
+	float: left;
+	border-radius: 2px;
+	border: none;
+	text-transform: uppercase;
+	transition: all 0.3s ease-out 0s;
+	background-color: #ea3628;
+}
+.res-form-holder .btn-res:hover {
+	background-color: #242424;
+}
+
+/*===============================================
+-------------------------------------------------
+Construction layout Styles
+-------------------------------------------------
+================================================*/
+
+/*============ feature boxes ============ */
+
+/* Feature Box29
+ ------------------------------ */
+.feature-box29 {
+	width: 100%;
+	float: left;
+	padding: 0px;
+}
+.feature-box29 .image-holder {
+	position: relative;
+	width: 100%;
+	float: left;
+	padding: 0px;
+	z-index: 0;
+}
+.feature-box29 .post-date-box {
+	right: 0px;
+	top: 0px;
+	background-color: #ffc000;
+}
+/* =========== parallax sections ============= */
+
+.parallax-section20 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/168.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+/* Feature Box30
+ ------------------------------ */
+.feature-box30 {
+	width: 100%;
+	float: left;
+	padding: 0px;
+}
+.feature-box30 .img-holder {
+	width: 120px;
+	height: 120px;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	border-radius: 100%;
+	transition: all 0.3s ease-out 0s;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+.feature-box30 .img-holder .img-inner {
+	width: 110px;
+	height: 110px;
+	padding: 0px;
+	margin: 5px;
+	text-align: center;
+	border-radius: 100%;
+}
+.feature-box30 .text-box {
+	width: 100%;
+	float: left;
+	padding: 40px;
+	background-color: #fff;
+}
+.feature-box30 .text-box-right {
+	padding: 0 0 0 141px;
+}
+.feature-box30:hover .img-holder, .feature-box30.active .img-holder {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+/*============ Team Section ============ */
+/* Team Style 5
+ ------------------------------ */ 	
+.team-holder5 {
+	width: 100%;
+	padding: 0px;
+	float: left;
+	margin: 0px;
+	z-index: 0;
+	background-color: #fff;
+	transition: all 0.3s ease-out 0s;
+}
+.team-holder5 .image-holder {
+	position: relative;
+	width: 100%;
+	float: left;
+	top: 0px;
+	left: 0px;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	z-index: 1;
+}
+.team-holder5 .image-holder img {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	transition: all 0.3s ease-out 0s;
+}
+.team-holder5 .image-holder .hover-box {
+	position: absolute;
+	width: 100%;
+	float: left;
+	top: 361px;
+	left: 0px;
+	padding: 30px;
+	margin: 0px;
+	z-index: 2;
+	transition: all 0.3s ease-out 0s;
+	background-color: #ffc000;
+}
+.team-holder5:hover .image-holder img {
+	top: -50px;
+}
+.team-holder5:hover .image-holder .hover-box {
+	top: 135px;
+}
+/*============ blog styles ============ */	
+
+.blog-holder6 {
+	width: 100%;
+	float: left;
+	border: 1px solid #e4e4e4;
+	transition: all 0.3s ease-out 0s;
+	background-color: #fff;
+}
+.blog-holder6 .image-holder {
+	position: relative;
+}
+.blog-holder6 .image-holder .post-date-box {
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	background-color: #ffc000;
+}
+/*============ page nation ============ */
+.pagenation-holder {
+	border-bottom: 1px solid #e9e9e9;
+	float: left;
+	margin: 0;
+	padding: 25px 0 10px;
+	width: 100%;
+}
+.pagenation_links a {
+	color: #161616;
+}
+/*===============================================
+-------------------------------------------------
+grayscale layout Styles
+-------------------------------------------------
+================================================*/
+
+/* =========== parallax sections ============= */
+
+.parallax-section25 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/222.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+.parallax-section26 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/225.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+.parallax-section27 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/239.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+.parallax-section28 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/255.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+.parallax-section29 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/269.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+.parallax-section30 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/294.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+/* Feature Box35
+ ------------------------------ */
+.feature-box35:hover .iconbox-xmedium, .feature-box35.active .iconbox-xmedium {
+	color: #fff;
+	border: 1px solid #161616;
+	background-color: #161616;
+}
+/* Feature Box36
+ ------------------------------ */
+ 
+.feature-box36 {
+	position: relative;
+	float: left;
+}
+.feature-box36 .digit {
+	position: absolute;
+	z-index: 2;
+	color: #fff;
+	left: 50px;
+	top: 115px;
+	background-color: #161616;
+}
+.feature-box36 .iconbox-xlarge {
+	position: relative;
+	color: #161616;
+	font-size: 36px;
+	border: 1px solid #888;
+}
+.feature-box36:hover .iconbox-xlarge, .feature-box36.active .iconbox-xlarge {
+	color: #fff;
+	background-color: #161616;
+	border: 1px solid #161616;
+}
+/* Feature Box37
+ ------------------------------ */
+ 
+.feature-box37 {
+	width: 100%;
+	padding: 60px;
+	margin: 0px;
+	float: left;
+	background-color: #161616;
+}
+.feature-box37.middle {
+	background-color: #000;
+}
+/* Feature Box38
+ ------------------------------ */
+ 
+.feature-box38 {
+	width: 100%;
+	position: relative;
+	padding: 40px;
+	float: left;
+	margin-bottom: 30px;
+	background-color: #fff;
+	border: 1px solid #e4e4e4;
+	transition: all 0.3s ease-out 0s;
+}
+.feature-box38:hover {
+	background-color: #161616;
+	border: 1px solid #161616;
+}
+/* Feature Box39
+ ------------------------------ */
+.feature-box39 {
+	width: 100%;
+}
+.feature-box39 .iconbox-xlarge {
+	color: #161616;
+}
+.feature-box39:hover .iconbox-xlarge, .feature-box39.active .iconbox-xlarge {
+	color: #fff;
+	background-color: #161616;
+	border: 1px solid #161616;
+}
+.feature-box39:hover h3, .feature-box39.active h3 {
+	color: #161616;
+}
+/* Feature Box40
+ ------------------------------ */
+.feature-box40 {
+	width: 100%;
+	padding: 0px;
+	margin-bottom: 50px;
+	transition: all 0.3s ease-out 0s;
+}
+.feature-box40 .iconbox-small {
+	line-height: 84px;
+	color: #161616;
+	border: 1px solid #e4e4e4;
+}
+.feature-box40 .text-left {
+	text-align: right;
+}
+.feature-box40:hover .iconbox-small, .feature-box40.active .iconbox-small {
+	line-height: 84px;
+	color: #fff;
+	background-color: #161616;
+	border: 1px solid #161616;
+}
+.feature-box40:hover h4, .feature-box40.active h4 {
+	color: #161616;
+}
+/* Feature Box41
+ ------------------------------ */
+ 
+.feature-box41 {
+	width: 100%;
+	float: left;
+	padding: 20px;
+	margin: 0px;
+	transition: all 0.3s ease-out 0s;
+	border: 1px solid #e5e5e5;
+}
+.feature-box41:hover, .feature-box41.active {
+	background-color: #161616;
+}
+.feature-box41:hover h4, .feature-box41.active h4 {
+	color: #fff;
+}
+.feature-box41:hover .icon-plain-medium {
+	color: #fff;
+}
+/* Feature Box42
+ ------------------------------ */
+.feature-box42 {
+	width: 100%;
+}
+.feature-box42:hover .iconbox-smedium, .feature-box42.active .iconbox-smedium {
+	color: #fff;
+	border: 1px solid #161616;
+	background-color: #161616;
+}
+.feature-box42 .iconbox-smedium {
+	border: 1px solid #e4e4e4;
+}
+.feature-box42:hover h4, .feature-box42.active h4 {
+	color: #161616;
+}
+/* Feature Box43
+ ------------------------------ */
+ 
+.feature-box43 {
+	position: relative;
+	width: 100%;
+	float: left;
+}
+.feature-box43 .digit {
+	position: absolute;
+	z-index: 2;
+	color: #fff;
+	left: 45px;
+	top: 92px;
+	background-color: #161616;
+}
+.feature-box43 .iconbox-small {
+	position: relative;
+	float: left;
+}
+/* Feature Box44
+ ------------------------------ */
+.feature-box44 {
+	width: 100%;
+	padding: 40px;
+	border: 1px solid #e4e4e4;
+	border-radius: 2px;
+	transition: all 0.3s ease-out 0s;
+}
+.feature-box44:hover, .feature-box44.active {
+	background-color: #161616;
+	border: 1px solid #161616;
+}
+.feature-box44:hover .iconbox-small, .feature-box44.active .iconbox-small {
+	color: #fff;
+	border: 1px solid #444444;
+}
+.feature-box44:hover h4, .feature-box44.active h4 {
+	color: #fff;
+}
+/* Feature Box45
+ ------------------------------ */
+.feature-box45 {
+	width: 100%;
+}
+.feature-box45 .img-holder {
+	width: 146px;
+	height: 146px;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+}
+.feature-box45 .iconbox-xtiny {
+	color: #fff;
+	background-color: #161616;
+}
+.feature-box46 {
+	padding: 0px;
+}
+.feature-box46:hover .iconbox-tiny, .feature-box46.active .iconbox-tiny {
+	color: #fff;
+	border: 1px solid #161616;
+	background-color: #161616;
+}
+/* Feature Box47
+ ------------------------------ */
+.feature-box47 {
+	width: 100%;
+	padding: 40px;
+	margin: 0px;
+	float: left;
+	border: 1px solid #e4e4e4;
+	transition: all 0.3s ease-out 0s;
+}
+.feature-box47:hover, .feature-box47.active {
+	background-color: #161616;
+	border: 1px solid #161616;
+}
+.feature-box47:hover span, .feature-box47:hover h4, .feature-box47.active span, .feature-box47.active h4 {
+	color: #fff;
+}
+/*============ Team Section ============ */
+/* Team Style 6
+ ------------------------------ */ 	
+.team-holder6 {
+	width: 100%;
+	padding: 0px;
+	float: left;
+	margin: 0px;
+	z-index: 0;
+	background-color: #fff;
+	border: 1px solid #161616;
+	transition: all 0.3s ease-out 0s;
+}
+.team-holder6 .image-holder {
+	position: relative;
+	width: 100%;
+	float: left;
+	top: 0px;
+	left: 0px;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	z-index: 1;
+}
+.team-holder6 .image-holder img {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	transition: all 0.3s ease-out 0s;
+}
+.team-holder6 .image-holder .hover-box {
+	position: absolute;
+	width: 66px;
+	height: 100%;
+	float: left;
+	top: 0px;
+	right: -70px;
+	padding: 30px;
+	margin: 0px;
+	z-index: 2;
+	transition: all 0.3s ease-out 0s;
+	background-color: #161616;
+}
+.team-holder6 .image-holder .hover-box .icons {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+.team-holder6 .image-holder .hover-box .icons li {
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+.team-holder6 .image-holder .hover-box .icons li a {
+	padding: 0px;
+	margin: 0 0 20px 0;
+	font-size: 17px;
+	color: #fff;
+	float: left;
+}
+/*hover styles*/
+.team-holder6:hover, .team-holder6.active {
+	background-color: #161616;
+}
+.team-holder6:hover h4, .team-holder6:hover h6, .team-holder6.active h4, .team-holder6.active h6 {
+	color: #fff;
+}
+.team-holder6 .image-holder .hover-box .icons li a:hover {
+	color: #727272;
+}
+.team-holder6:hover .image-holder img, .team-holder6.active .image-holder img {
+	left: -50px;
+}
+.team-holder6:hover .image-holder .hover-box, .team-holder6.active .image-holder .hover-box {
+	right: 0px;
+}
+/* Team Style 7
+ ------------------------------ */ 	
+.team-holder7 {
+	overflow: hidden;
+	max-height: 600px;
+	background-color: #fff;
+}
+.team-holder7 .team-member {
+	transition: all 0.3s ease-out 0s;
+}
+.team-holder7 .team-member img {
+	transition: all 0.3s ease-out 0s;
+}
+.team-holder7 .info-box {
+	position: relative;
+	bottom: 0;
+	overflow: hidden;
+	padding: 32px 25px 120px;
+	border-top: 1px solid #e4e4e4;
+	background-color: #fff;
+	transition: all 0.3s ease-out 0s;
+}
+.team-holder7:hover .info-box {
+	border-top: 1px solid #e4e4e4;
+	bottom: 100px;
+	transition: all 0.3s ease-out 0s;
+}
+.team-holder7:hover .team-member img {
+	transform: scale(1.1, 1.1);
+	transition: all 0.3s ease 0s;
+}
+.team-holder7 .info-box .social-icons {
+	text-align: center;
+}
+.team-holder7 .info-box .social-icons li {
+	display: inline;
+}
+.team-holder7 .info-box .social-icons i {
+	color: #242424;
+	font-size: 16px;
+	margin: 0 15px 0 0;
+}
+/* Team Style 8
+ ------------------------------ */
+ 
+.team-holder8 {
+	padding: 0px;
+}
+.team-holder8 .team-name-holder {
+	width: 100%;
+	padding: 6px 0;
+	float: left;
+}
+.team-holder8 .team-name-holder.bgcolor {
+	background-color: #fff;
+}
+.team-holder8 .hover-box {
+	position: absolute;
+	padding: 35px 0;
+	margin: 0px;
+	top: 320px;
+	left: 0px;
+	transition: all 0.3s ease-out 0s;
+	background-color: rgba(0, 0, 0, 0.8);
+	z-index: 2;
+}
+.team-holder8:hover .hover-box, .team-holder8.active .hover-box {
+	top: 150px;
+}
+.team-holder8 .image-holder {
+	position: relative;
+	overflow: hidden;
+	border: 1px solid #e4e4e4;
+	transition: all 0.3s ease-out 0s;
+}
+.team-holder8:hover .image-holder, .team-holder8.active .image-holder {
+	border: 1px solid #161616;
+}
+.team-holder8 .social-icons-1 li a:hover, .team-holder8 .social-icons-1 li a.active {
+	color: #727272;
+}
+/* Team Style 9
+ ------------------------------ */ 	
+.team-holder9 {
+	width: 100%;
+	padding: 0px;
+	float: left;
+	margin: 0px;
+	text-align: center;
+	background-color: #fff;
+	transition: all 0.3s ease-out 0s;
+}
+.team-holder9 .icon-holder {
+	width: 25%;
+	padding: 0px;
+	float: left;
+	margin: 0px;
+	min-height: 270px;
+	background-color: #fff;
+	transition: all 0.3s ease-out 0s;
+}
+.team-holder9 .icon-holder .social-icons-2 {
+	margin: 0 0 0 14px;
+}
+.team-holder9 .icon-holder .social-icons-2 li a {
+	color: #7f7f7f;
+	background: none;
+}
+.team-holder9 .icon-holder .social-icons-2 li:first-child {
+	margin-top: 45px;
+}
+/* Team Holder 10
+ -----------------------------------------------*/
+ 
+.team-holder10 {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	transition: all 0.3s ease-out 0s;
+}
+
+.team-holder10 .social-icons-2 li a {
+	color: #242424;
+	border: 1px solid #e4e4e4;
+	background-color: #fff;
+}
+.team-holder10 .social-icons-2 li a:hover, .team-holder10 .social-icons-2 li a.active {
+	color: #fff;
+	border: 1px solid #161616;
+	background-color: #161616;
+}
+/* Team Style 11
+ ------------------------------ */ 	
+.team-holder11 {
+	width: 100%;
+	padding: 0px;
+	float: left;
+	border: 1px solid #e4e4e4;
+	background-color: #fff;
+	transition: all 0.3s ease-out 0s;
+}
+.team-holder11 .img-holder {
+	position: relative;
+	overflow: hidden;
+}
+.team-holder11 .img-holder .icon-box {
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	top: 321px;
+	padding: 15px 0;
+	z-index: 1;
+	background-color: #fff;
+	transition: all 0.3s ease-out 0s;
+}
+.team-holder11 .img-holder .icon-box .social-icons-1 {
+	margin: 0 0px 0px;
+}
+
+/* Team Hover Styles
+ ------------------------------ */
+
+.team-holder11:hover .icon-box, .team-holder11.active .icon-box {
+	top: 268px;
+}
+.team-holder11:hover, .team-holder11.active {
+	background-color: #161616;
+}
+.team-holder11:hover .title, .team-holder11.active .title {
+	color: #fff;
+}
+.team-holder11:hover .social-icons-1 li a, .team-holder11.active .social-icons-1 li a {
+	color: #161616;
+}
+/*============ blog styles ============ */	
+
+.post-date-box2 {
+	width: 90px;
+	height: 90px;
+	float: left;
+	font-size: 25px;
+	color: #161616;
+	padding: 20px 0 0 0;
+	margin: 0 0 10px 0;
+	text-align: center;
+	background-color: #fd602c;
+}
+.post-date-box2 span {
+	font-size: 13px;
+	color: #161616;
+	display: block;
+}
+.blog-holder8 .post-date-box2 {
+	color: #161616;
+	border: 1px solid #161616;
+	background-color: #fff;
+}
+.blog-holder8 .post-date-box2.dark {
+	color: #fff;
+	border: 1px solid #161616;
+	background-color: #161616;
+}
+.blog-holder8 .post-date-box2.dark span {
+	color: #fff;
+}
+/* blog holder 9
+ -----------------------------------------------*/		
+.blog-holder9 {
+	width: 100%;
+	float: left;
+	border: 1px solid #efefef;
+	background-color: #fff;
+	transition: all 0.3s ease-out 0s;
+}
+.blog-holder9 .post-date-box {
+	margin: 30px 0 0 30px;
+	background-color: #161616;
+}
+.blog-holder9:hover {
+	border: 1px solid #161616;
+	background-color: #161616;
+}
+.blog-holder9:hover h4 {
+	color: #fff;
+}
+/* blog holder 10
+ -----------------------------------------------*/	
+.blog-holder10 {
+	width: 100%;
+	float: left;
+	transition: all 0.3s ease-out 0s;
+	border: 1px solid #e4e4e4;
+	background-color: #fff;
+}
+.blog-holder10 .post-infoicon {
+	margin-right: 8px;
+	float: left;
+}
+.blog-holder10:hover, .blog-holder10.active {
+	background-color: #161616;
+}
+.blog-holder10:hover h4, .blog-holder10.active h4 {
+	color: #fff;
+}
+.blog-holder10:hover .post-infoicon {
+	background-color: #fff;
+	color: #727272;
+}
+/*============ Testimonials ============ */
+
+/* Testimonials Style 6
+ -----------------------------------------------*/
+ 
+.testimonials6 {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	transition: all 0.3s ease-out 0s;
+}
+.testimonials6 .img-inner {
+	width: 110px;
+	height: 110px;
+	padding: 0px;
+	margin: 0px;
+	border-radius: 100%;
+	text-align: center;
+}
+/* Tabs
+ -----------------------------------------------*/
+ 
+.tab-text-holder {
+	width: 100%;
+	padding: 60px;
+	margin: 0px;
+	float: left;
+	min-height: 500px;
+	border: 3px solid #dfdfdf;
+	background-color: #fff;
+}
+.tab-text-holder.two {
+	min-height: 507px;
+}
+/*============ price table ============ */
+
+/* price table dark style
+ -----------------------------------------------*/
+
+.pricetable-holder.two {
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+	background-color: #fc4242;
+}
+.pricetable-holder.two .pricetable {
+	width: 100%;
+	float: left;
+	padding: 0 0 50px 0;
+	margin: 20px 0px 0px;
+	text-align: center;
+	background-color: #fff;
+	border-right: 1px solid #e9e9e9;
+	border-bottom: 1px solid #e9e9e9;
+	border-top: 1px solid #e9e9e9;
+	transition: all 0.3s ease-out 0s;
+}
+.pricetable-holder.two .pricetable.first {
+	border-left: 1px solid #e9e9e9;
+}
+.pricetable-holder.two .pricetable .title {
+	width: 100%;
+	padding: 40px;
+	margin: 0px;
+	float: left;
+	color: #161616;
+	text-align: center;
+	/*border-bottom: 1px solid #e9e9e9;*/
+	background-color: #fff;
+	transition: all 0.3s ease-out 0s;
+}
+.pricetable-holder.two .pricetable .title h2 {
+	color: #161616;
+}
+.pricetable-holder.two .pricetable .title .price {
+	color: #161616;
+}
+.pricetable-holder.two .pricetable .title .price sup {
+	color: #161616;
+}
+.pricetable-holder.two .pricetable .title .price i {
+	color: #161616;
+}
+.pricetable-holder.two .pricetable ul.plan_features {
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 0px;
+	margin: 0px 0px 50px 0;
+}
+.pricetable-holder.two .pricetable ul.plan_features li {
+	padding: 15px 0;
+	border-bottom: 1px solid #e9e9e9;
+}
+.pricetable-holder.two .pricetable ul.plan_features li:last-child {
+	border-bottom: none;
+}
+.pricetable-holder.two .pricetable ul.plan_features li.highlight {
+	background-color: #fff;
+}
+/* Price Table Hover and Active Styles
+ -----------------------------------------------*/
+.pricetable-holder.two.active .pricetable .title {
+	border-bottom: 1px solid #161616;
+	background-color: #161616;
+}
+.pricetable-holder.two.active .pricetable {
+	border-bottom: 1px solid #161616;
+	background-color: #161616;
+}
+.pricetable-holder.two.active .pricetable ul.plan_features li {
+	border-bottom: 1px solid #444444;
+	background-color: #161616;
+}
+.pricetable-holder.two.active .pricetable .title h2, .pricetable-holder.two.active .pricetable .title .price, .pricetable-holder.two.active .pricetable .title .price sup, .pricetable-holder.two.active .pricetable .title .price i {
+	color: #fff;
+}
+.pricetable-holder.two.active .pricetable ul.plan_features li:last-child {
+	border-bottom: none;
+}
+.pricetable-holder.two.active .pricetable .btn.btn-border-13 {
+	color: #fff;
+	border: 1px solid #444444;
+}
+/*============ Testimonials ============ */
+
+.testimonials7 {
+	width: 100%;
+	float: left;
+	padding: 40px;
+	margin: 0px;
+	border: 1px solid #e4e4e4;
+	background-color: #fff;
+	transition: all 0.3s ease-out 0s;
+}
+.testimonials7:hover {
+	background-color: #242424;
+}
+.testimonials7:hover h6 {
+	color: #fff;
+}
+.testimonials7.two:hover {
+	background-color: #161616;
+}
+.testimonials7.two:hover h6, .testimonials7.two:hover span {
+	color: #fff;
+}
+.testimonials7.two .img-inner, .testimonials7 .img-inner {
+	width: 70px;
+	height: 70px;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+	border-radius: 100%;
+}
+/*===============================================
+-------------------------------------------------
+Blog 1 layout Styles
+-------------------------------------------------
+================================================*/
+
+/* =========== Body Main bg ============= */
+
+/* blog1 main background
+ ------------------------------ */
+ 
+.main-bg-1 {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+	background-attachment: scroll;
+	background-position: top;
+	background: url(../images/mainbg-2.jpg) fixed top no-repeat;
+}
+/* blog1 top header title
+ ------------------------------ */
+ 
+.header-title-box {
+	width: 100%;
+	padding: 150px 0;
+	margin: 0px;
+	float: left;
+}
+.header-title-box .title {
+	font-size: 80px;
+}
+/* blog1 post holder
+ ------------------------------ */	
+.blog1-post-holder {
+	width: 100%;
+	padding: 0px;
+	margin: 0 0 30px 0;
+	float: left;
+	background-color: #fff;
+}
+.blog1-post-holder.padding {
+	padding: 40px;
+}
+.blog1-post-holder .image-holder {
+	position: relative;
+	z-index: 0;
+}
+.blog1-post-holder .image-holder .post-info {
+	position: absolute;
+	padding: 12px 20px;
+	margin: 0px;
+	float: left;
+	z-index: 1;
+	bottom: 0px;
+	background-color: #dbdc33;
+}
+.blog1-post-holder .image-holder .post-info.two {
+	bottom: 49px;
+}
+.blog1-post-holder .image-holder .post-info.three {
+	bottom: -40px;
+}
+.blog1-post-holder .image-holder .post-info span {
+	color: #fff;
+	font-size: 14px;
+	margin-right: 10px;
+}
+.blog1-post-holder .image-holder .post-info span i {
+	margin-right: 10px;
+}
+/* blog1 sidebar box
+ ------------------------------ */
+ 
+.blog1-sidebar-box {
+	width: 100%;
+	padding: 0px;
+	margin: 0 0 30px 0;
+	float: left;
+	background-color: #fff;
+}
+/* blog1 sidebar social links
+ ------------------------------ */
+.blog1-social-icons {
+	width: 100%;
+	margin: 0;
+	padding: 0px;
+	display:inline-block;
+	list-style-type: none;
+}
+.blog1-social-icons li {
+	display:inline;
+}
+.blog1-social-icons li a {
+	width: 40px;
+	height: 40px;
+	font-size: 16px;
+	padding: 0;
+	margin: 0 10px 0 0;
+	color: #242424;
+	display:inline-block;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 100%;
+	border: 1px solid #e4e4e4;
+}
+.blog1-social-icons li a:hover {
+	color: #fff;
+	border: 1px solid #dbdc33;
+	background-color: #dbdc33;
+}
+/* blog1 sidebar input search
+ ------------------------------ */ 
+.blog1-sidebar-serch_input {
+	border: 1px solid #d9d9d9;
+	border-width: 1px 0 1px 1px;
+	color: #161616;
+	float: left;
+	font-size: 13px;
+	font-weight: normal;
+	height: 40px;
+	line-height: 39px;
+	padding: 0 7px;
+	width: 70%;
+}
+.blog1-sidebar-serch_input.dark {
+	color: #ccc;
+	border: 1px solid #444444;
+	background-color: #444444;
+}
+.blog1-sidebar-serch-submit {
+	background-color: #fff;
+	border: 1px solid #d9d9d9;
+	float: left;
+	height: 40px;
+	margin: 0;
+	padding: 5px 10px;
+}
+.blog1-sidebar-serch-submit.dark {
+	color: #ccc;
+	border: 1px solid #161616;
+	background-color: #161616;
+}
+/* blog1 sidebar latest posts
+ ------------------------------ */ 
+.blog1-sidebar-posts {
+	width: 100%;
+	padding: 0px;
+	margin: 0 0 25px 0;
+	float: left;
+}
+.blog1-sidebar-posts .post-info {
+	font-size: 12px;
+	color: #cecece;
+}
+.blog1-post-info {
+	font-size: 12px;
+	color: #cecece;
+}
+.blog1-sidebar-posts:hover h6, .blog1-sidebar-posts.active h6 {
+	color: #dbdc33;
+}
+
+/* blog1 Author info box
+ ------------------------------ */
+.blog1-post-info-box {
+	width: 100%;
+}
+.blog1-post-info-box.less-width {
+	width: 90%;
+}
+a.loadmore-but {
+	background-color: #dbdc33;
+	border-radius: 2px;
+	color: #fff;
+	float: left;
+	font-size: 16px;
+	font-weight: 600;
+	margin: 40px 0;
+	padding: 20px 15px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+	transition: all 0.3s ease-out 0s;
+}
+a.loadmore-but:hover {
+	background-color: #e7e7e7;
+}
+a.loadmore-but.orange-2 {
+	background-color: #fd602c;
+}
+a.loadmore-but.orange-2:hover {
+	background-color: #242424;
+}
+
+
+/* =========== Blog2 header ============= */
+.blog2-header-box {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+.blog2-header-box .title {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	color: #fff;
+	text-align: center;
+}
+.blog2-header-box .image-holder {
+	position: relative;
+	z-index: 0;
+}
+.blog2-header-box .image-holder .text-box {
+	position: absolute;
+	z-index: 1;
+	text-align: center;
+}
+.blog2-header-box .image-holder .text-box .title {
+	text-decoration: underline;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.blog2-header-box .image-holder .text-box.top-padding {
+	padding-top: 200px;
+}
+.blog2-header-box .image-holder .text-box .post-info span {
+	font-size: 16px;
+	color: #fff;
+	margin-right: 20px;
+}
+.blog2-header-box .image-holder .text-box .post-info i {
+	padding-right: 10px;
+}
+/* =========== blockquotes ============= */
+
+blockquote.style1 {
+	padding: 8px;
+	margin: 5px;
+	font-size: 14px;
+	border-left: none;
+	background-image: url(../images/openquote1.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+	text-indent: 23px;
+}
+blockquote.style1 span {
+	display: block;
+	background-image: url(../images/closequote1.png);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+/* =========== blockquotes ============= */
+
+blockquote.style1 {
+	padding: 8px;
+	margin: 5px;
+	font-size: 14px;
+	border-left: none;
+	background-image: url(../images/openquote1.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+	text-indent: 23px;
+}
+blockquote.style1 span {
+	display: block;
+	background-image: url(../images/closequote1.png);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+/*===============================================
+-------------------------------------------------
+Cafe layout Styles
+-------------------------------------------------
+================================================*/
+
+/* =========== Header logo ============= */
+
+.logo-holder {
+	position: relative;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	top: 75px;
+	float: left;
+	text-align: center;
+	z-index: 5;
+}
+.top-minus-margin {
+	margin: -200px 0 0 0;
+}
+/* =========== parallax sections ============= */
+
+.parallax-section31 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/326.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+.parallax-section32 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/336.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+.parallax-section33 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/341.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+.parallax-section34 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/349.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+/* =========== cafe special menu ============= */
+
+.special-menu-holder {
+	width: 90%;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+	background-color: #fff;
+}
+.price-list {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+.price-list li {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+	border-bottom: 1px solid #edecec;
+}
+.price-list li:last-child {
+	border-bottom: none;
+}
+.price-list li span.item {
+	float: left;
+	text-align: left;
+}
+.price-list li span.price {
+	float: right;
+	text-align: right;
+}
+.price-list li span.line {
+	font-size: 15px;
+	line-height: 41px;
+	color: #e4e4e4;
+}
+/* Feature Box48
+ ------------------------------ */
+.feature-box48 {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+.feature-box48 .icon {
+	width: 135px;
+	height: 135px;
+	border-radius: 100%;
+	margin: 0 auto 15px auto;
+	border: 1px solid #e4e4e4;
+	line-height: 60px;
+	transition: all 0.3s ease-out 0s;
+	background: #fff url(../images/328.png) center center no-repeat;
+}
+.feature-box48:hover .icon {
+	border: 1px solid #e4e4e4;
+	border: 1px solid #8b501f;
+	background: #8b501f url(../images/329.png) center center no-repeat;
+}
+.feature-box48:hover h5, .feature-box48.active h5 {
+	color: #8b501f;
+}
+.feature-box48 .icon.two {
+	background: #fff url(../images/330.png) center center no-repeat;
+}
+.feature-box48:hover .icon.two {
+	background: #8b501f url(../images/331.png) center center no-repeat;
+}
+.feature-box48 .icon.three {
+	background: #fff url(../images/332.png) center center no-repeat;
+}
+.feature-box48:hover .icon.three {
+	background: #8b501f url(../images/333.png) center center no-repeat;
+}
+.feature-box48 .icon.four {
+	background: #fff url(../images/334.png) center center no-repeat;
+}
+.feature-box48:hover .icon.four {
+	background: #8b501f url(../images/335.png) center center no-repeat;
+}
+.feature-box48:hover .icon.three, .feature-box48.active .icon.three {
+	border: 1px solid #e4e4e4;
+	border: 1px solid #8b501f;
+	background: #8b501f url(../images/329.png) center center no-repeat;
+}
+/*============ blog styles ============ */	
+
+.blog-holder11 {
+	width: 100%;
+	float: left;
+	transition: all 0.3s ease-out 0s;
+	background-color: #fff;
+}
+/*============ testimonials ============ */	
+
+/* Testimonials Style 8
+ -----------------------------------------------*/
+ 
+.beans-bg-holder {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	background: url(../images/337.jpg) center top no-repeat;
+}
+.testimonials8 {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	transition: all 0.3s ease-out 0s;
+}
+/*===============================================
+-------------------------------------------------
+Wedding layout Styles
+-------------------------------------------------
+================================================*/
+
+.small-line {
+	width: 30%;
+	height: 1px;
+	background-color: #fcc813;
+	margin: 0 auto;
+}
+.small-line.align-left {
+	width: 30%;
+	height: 1px;
+	background-color: #fcc813;
+	margin-right: 70%;
+}
+/* =========== parallax sections ============= */
+
+.parallax-section35 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/380.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+/*===============================================
+-------------------------------------------------
+Fashion layout Styles
+-------------------------------------------------
+================================================*/
+
+/* Feature Box49
+ ------------------------------ */
+.feature-box-49 {
+	width: 100%;
+	padding: 0px;
+	margin: 0 0 30px 0;
+	float: left;
+	border-top: 1px solid #e9ee42;
+}
+.feature-box-49 .iconbox-xlarge {
+	background-color: #e9ee42;
+}
+.feature-box-49:hover h4, .feature-box-49.active h4 {
+	color: #e9ee42;
+}
+/* =========== parallax sections ============= */
+
+.parallax-section36 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/382.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+/* Feature Box50
+ ------------------------------ */
+.feature-box-50 {
+	width: 100%;
+}
+.feature-box-50 .iconbox-xtiny {
+	color: #242424;
+	background-color: #e9ee42;
+}
+/* Feature Box51
+ ------------------------------ */
+.feature-box-51 {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+.feature-box-51 .image-holder {
+	position: relative;
+	z-index: 0;
+}
+.feature-box-51 .image-holder .hover-box {
+	position: absolute;
+	width: 90%;
+	height: 90%;
+	z-index: 1;
+	left: 5%;
+	top: 5%;
+	opacity: 0;
+	transition: all 0.3s ease-out 0s;
+	border: 1px solid #e9ee42;
+}
+.feature-box-51:hover .image-holder .hover-box, .feature-box-51.active .image-holder .hover-box {
+	opacity: 1;
+	transition: all 0.3s ease-out 0s;
+}
+/* Feature Box52
+ ------------------------------ */
+.feature-box52 {
+	width: 100%;
+	padding: 20px;
+	float: left;
+	margin-bottom: 30px;
+	border: 1px solid #e4e4e4;
+	transition: all 0.3s ease-out 0s;
+}
+.feature-box52.two {
+	border: none;
+	background-color:#f6f6f6;
+}
+/* Feature Box53
+ ------------------------------ */
+.feature-box53 {
+	width: 100%;
+	padding: 0px;
+	float: left;
+}
+.feature-box53 .post-date-box {
+	color: #242424;
+	top: 60px;
+	background-color: #e9ee42;
+}
+.feature-box53 .post-date-box.green-3 {
+	color:#fff;
+	background-color: #a5d549;
+}
+.feature-box53 .post-date-box.green-3 span {
+	color:#fff;
+}
+.feature-box53 .post-date-box span {
+	color: #242424;
+}
+.feature-box53.left-padding {
+	padding-left: 40px;
+}
+/* Feature Box54
+ ------------------------------ */
+.feature-box54 {
+	width: 100%;
+	padding: 50px;
+	float: left;
+	min-height: 585px;
+	background-color: #101010;
+	border: 1px solid #101010;
+}
+/*============ Team Section ============ */
+/* Team Style 12
+ ------------------------------ */ 	
+.team-holder12 {
+	width: 100%;
+	padding: 0px;
+	float: left;
+	margin: 0px;
+	z-index: 0;
+	background-color: #fff;
+	transition: all 0.3s ease-out 0s;
+}
+.team-holder12 .image-holder {
+	position: relative;
+	width: 100%;
+	float: left;
+	top: 0px;
+	left: 0px;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	z-index: 1;
+}
+.team-holder12 .image-holder img {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	transition: all 0.3s ease-out 0s;
+}
+.team-holder12 .image-holder .hover-box {
+	position: absolute;
+	width: 100%;
+	float: left;
+	top: 361px;
+	left: 0px;
+	padding: 30px;
+	margin: 0px;
+	z-index: 2;
+	color: #161616;
+	transition: all 0.3s ease-out 0s;
+	background-color: #e9ee42;
+}
+.team-holder12:hover .image-holder img {
+	top: -50px;
+}
+.team-holder12:hover .image-holder .hover-box {
+	top: 180px;
+}
+.team-holder12.two .image-holder .hover-box {
+	background-color: #ff971c;
+}
+/*===============================================
+-------------------------------------------------
+Mechanic layout Styles
+-------------------------------------------------
+================================================*/
+
+/* Feature Box55
+ ------------------------------ */
+.feature-box55 {
+	position: relative;
+	width: 100%;
+	padding: 0px;
+	float: left;
+	z-index: 0;
+}
+.feature-box55 .text-holder {
+	position: absolute;
+	width: 100%;
+	padding: 80px 40px 40px 40px;
+	float: left;
+	z-index: 1;
+}
+.feature-box55 .text-holder .title-1 {
+	font-size: 36px;
+}
+.feature-box55 .text-holder .title-2 {
+	font-size: 50px;
+	font-weight: bold;
+}
+/* Feature Box56
+ ------------------------------ */
+.feature-box56 {
+	position: relative;
+	width: 100%;
+	padding: 0px;
+	float: left;
+	z-index: 0;
+}
+.feature-box56 .offer-badge {
+	position: absolute;
+	width: 106px;
+	height: 106px;
+	padding: 0px;
+	float: left;
+	z-index: 1;
+}
+.feature-box56 .offer-badge .text {
+	position: absolute;
+	width: 100%;
+	color: #161616;
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	padding: 30px 0 0 0;
+	float: left;
+	z-index: 2;
+}
+/* Feature Box57
+ ------------------------------ */
+.feature-box57 {
+	width: 100%;
+	padding: 40px;
+	float: left;
+	background-color: #f7c800;
+}
+.feature-box57 form select {
+	width: 100%;
+	padding: 7px;
+	border: 1px solid #f7c800;
+}
+.feature-box57 form select.margin-top {
+	margin-top: 20px;
+}
+.feature-box57 .input {
+	width: 100%;
+	padding: 7px;
+	color: #727272;
+	margin-top: 20px;
+	border: 1px solid #f7c800;
+}
+/* Feature Box58
+ ------------------------------ */
+.feature-box58 {
+	width: 100%;
+	padding: 40px;
+	float: left;
+	border: 1px solid #e4e4e4;
+}
+.price-list {
+	width: 100%;
+	padding: 40px;
+	float: left;
+	border: 1px solid #e4e4e4;
+}
+/* =========== parallax sections ============= */
+
+.parallax-section37 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/404.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+.parallax-section38 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/411.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+/*===============================================
+-------------------------------------------------
+Hairsaloon layout Styles
+-------------------------------------------------
+================================================*/
+
+/* =========== parallax sections ============= */
+
+.parallax-section39 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/428.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+.parallax-section40 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/437.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+.parallax-section41 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/441.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+/* Feature Box59
+ ------------------------------ */
+.feature-box59 {
+	width: 100%;
+	float: left;
+	padding: 0px;
+}
+.feature-box59 .image {
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+/* Feature Box60
+ ------------------------------ */
+.feature-box60 {
+	width: 100%;
+	float: left;
+	padding: 0px;
+}
+.social-icons.align-left li {
+	display: inline;
+}
+.social-icons.align-left i {
+	color: #242424;
+	font-size: 16px;
+	margin: 0 15px 0 0;
+}
+/* footer
+ ------------------------------ */
+.footer-holder {
+	width: 100%;
+	padding: 0px;
+}
+.footer-holder .flogo {
+	margin: 0 auto;
+	padding-left: 100px;
+}
+.footer-holder .social-icons-3 {
+	margin-top:20px;
+	width: 100%;
+}
+.footer-holder .social-icons-3 li a {
+	color: #fff;
+	background-color: #161616;
+}
+.footer-holder .social-icons-3 li a:hover {
+	background-color: #f51f6f;
+}
+.footer-holder .social-icons-3.red li a:hover {
+	background-color: #ed3325;
+}
+/*===============================================
+-------------------------------------------------
+Transport layout Styles
+-------------------------------------------------
+================================================*/
+
+/* dotted map
+ ------------------------------ */
+.dotted-map {
+	width: 100%;
+	padding: 0px;
+	float: left;
+	background: url(../images/444.png) center 250px no-repeat;
+}
+/* Feature Box61
+ ------------------------------ */
+.feature-box61 {
+	float: left;
+	padding: 0;
+	width: 100%;
+}
+.feature-box61 .text {
+	margin: 0;
+	padding: 40px 40px 40px;
+	position: absolute;
+	text-align: left;
+	width: 100%;
+	z-index: 3;
+}
+.feature-box61 .image-holder {
+	position: relative;
+	z-index: 1;
+}
+/* Feature Box62
+ ------------------------------ */
+.feature-box62 {
+	position: relative;
+	float: left;
+	padding: 0;
+	width: 100%;
+}
+.feature-box62 .text {
+	margin: 0;
+	padding: 30px;
+	position: absolute;
+	text-align: left;
+	width: 100%;
+	z-index: 3;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.8);
+}
+.feature-box62 .image-holder {
+	position: relative;
+	z-index: 1;
+}
+.feature-box62 .post-date-box {
+	background-color: #ff971c;
+	left: 20px;
+	top: 20px;
+}
+.small-line-2 {
+	width: 45px;
+	height: 1px;
+	float: left;
+	margin: 15px 5px 0 0;
+	background-color: #ff971c;
+}
+/* =========== parallax sections ============= */
+
+.parallax-section42 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/448.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+.parallax-section42 .title1 {
+	font-size: 90px;
+	line-height: 90px;
+}
+.parallax-section43 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/449.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+.parallax-section44 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/451.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+.parallax-section44 .title1 {
+	font-size: 50px;
+	line-height: 90px;
+}
+/*===============================================
+-------------------------------------------------
+School layout Styles
+-------------------------------------------------
+================================================*/
+
+/* =========== parallax sections ============= */
+
+.parallax-section45 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/468.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+.parallax-section46 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/482.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+/* =========== cloud shapes ============= */
+
+.cloud-pattren {
+	position: absolute;
+	width: 100%;
+	height: 35px;
+	padding: 0px;
+	margin: 0px;
+	top: -15px;
+	left: 0px;
+	z-index: 2;
+	background: url(../images/469.png) center top no-repeat;
+}
+.cloud-pattren2 {
+	position: absolute;
+	width: 100%;
+	height: 35px;
+	padding: 0px;
+	margin: 0px;
+	bottom: -15px;
+	left: 0px;
+	z-index: 2;
+	background: url(../images/469.png) center top no-repeat;
+}
+.footer-cloud-shape {
+	position: absolute;
+	width: 100%;
+	height: 125px;
+	padding: 0px;
+	margin: 0px;
+	top: -15px;
+	left: 0px;
+	z-index: 2;
+	background: url(../images/478.png) center top no-repeat;
+}
+/* Feature Box63
+ ------------------------------ */
+.feature-box63 {
+	float: left;
+	padding: 0;
+	width: 100%;
+}
+.feature-box63 .iconbox-large {
+	border: 1px solid #69c4ef;
+	color: #69c4ef;
+}
+.feature-box63 .title-color-1 {
+	color: #69c4ef;
+}
+.feature-box63 .iconbox-large.two {
+	border: 1px solid #c591ec;
+	color: #c591ec;
+}
+.feature-box63 .title-color-2 {
+	color: #c591ec;
+}
+.feature-box63 .iconbox-large.three {
+	border: 1px solid #ffc446;
+	color: #ffc446;
+}
+.feature-box63 .title-color-3 {
+	color: #ffc446;
+}
+.feature-box63 .iconbox-large.four {
+	border: 1px solid #a2d052;
+	color: #a2d052;
+}
+.feature-box63 .title-color-4 {
+	color: #a2d052;
+}
+/* Feature Box64
+ ------------------------------ */
+.feature-box64 {
+	float: left;
+	padding: 25px;
+	width: 100%;
+	border-radius: 2px;
+}
+.feature-box64.bg-color-1 {
+	background-color: #9c78b1;
+}
+.feature-box64.bg-color-2 {
+	background-color: #57c2ff;
+}
+.feature-box64.bg-color-3 {
+	background-color: #ff9834;
+}
+.feature-box64 .image-holder {
+	position: relative;
+	z-index: 0;
+}
+.feature-box64 .image-holder .date-shape {
+	position: absolute;
+	z-index: 1;
+	width: 130px;
+	height: 90px;
+	float: left;
+	bottom: -35px;
+	padding: 11px 0 0 0;
+	background: url(../images/471.png) 0 0 no-repeat;
+}
+.feature-box64 .text-color-1 {
+	color: #cbe2ef;
+}
+.feature-box64 .text-color-2 {
+	color: #cbe2ef;
+}
+.feature-box64 .text-color-3 {
+	color: #ffd4ab;
+}
+/* Feature Box65
+ ------------------------------ */
+.feature-box65 {
+	float: left;
+	padding: 40px;
+	width: 100%;
+	border: 1px solid #e4e4e4;
+	border-radius: 2px;
+}
+/* Team Style 7 two
+ ------------------------------ */ 	
+.team-holder7.two {
+	overflow: hidden;
+	max-height: 490px;
+	background-color: #fff;
+}
+.team-holder7.two:hover .info-box {
+	bottom: 150px;
+}
+/*full width buttons
+ ------------------------------ */ 	
+.full-btn-1 {
+	width: 100%;
+	padding: 20px 0;
+	margin: 0 0 9px 0;
+	float: left;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+}
+.full-btn-1.bg-color-1 {
+	background-color: #ffd202;
+}
+.full-btn-1.bg-color-1:hover {
+	color: #fff;
+	background-color: #ffc002;
+}
+.full-btn-1.bg-color-2 {
+	background-color: #ff6fba;
+}
+.full-btn-1.bg-color-2:hover {
+	color: #fff;
+	background-color: #ef4ba0;
+}
+.full-btn-1.bg-color-3 {
+	background-color: #45daff;
+}
+.full-btn-1.bg-color-3:hover {
+	color: #fff;
+	background-color: #2fc6eb;
+}
+.full-btn-1.bg-color-4 {
+	border-radius:2px;
+	background-color: #ce0a6c;
+}
+.full-btn-1.bg-color-4:hover {
+	color: #fff;
+	background-color: #242424;
+}
+/* =========== Classes table ============= */
+
+.classes-table-holder {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+.classes-table {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+.classes-table table {
+	width: 100%;
+	border-collapse: collapse;
+}
+.classes-table tr:nth-of-type(odd) {
+	background: #f6f6f6;
+}
+.classes-table tr:nth-of-type(even) {
+	background: #fff;
+}
+.classes-table th {
+	background: #eb574c;
+	color: white;
+	font-weight: bold;
+}
+.classes-table td, th {
+	padding: 20px;
+	color: #242424;
+	border: 1px solid #e4e4e4;
+	text-align: left;
+}
+
+/*===============================================
+-------------------------------------------------
+Portfolio layout Styles
+-------------------------------------------------
+================================================*/
+
+
+/* Portfolio main background
+ ------------------------------ */
+ 
+.main-bg-2{
+	position:relative;
+	width:100%;
+	padding:0px;
+	margin:0px;
+	float:left;
+	top:-150px;
+	background-attachment: scroll;
+	background-position: top;
+	background: url(../images/mainbg-1.jpg) fixed top no-repeat;
+	}
+	
+/* blog1 top header title
+ ------------------------------ */
+ 
+.header-title-box-2 {
+	width: 100%;
+	padding: 100px 0;
+	margin: 0px;
+	float: left;
+}
+.header-title-box-2 .title {
+	font-size: 80px;
+	font-weight:600;
+	padding:220px 0 0 0;
+	line-height:80px;
+}
+
+/*===============================================
+-------------------------------------------------
+Realestate layout Styles
+-------------------------------------------------
+================================================*/
+
+.call-us-box {
+	padding:5px 20px;
+	margin: 0px;
+	float: left;
+	color:#fff;
+	border-radius:20px;
+	background-color:#a5d549;
+}
+.property-search {
+	width:100%;
+	padding:40px 0;
+	margin: 0px;
+	float: left;
+	color:#fff;
+	background-color:#a5d549;
+}
+.property-search input {
+	width:100%;
+	color:#727272;
+	font-size:14px;
+	padding:6px;
+	border:none;
+}
+.property-search select {
+	width:100%;
+	color:#727272;
+	font-size:14px;
+	padding:6px;
+	border:none;
+}
+.property-search label {
+	color:#fff;
+	font-size:14px;
+	border:none;
+	font-weight:normal;
+}
+.property-search .search-btn {
+	height:38px;
+	padding:0px;
+	width:100%;
+	color:#fff;
+	float:left;
+	border:none;
+	transition: all 0.3s ease-out 0s;
+	background-color:#161616;
+}
+.property-search .search-btn:hover {
+	color:#242424;
+	background-color:#fff;
+}
+
+/* Feature Box65
+ ------------------------------ */
+.feature-box-65 {
+	width: 100%;
+}
+.feature-box-65 .iconbox-xtiny {
+	color: #a5d549;
+	border:1px solid #a5d549;
+}
+/* Feature Box66
+ ------------------------------ */
+.feature-box-66 {
+	width: 100%;
+	padding:0px;
+	margin:0 0 30px 0;
+	float:left;
+	background-color:#fff;
+}
+.feature-box-66.border {
+	border:1px solid #ededed;
+}
+.feature-box-66 .image-holder {
+	position:relative;
+}
+.feature-box-66 .image-holder .status {
+	position:absolute;
+	padding:8px 40px;
+	margin:0px;
+	bottom:100px;
+	right:0;
+	color:#fff;
+	float:right;
+	background-color:#a5d549;
+}
+.feature-box-66 .image-holder .price {
+	position:absolute;
+	padding:8px 40px;
+	margin:0px;
+	bottom:62px;
+	right:0;
+	color:#242424;
+	float:right;
+	background-color:#fff;
+}
+
+/* Property Info
+ ------------------------------ */
+.property-info {
+	width: 100%;
+	padding:0px;
+	margin:0px;
+	float:left;
+}
+.property-info span {
+	margin-right:10px;
+}
+
+/* =========== parallax sections ============= */
+
+.parallax-section47 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/491.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+
+/* Team Style 13
+ ------------------------------ */ 	
+.team-holder13 {
+	width: 100%;
+	padding: 0px;
+	float: left;
+	background-color: #fff;
+	transition: all 0.3s ease-out 0s;
+}
+.team-holder13 .img-holder {
+	position: relative;
+	overflow: hidden;
+}
+.team-holder13 .img-holder .icon-box {
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	top: 321px;
+	padding: 15px 0;
+	z-index: 1;
+	background-color: #a5d549;
+	transition: all 0.3s ease-out 0s;
+}
+.team-holder13 .img-holder .icon-box .social-icons-1 {
+	margin: 0 0px 0px;
+}
+.team-holder13 .img-holder .icon-box .social-icons-1 li a:hover, .team-holder13 .img-holder .icon-box .social-icons-1 li a.active {
+	color: #242424;
+}
+
+/* Team Hover Styles
+ ------------------------------ */
+
+.team-holder13:hover .icon-box, .team-holder13.active .icon-box {
+	top: 268px;
+}
+.team-holder13:hover .img-holder img, .team-holder13.active .img-holder img {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+
+}
+
+/* categoriy list
+ ------------------------------ */ 
+ 
+.category-list{
+	width:100%;
+	padding:0px;
+	margin:0px;
+	float:left;
+	}
+.category-list li{
+	width:100%;
+	padding:10px 0;
+	margin:0px;
+	float:left;
+	border-bottom: 1px solid #ededed;
+	}
+.category-list li a:hover{
+	color:#a5d549;
+	}
+.category-list li:last-child{
+	border-bottom:none;
+	}
+
+
+/*===============================================
+-------------------------------------------------
+Beauty layout Styles
+-------------------------------------------------
+================================================*/
+
+/* =========== parallax sections ============= */
+
+.parallax-section48 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/523.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+
+.team-holder12.three .image-holder .hover-box {
+	background-color: #f51f6f;
+}
+
+
+/*===============================================
+-------------------------------------------------
+Law layout Styles
+-------------------------------------------------
+================================================*/
+
+
+.toplist li a.consult-btn{
+	padding:6px 30px;
+	margin:0px;
+	float:left;
+	color:#fff;
+	border-radius:2px;
+	background-color:#c31319;
+	}
+.toplist li a.consult-btn:hover{
+	color:#fff;
+	background-color:#242424;
+	}
+	
+/* Feature Box67
+ ------------------------------ */
+.feature-box-67 {
+	width: 100%;
+}
+.feature-box-67 .iconbox-xtiny {
+	color: #c3a254;
+	border:1px solid #c3a254;
+}
+
+/* Feature Box68
+ ------------------------------ */
+.feature-box68 {
+	width: 100%;
+	padding: 0px;
+	float: left;
+}
+.feature-box68 .image-holder {
+	position:relative;
+	z-index:0;
+}
+
+.feature-box68 .image-holder .post-date-box {
+	position:absolute;
+	color: #242424;
+	top: 145px;
+	left:100px;
+	z-index:1;
+	overflow:visible;
+	background-color: #e9ee42;
+}
+.feature-box68 .image-holder .post-date-box.stone {
+	color:#fff;
+	background-color: #c3a254;
+}
+.feature-box68 .image-holder .post-date-box.stone span {
+	color:#fff;
+}
+.feature-box68 .image-holder .post-date-box span {
+	color: #242424;
+}
+.feature-box68.left-padding {
+	padding-left: 40px;
+}
+
+/* =========== parallax sections ============= */
+
+.parallax-section49 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/541.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+.parallax-section49 .title {
+	font-size:46px;
+	font-weight:500;
+	font-family: 'Roboto Slab', serif;
+}
+.parallax-section49 .title-2 {
+	font-size:20px;
+	font-weight:300;
+	color:#c3a254;
+	font-family: 'Roboto Slab', serif;
+}
+.parallax-section50 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/546.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+
+/*============ Team Section ============ */
+/* Team Style 14
+ ------------------------------ */ 	
+.team-holder14 {
+	width: 100%;
+	padding: 0px;
+	float: left;
+	margin: 0px;
+	z-index: 0;
+	background-color: #fff;
+}
+.team-holder14 .image-holder {
+	position: relative;
+	width: 100%;
+	float: left;
+	top: 0px;
+	left: 0px;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	z-index: 1;
+}
+.team-holder14 .image-holder img {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	transition: all 0.3s ease-out 0s;
+}
+.team-holder14 .image-holder .hover-box {
+	position: absolute;
+	width: 66px;
+	height: 100%;
+	float: left;
+	top: 0px;
+	right: -70px;
+	padding: 30px;
+	margin: 0px;
+	z-index: 2;
+	transition: all 0.3s ease-out 0s;
+	background-color: #c3a254;
+}
+.team-holder14 .image-holder .hover-box .icons {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+.team-holder14 .image-holder .hover-box .icons li {
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+.team-holder14 .image-holder .hover-box .icons li a {
+	padding: 0px;
+	margin: 0 0 20px 0;
+	font-size: 17px;
+	color: #fff;
+	float: left;
+}
+/*hover styles*/
+.team-holder14 .image-holder .hover-box .icons li a:hover {
+	color: #727272;
+}
+.team-holder14:hover .image-holder img, .team-holder14.active .image-holder img {
+	left: -50px;
+}
+.team-holder14:hover .image-holder .hover-box, .team-holder14.active .image-holder .hover-box {
+	right: 0px;
+}
+
+
+/*===============================================
+-------------------------------------------------
+Gym layout Styles
+-------------------------------------------------
+================================================*/
+
+/* =========== parallax sections ============= */
+
+.parallax-section51 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/564.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+.parallax-section52 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/570.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+.parallax-section51 .title {
+	font-size:46px;
+	font-weight:500;
+	font-family: 'Roboto Slab', serif;
+}
+.parallax-section51 .title-2 {
+	font-size:30px;
+	font-weight:300;
+	color:#fff;
+	font-family: 'Roboto Slab', serif;
+}
+.parallax-section52 .title {
+	font-size:46px;
+	font-weight:500;
+	font-family: 'Roboto Slab', serif;
+}
+.parallax-section52 .title-2 {
+	font-size:30px;
+	font-weight:300;
+	color:#fff;
+	font-family: 'Roboto Slab', serif;
+}
+
+/*===============================================
+-------------------------------------------------
+Shop layout Styles
+-------------------------------------------------
+================================================*/
+
+/* Feature Box69
+ ------------------------------ */
+.feature-box69 {
+	width: 100%;
+	padding: 0px;
+	float: left;
+}
+.feature-box69 .image-holder {
+	position:relative;
+	z-index:0;
+}
+.feature-box69 .overlay {
+    position: absolute;
+    z-index: 1;
+}
+.feature-box69 .title1 {
+	font-size:36px;
+	padding:150px 0 0 50px;
+}
+.feature-box69 .title2 {
+	padding:0 0 0 50px;
+}
+
+/* =========== parallax sections ============= */
+
+.parallax-section53 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/583.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+
+.parallax-section-title {
+	font-size:46px;
+	font-weight:500;
+	font-family: 'Roboto Slab', serif;
+}
+.parallax-section-title-2 {
+	font-size:30px;
+	font-weight:300;
+	color:#fff;
+	font-family: 'Roboto Slab', serif;
+}
+
+/*============ Newsletter ============ */
+
+.email_input.two {
+	background:#fff;
+	color:#242424;
+	border: 1px solid #e4e4e4;
+}
+.email_submit.two {
+	background-color: #f43819;
+	border: 1px solid #f43819;
+	color: #fff;
+}
+.email_submit.two:hover {
+	background-color: #242424;
+	border: 1px solid #242424;
+	color: #fff;
+}
+.email_submit.three {
+	background-color: #242424;
+	border: 1px solid #242424;
+	color: #fff;
+}
+.email_submit.three:hover {
+	background-color: #fff;
+	border: 1px solid #fff;
+	color: #242424;
+}
+/*newsletter style 4*/
+.email_input.four {
+	background: none;
+	color:#fff;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.email_submit.four {
+	background-color: #fff;
+	border: 1px solid #fff;
+	color: #242424;
+}
+.email_submit.four:hover {
+	background-color: #242424;
+	border: 1px solid #242424;
+	color: #fff;
+}
+
+/* we accept logo list
+ ------------------------------ */
+.payment-type{
+	padding:0px;
+	margin:0px;
+	float:left;
+	}
+.payment-type li{
+	display: inline;
+	padding:0px;
+	margin:0px;
+	float:left;
+	}
+	
+.section-copyrights .social-icons-3.no-margin-left{
+	margin-left: 0;
+	}
+
+/* shop product review stars
+ ------------------------------ */
+ 	
+.product-review-stars span {
+    color: #f43819;
+	float:right;
+    margin: 0;
+	font-size:18px;
+    padding: 0 0 0 10px;
+}
+.product-details {
+	width:100%;
+	float:left;
+	padding:0px;
+}
+.product-details li {
+	padding-bottom:10px;
+}
+.product-details li span {
+	font-size:14px;
+	font-weight:600;
+	color:#242424;
+}
+.product-info-socialicons{
+	width:100%;
+	float:left;
+	padding:0px;
+}
+.product-info-socialicons li a{
+	width:40px;
+	height:40px;
+	float:left;
+	padding:0px;
+	margin:0px;
+	text-align:center;
+	line-height:40px;
+	margin-right:8px;
+	border:1px solid #e4e4e4;
+	background-color:#fff;
+}
+.product-info-socialicons li a:hover{
+	color:#fff;
+	border:1px solid #f43819;
+	background-color:#f43819;
+}
+.product-review-stars-2 {
+	width:100%;
+	float:left;
+    margin: 0;
+}
+.product-review-stars-2 span {
+    color: #f43819;
+	float:left;
+    margin: 0;
+	font-size:18px;
+    padding: 0 0 0 10px;
+}
+
+/* shop product review stars
+ ------------------------------ */
+ 
+.shop-product-holder {
+	 width:100%;
+	 padding:0px;
+	 margin:0px;
+	 float:left;
+	 overflow:hidden;
+	 transition: all 0.3s ease-out 0s;
+}
+.shop-product-holder .image-holder {
+	position: relative;
+	top:0px;
+	z-index:0;
+	transition: all 0.3s ease-out 0s;
+}
+.shop-product-holder .image-holder img {
+	position: relative;
+	overflow:hidden;
+	top:0px;
+	transition: all 0.3s ease-out 0s;
+}
+.shop-product-holder .image-holder .hoverbox {
+	position:absolute;
+	 width:100%;
+	 padding:0px;
+	 margin:0px;
+	 float:left;
+	 height:65px;
+	 color:#fff;
+	 text-align:center;
+	 font-size:24px;
+	 bottom:-65px;
+	 z-index:1;
+	 line-height:60px;
+	 transition: all 0.3s ease-out 0s;
+	 background-color:#f43819;
+}
+
+.shop-product-holder:hover .image-holder img {
+	top:-50px;
+}
+.shop-product-holder:hover .image-holder .hoverbox {
+	bottom:0;
+}
+
+/* shop sidebar latest posts
+ ------------------------------ */ 
+
+.blog1-sidebar-posts.red-4 .post-info i {
+	color: #f43819;
+	padding-right:5px;
+}
+.blog1-sidebar-posts.red-4:hover h6, .blog1-sidebar-posts.red-4.active h6 {
+	color: #f43819;
+}
+
+/* Shop sidebar tags
+ ------------------------------ */	
+.shop-tags {
+	padding: 0px;
+	margin: 0px;
+}
+.shop-tags li {
+	padding: 0px;
+	margin: 0;
+}
+.shop-tags li a {
+	padding: 5px 15px 5px 15px;
+	margin: 0 10px 10px 0;
+	float: left;
+	color: #fff;
+	background-color: #f43819;
+}
+.shop-tags li a:hover, .shop-tags li a.active {
+	color: #fff;
+	background-color: #242424;
+}
+
+/*===============================================
+-------------------------------------------------
+Agency layout Styles
+-------------------------------------------------
+================================================*/
+
+/* Feature Box70
+ ------------------------------ */
+.feature-box70{
+	width: 100%;
+	padding: 30px;
+	float: left;
+	text-align:left;
+	transition: all 0.3s ease-out 0s;
+	background-color:#242424;
+}
+.feature-box70:hover, .feature-box70.active{
+	background-color:#ed3325;
+}
+.feature-box70:hover h4, .feature-box70:hover p, .feature-box70.active h4, .feature-box70.active p{
+	color:#fff;
+}
+
+/* Feature Box71
+ ------------------------------ */
+.feature-box71{
+	width: 100%;
+	padding: 50px;
+	float: left;
+	text-align:left;
+	transition: all 0.3s ease-out 0s;
+	background-color:rgba(0, 0, 0, 0.6);
+}
+/* Feature Box72
+ ------------------------------ */
+.feature-box72{
+	width: 100%;
+	padding: 80px 40px;
+	float: left;
+	text-align:center;
+	transition: all 0.3s ease-out 0s;
+}
+.feature-box72:hover, .feature-box72.active{
+	background-color:rgba(0, 0, 0, 0.2);
+}
+
+/* Feature Box73
+ ------------------------------ */
+.feature-box73{
+	width: 100%;
+	padding: 80px 40px;
+	float: left;
+	border:1px solid;
+}
+
+/* Feature Box74
+ ------------------------------ */
+.feature-box-74 {
+	width: 100%;
+}
+.feature-box-74 .iconbox-xtiny {
+	color: #242424;
+	background-color: #fff;
+	border:1px solid #e4e4e4;
+}
+.feature-box-74:hover .iconbox-xtiny {
+	color: #fff;
+	background-color: #ed3325;
+	border:1px solid #ed3325;
+}
+/* =========== parallax sections ============= */
+
+.parallax-section54 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/615.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+
+/* Team Style 2 type two
+ ------------------------------ */ 
+ 
+.team-holder2.two {
+	width: 100%;
+	padding: 0px;
+	float: left;
+	background-color: #f6f6f6;
+	transition: all 0.3s ease-out 0s;
+}
+.team-holder2.two .img-holder {
+	position: relative;
+	overflow: hidden;
+	margin-top:0px;
+}
+
+.team-holder2.two .img-holder .icon-box {
+	background-color: #ed3325;
+}
+.team-holder2.two:hover, .team-holder2.active {
+	background-color: #242424;
+}
+.team-holder2.two:hover .icon-box, .team-holder2.two.active .icon-box {
+	top: 268px;
+}
+
+/*===============================================
+-------------------------------------------------
+charity layout Styles
+-------------------------------------------------
+================================================*/
+
+/* Feature Box75
+ ------------------------------ */
+.feature-box-75 {
+	width:100%;
+	padding:30px;
+	margin:0px;
+	float:left;
+	border:1px solid #42d1aa;
+}
+
+/* Feature Box76
+ ------------------------------ */
+.feature-box-76 {
+	width:100%;
+	padding:0px;
+	margin:0px;
+	float:left;
+}
+.feature-box-76 .text-box {
+	margin-left:15px;
+	min-height:292px;
+}
+
+/* Feature Box77
+ ------------------------------ */
+.feature-box-77 {
+	width:100%;
+	padding:30px;
+	margin:0px;
+	float:left;
+	background-color:#42d1aa;
+}
+.feature-box-77 .text-box-inner {
+	width:100%;
+	padding:30px;
+	margin:0px;
+	float:left;
+	min-height:370px;
+	border:1px solid rgba(255, 255, 255, 0.5);
+}
+/* Feature Box78
+ ------------------------------ */
+.feature-box-78 {
+	position:relative;
+	width:100%;
+	padding:30px;
+	margin:0px;
+	float:left;
+	border:1px solid #e4e4e4;
+}
+.feature-box-78 .post-date-box {
+	background-color:#42d1aa;
+	right: 18px;
+    top: -91px;
+}
+
+/* Feature Box79
+ ------------------------------ */
+.feature-box-79 {
+	width:100%;
+	padding:0px;
+	margin:0px;
+	float:left;
+	border-right:1px solid rgba(255, 255, 255, 0.4);
+}
+.feature-box-79.last {
+	border-right:none;
+}
+
+/* Feature Box80
+ ------------------------------ */
+.feature-box-80 {
+	width:100%;
+	padding:0px;
+	float:left;
+}
+
+
+.boxed-title {
+	width:80%;
+	padding:5px;
+	margin:0 20% 0 0;
+	float:left;
+	background-color:#42d1aa;
+}
+.boxed-title-2 {
+	padding:15px;
+	margin:0;
+	float:right;
+	text-align:right;
+	background-color:#42d1aa;
+}
+.boxed-text-1 {
+	padding:15px;
+	margin:0;
+	float:right;
+	text-align:right;
+	background-color:#fff;
+}
+.boxed-title-3 {
+	padding:10px;
+	margin:0 0 20px 0;
+	float:left;
+	text-align:left;
+	background-color:#42d1aa;
+}
+.boxed-title-4 {
+	position:relative;
+	width:90%;
+	padding:10px;
+	margin:13px 10% 20px 0;
+	float:left;
+	text-align:left;
+	background-color:#42d1aa;
+}
+.boxed-title-4 .post-date-box {
+	background-color:#42d1aa;
+	right: -35px;
+    top: -90px;
+}
+
+/* =========== parallax sections ============= */
+
+.parallax-section55 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/633.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+.parallax-section56 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/636.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+
+
+/* Team Style 14 stye two
+ ------------------------------ */ 	
+
+.team-holder14.two .image-holder .hover-box {
+	background-color: #42d1aa;
+}
+
+
+/*===============================================
+-------------------------------------------------
+University layout Styles
+-------------------------------------------------
+================================================*/
+
+/* Feature Box81
+ ------------------------------ */
+.feature-box-81 {
+	width:100%;
+	padding:0px;
+	float:left;
+}
+.feature-box-81 .image-holder {
+	position:relative;
+	width:100%;
+	padding:0px;
+	float:left;
+	z-index:0;
+}
+.feature-box-81 .image-holder .hover-strip {
+	position: absolute;
+	width:100%;
+	padding:20px;
+	float:left;
+	bottom:0px;
+	z-index:1;
+	transition: all 0.3s ease-out 0s;
+	background-color:rgba(0, 0, 0, 0.5);
+}
+.feature-box-81 .image-holder .hover-strip:hover, .feature-box-81 .image-holder .hover-strip.active {
+	background-color:#ce0a6c;
+}
+
+/* Feature Box82
+ ------------------------------ */
+.feature-box-82 {
+	width:100%;
+	padding:0px;
+	float:left;
+	margin-bottom:20px;
+	transition: all 0.3s ease-out 0s;
+	background-color:#f6f6f6;
+}
+.feature-box-82 .image-holder {
+	position:relative;
+	z-index:0;
+}
+.feature-box-82 .image-holder .post-info {
+	position: absolute;
+	z-index:1;
+	bottom:16px;
+	left:16px;
+}
+.feature-box-82 .image-holder .post-info .post-infoicon {
+    background-color: #ce0a6c;
+}
+.feature-box-82:hover, .feature-box-82.active{
+    background-color:#ce0a6c;
+}
+.feature-box-82:hover h5, .feature-box-82:hover p, .feature-box-82:hover .blog-post-info span,
+.feature-box-82.active h5, .feature-box-82.active p, .feature-box-82.active .blog-post-info span{
+    color:#fff;
+}
+
+/* Feature Box83
+ ------------------------------ */
+.feature-box-83 {
+	width:100%;
+	padding:0px;
+	float:left;
+}
+
+/* =========== parallax sections ============= */
+
+.parallax-section57 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/656.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+.parallax-section58 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/658.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+
+
+/*===============================================
+-------------------------------------------------
+Personal layout Styles
+-------------------------------------------------
+================================================*/
+
+.personal-info{
+	width:100%;
+	padding:0px;
+	margin:0px;
+	float:left;
+	}
+.personal-info li{
+	color:#e9b444;
+	padding-bottom:8px;
+	}
+.personal-info li i{
+	margin-right:10px;
+	}
+.personal-info.orange-2 li{
+	color:#fd602c;
+	padding-bottom:8px;
+	}	
+/* =========== parallax sections ============= */
+
+.parallax-section59 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/687.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+.parallax-section60 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/688.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+/* =========== Feature boxes sections ============= */
+
+/* Feature Box84
+ ------------------------------ */
+.feature-box-84 {
+	width:100%;
+	padding:70px 40px;
+	float:left;
+	background-color:rgba(255, 255, 255, 0.8);
+}
+
+/* Feature Box85
+ ------------------------------ */
+.feature-box-85 {
+	width: 100%;
+	position: relative;
+	padding: 40px;
+	float: left;
+	border:1px solid #e4e4e4;
+	background-color: #fff;
+	transition: all 0.3s ease-out 0s;
+}
+.feature-box-85 {
+	margin-bottom: 28px;
+}
+.feature-box-85 .arrow-down {
+	border-top: 20px solid #e9b444;
+	float: left;
+	left: 259px;
+	position: absolute;
+	top: 155px;
+	opacity:0;
+	z-index: 3;
+	transition: all 0.3s ease-out 0s;
+}
+/* Hover Styles  --------  */
+.feature-box-85:hover, .feature-box-85.active {
+	border:1px solid #e9b444;
+	background-color: #e9b444;
+}
+.feature-box-85:hover .arrow-down, .feature-box-85.active .arrow-down {
+	border-top: 20px solid #e9b444;
+	opacity:1;
+}
+.feature-box-85:hover p, .feature-box-85.active p {
+	color:#fff;
+}
+
+/*===============================================
+-------------------------------------------------
+Medical layout Styles
+-------------------------------------------------
+================================================*/
+
+/* Feature Box86
+ ------------------------------ */
+.feature-box-86 {
+	width: 100%;
+	padding: 40px;
+	float: left;
+	background-color: #1fbef0;
+	transition: all 0.3s ease-out 0s;
+}
+.feature-box-86.bg-color-light {
+	background-color: #36cefe;
+}
+.btn-minus-margin {
+	margin-top:-1px;
+}
+
+/* Feature Box87
+ ------------------------------ */
+.feature-box-87 {
+	width: 100%;
+	padding: 30px;
+	float: left;
+	min-height:436px;
+	background-color: #1fbef0;
+	transition: all 0.3s ease-out 0s;
+}
+
+.feature-box-87 input {
+    border: 0 none;
+    color: #272727;
+    float: left;
+    height: 38px;
+    margin: 0 0 15px;
+    padding: 5px;
+    width: 100%;
+}
+.feature-box-87 select {
+    border: medium none;
+    color: #727272;
+    font-size: 14px;
+    padding: 6px;
+    width: 100%;
+	margin: 0 0 15px;
+}
+.feature-box-87 label {
+	width: 100%;
+    color: #fff;
+	font-weight:normal;
+}
+
+/* radio Button Style
+ ------------------------------ */
+.feature-box-87 input[type=radio], input[type=checkbox] {
+	    display:none;
+	}
+.feature-box-87 input[type=radio] + label:before {
+	    content: "";  
+	    display: inline-block;  
+	    width: 15px;  
+	    height: 15px;  
+	    vertical-align:middle;
+	    margin-right: 8px;  
+	    background-color: #fff;  
+	    border-radius: 8px;  
+	}
+.feature-box-87 input[type=checkbox] + label:before {
+	    content: "";  
+	    display: inline-block;  
+	    width: 15px;  
+	    height: 15px;  
+	    vertical-align:middle;
+	    margin-right: 8px;  
+	    background-color: #fff;  
+	    border-radius: 4px;  
+	}
+.feature-box-87 input[type=radio]:checked + label:before {
+		content: "\2022";
+		color:white;
+	    background-color: #2b2b2b; 
+		font-size:1.8em;
+		text-align:center;
+		line-height:14px;
+	}
+.feature-box-87 input[type=checkbox]:checked + label:before {
+		content:"\2714";
+		color:white;
+	    background-color: #2b2b2b; 
+		text-align:center;
+		line-height:15px;
+	}
+
+/* Feature Box88
+ ------------------------------ */
+.feature-box-88 {
+	width: 99%;
+	padding:50px 40px;
+	float: left;
+	margin-right:1%;
+	margin-bottom:1%;
+	background-color: #fff;
+	transition: all 0.3s ease-out 0s;
+}
+.feature-box-88 h5 {
+	color: #1fbef0;
+}
+.feature-box-88 i {
+	color: #1fbef0;
+}
+
+.feature-box-88:hover {
+	background-color: #1fbef0;
+}
+
+.feature-box-88:hover i {
+	color: #fff;
+}	
+.feature-box-88:hover h5 {
+	color: #fff;
+}
+/* Feature Box89
+ ------------------------------ */
+.feature-box-89 {
+	width: 100%;
+	padding:0;
+	float: left;
+}	
+/* find button
+ ------------------------------ */
+ 
+ .find-btn{
+	 width:100%;
+	 height:38px;
+	 padding:0px;
+	 margin:0px;
+	 float:left;
+	 background-color:#fff;
+	 }
+ .find-btn:hover{
+	 background-color:#ccc;
+	 }
+	 
+	 
+/* =========== Medical timetable ============= */
+
+.classes-table-holder.medical {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+.classes-table.medical {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+.classes-table.medical table {
+	width: 100%;
+	border-collapse: collapse;
+}
+.classes-table.medical tr:nth-of-type(odd) {
+	background:none;
+}
+.classes-table.medical tr:nth-of-type(even) {
+	background:none;
+}
+.classes-table.medical th {
+	background: #fff;
+	color: #242424;
+	font-weight: bold;
+}
+.classes-table.medical td, th {
+	padding: 20px;
+	color: #242424;
+	border: 1px solid #e4e4e4;
+	text-align: left;
+}
+.classes-table.medical td.color-1 {
+	color: #fff;
+	border: 1px solid #2a97f3;
+	background-color:#2a97f3;
+}
+.classes-table.medical td.color-2 {
+	color: #fff;
+	border: 1px solid #4bc29c;
+	background-color:#4bc29c;
+}
+.classes-table.medical td.color-3 {
+	color: #fff;
+	border: 1px solid #bd7fdd;
+	background-color:#bd7fdd;
+}
+.classes-table.medical td.color-4 {
+	color: #fff;
+	border: 1px solid #f96f54;
+	background-color:#f96f54;
+}
+.classes-table.medical td.color-5 {
+	color: #fff;
+	border: 1px solid #7ac43d;
+	background-color:#7ac43d;
+}
+.classes-table.medical td.color-6 {
+	color: #fff;
+	border: 1px solid #ff67c8;
+	background-color:#ff67c8;
+}
+
+/*===============================================
+-------------------------------------------------
+Creative layout Styles
+-------------------------------------------------
+================================================*/
+
+/* =========== parallax sections ============= */
+
+.parallax-section61 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/722.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+.parallax-section62 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/729.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+.parallax-section63 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/732.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+
+.business-objects-bg-holder {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	background: url(../images/726.jpg) center top no-repeat;
+}
+
+/* Feature Box90
+ ------------------------------ */
+.feature-box-90 {
+	width: 95%;
+	padding:30px;
+	float: left;
+	margin:0 10% 4% 0;
+	transition: all 0.3s ease-out 0s;
+	background-color:#fff;
+}
+.feature-box-90 span {
+	color:#d1d1d1;
+	transition: all 0.3s ease-out 0s;
+	margin-bottom:15px;
+}
+.feature-box-90:hover span, .feature-box-90.active span {
+	color:#fff;
+}
+.feature-box-90:hover .title, .feature-box-90.active .title {
+	color:#fff;
+}
+.feature-box-90:hover, .feature-box-90.active {
+	background-color:#ff9320;
+}
+
+/* Feature Box91
+ ------------------------------ */
+.feature-box-91{
+	width: 100%;
+	padding: 0px;
+	float: left;
+}
+.feature-box-91 .image-holder {
+	position:relative;
+	z-index:0;
+}
+.feature-box-91 .overlay {
+    position: absolute;
+    z-index: 1;
+}
+.feature-box-91 .title1 {
+	padding:120px 0 0 0;
+}
+.feature-box-91 .blog-post-info span {
+	color:#fff;
+}
+.feature-box-91 .post-date-box {
+	width: 150px;
+	height: auto;
+	top:0px;
+	color:#ff9320;
+	right:50px;
+	padding: 40px 30px;
+	font-size:56px;
+	background-color:#fff;
+}
+.feature-box-91 .post-date-box span {
+    color:#ff9320;
+    display: block;
+    font-size: 20px;
+	padding:30px 0 10px 0;
+}
+
+/*===============================================
+-------------------------------------------------
+Hosting layout Styles
+-------------------------------------------------
+================================================*/
+
+
+
+/* Home Domain search
+ ------------------------------ */
+
+.domain-search-home {
+	width: 100%;
+	float: left;
+	padding:0;
+	margin: 0px;
+}
+.domain-search-home #domain-searchform #dsearch {
+	background-color: #8ac700;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	color: #fff;
+	float: left;
+	font-size: 14px;
+	height: 55px;
+	padding: 7px 10px;
+	width: 61%;
+}
+.domain-search-home .drlist {
+	background-color: #EEEEEE;
+	color: #272727;
+	float: left;
+	font-size: 16px;
+	height: 55px;
+	margin: 0px 0 0 -5px;
+	padding: 10px;
+	width: 102px;
+	background-color: #fff;
+	border: 1px solid #92d102;
+}
+.domain-search-home #search-submit {
+	border: none;
+	color: #8ac700;
+	cursor: pointer;
+	float: left;
+	font-size: 14px;
+	font-weight: normal;
+	height: 53px;
+	overflow: hidden;
+	padding: 5px 25px;
+	margin-left: 0px;
+	text-align: center;
+	background-color: #fff;
+	transition: all 0.3s ease-out 0s;
+}
+.domain-search-home #search-submit:hover {
+	color: #fff;
+	background-color: #242424;
+}
+/* Home tld list
+ ------------------------------ */
+ul.home-tld-list {
+	width:100%;
+	padding:0px;
+	margin:0px;
+	float:left;
+}
+.home-tld-list li {
+	width:30%;
+	padding:0 10%;
+	margin:0px;
+	float:left;
+	color:#fff;
+	font-size:26px;
+	font-weight:bold;
+	text-align: center;
+	border-right:1px solid rgba(255, 255, 255, 0.5);
+}
+.home-tld-list li span {
+	padding:0px;
+	margin:0px;
+	float:left;
+	color:#fff;
+	font-size:20px;
+	font-weight:600;
+}
+.home-tld-list li:last-child {
+	border-right:none;
+}
+
+/* Feature Box92
+ ------------------------------ */
+.feature-box-92{
+	width: 100%;
+	padding: 0px;
+	float: left;
+}
+.feature-box-92 .iconbox-small{
+	color:#8ac700;
+}
+.feature-box-92:hover .title, .feature-box-92.active .title{
+	color:#8ac700;
+}
+.feature-box-92:hover .iconbox-small, .feature-box-92:hover .iconbox-tiny, .feature-box-92.active .iconbox-small, .feature-box-92.active .iconbox-tiny {
+	color:#fff;
+	border:1px solid #8ac700;
+	background-color:#8ac700;
+}
+
+/* Feature Box93
+ ------------------------------ */
+.feature-box-93{
+	width: 100%;
+	height:100%;
+	float: left;
+	padding: 80px;
+	min-height: 485px;
+	background-color:rgba(0, 0, 0, 0.7);
+	
+}
+.feature-box-93 .image-holder {
+	position: absolute;
+	z-index:0;
+	float:left;
+	min-height:500px;
+	overflow:hidden;
+}
+.feature-box-93 .overlay {
+    position: absolute;
+    z-index: 1;
+	padding:60px 0 0 0;
+}
+.feature-box-93 .price-badge {
+	position:absolute;
+	width:80px;
+	height:80px;
+	border-radius:100%;
+	color:#fff;
+	padding:20px 0 0 0;
+	font-size:14px;
+	text-align:center;
+	line-height:20px;
+	font-weight:normal;
+	background-color:#8ac700;
+	z-index:2;
+}
+.feature-box-93 .price-badge span {
+	color:#fff;
+	font-size:18px;
+}
+
+/* Feature Box94
+ ------------------------------ */
+.feature-box-94{
+	width: 100%;
+	float: left;
+	padding:0px;
+	
+}
+.feature-box-94 .image-holder{
+	position:relative;
+	width: 100%;
+	float: left;
+	padding:0px;
+	
+}
+.feature-box-94 .image-holder .circle{
+	position: absolute;
+	width:185px;
+	height:185px;
+	float: right;
+	padding:40px;
+	right:0px;
+	top:18px;
+	color:#fff;
+	text-align:center;
+	border-radius:100%;
+	background-color:#8ac700;
+	
+}
+.feature-box-94 .image-holder .circle .arrow-down {
+    border-top: 20px solid #8ac700;
+    left: 19px;
+    position: absolute;
+    top: 161px;
+    transform: rotate(36deg);
+    transition: all 0.3s ease-out 0s;
+    z-index: 0;
+}
+
+/* Feature Box95
+ ------------------------------ */
+.feature-box-95{
+	width: 100%;
+	height:100%;
+	float: left;
+	padding: 80px;
+	min-height: 420px;
+	background-color:rgba(138, 199, 0, 0.8);
+	
+}
+/* Feature Box96
+ ------------------------------ */
+.feature-box-96{
+	width: 100%;
+	height:100%;
+	float: left;
+	padding: 80px;
+	min-height: 420px;
+	
+}
+/* Feature Box97
+ ------------------------------ */
+.feature-box-97{
+	width: 100%;
+	float: left;
+	padding: 0;
+	
+}
+.feature-box-97 .iconbox-small.blue{
+	background-color:#43c6f1;
+	color:#fff;
+	border:1px solid #43c6f1;
+	
+}
+.feature-box-97 .iconbox-small.red{
+	background-color:#ff5a11;
+	color:#fff;
+	border:1px solid #ff5a11;
+	
+}
+.feature-box-97 .iconbox-small.violet{
+	background-color:#b55ff7;
+	color:#fff;
+	border:1px solid #b55ff7;
+	
+}
+
+/* Feature Box98
+ ------------------------------ */
+.feature-box-98{
+	width: 100%;
+	min-height:740px;
+	float: right;
+	padding: 0;
+	text-align:right;
+	background:url(../images/732.png) top right no-repeat;
+}
+
+/* Feature Box99
+ ------------------------------ */
+.feature-box-99{
+	width: 100%;
+	float: left;
+	padding: 0;
+}
+
+/* Feature Box 100
+ -----------------------------------------------*/
+ 
+.feature-box-100 {
+	width:100%;
+	padding:40px;
+	margin:0px;
+	float:left;
+	text-align:center;
+	color:#fff;
+	background-color:#8ac700;
+}
+.feature-box-100 span {
+	font-size:60px;
+	color:#fff;
+	font-weight:300;
+}
+.domain-price-1 {
+	margin-right:15px;
+	text-decoration: line-through;
+}
+
+/* Price Table 5
+ -----------------------------------------------*/
+ 
+.pricetable-holder5 {
+	position:relative;
+	width: 100%;
+	padding: 15px 15px 40px 15px;
+	margin: 0px;
+	float: left;
+	text-align:center;
+	transition: all 0.3s ease-out 0s;
+	background-color:#242424;
+}
+.pricetable-holder5.border-right {
+	border-right:1px solid #393939;
+}
+.pricetable-holder5 .price-circle {
+	width:125px;
+	height:125px;
+	margin:-65px auto 0 auto;
+	border-radius:100%;
+	background-color:#242424;
+	border:1px solid #393939;
+}
+.pricetable-holder5 .price-circle .price {
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 15px 0;
+    text-align: center;
+}
+.pricetable-holder5 .price-circle .price sup {
+    font-size: 22px;
+    font-style: normal;
+}
+.pricetable-holder5 .price-circle .price i {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+.pricetable-holder5 .title {
+	width:100%;
+	color:#fff;
+	padding:0 0 15px 0;
+	border-bottom:1px solid #393939;
+}
+.pricetable-holder5 .features-list {
+	width:100%;
+	padding:0;
+	margin:0px;
+	float:left;
+}
+.pricetable-holder5 .features-list li {
+	width:100%;
+	padding:15px 0;
+	margin:0px;
+	float:left;
+	color:#727272;
+	border-bottom:1px solid #393939;
+}
+.pricetable-holder5 .features-list li:last-child {
+	border-bottom:none;
+}
+.pricetable-top-bg-strip {
+	width: 100%;
+	padding:0px;
+	margin:0px;
+	float:left;
+	height:25px;
+	background-color:#fff;
+}
+.pricetable-active-bg-strip {
+	width: 100%;
+	padding:0px;
+	margin:0px;
+	float:left;
+	height:25px;
+	background-color:#8ac700;
+}
+.pricetable-holder5.active {
+	background-color:#8ac700;
+	padding-bottom:60px;
+}
+.pricetable-holder5.active .features-list li {
+	color:#fff;
+	border-bottom:1px solid rgba(255, 255, 255, 0.2);
+}
+.pricetable-holder5.active .title {
+	color:#fff;
+	border-bottom:1px solid rgba(255, 255, 255, 0.2);
+}
+.pricetable-holder5.active .btn.btn-green-4 {
+	color:#242424;
+	background-color:#fff;
+}
+
+/* Price Table 6
+ -----------------------------------------------*/
+ 
+.pricetable-holder6 {
+	position:relative;
+	width: 100%;
+	padding: 15px 0 40px 0;
+	margin: 0px;
+	float: left;
+	text-align:center;
+	transition: all 0.3s ease-out 0s;
+	background-color:#242424;
+}
+.pricetable-holder6.border-right {
+	border-right:1px solid #393939;
+}
+.pricetable-holder6 .price {
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 15px 0;
+    text-align: center;
+}
+.pricetable-holder6 .price sup {
+    font-size: 22px;
+    font-style: normal;
+}
+.pricetable-holder6 .price i {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+.pricetable-holder6 .title-box {
+	width:100%;
+	color:#fff;
+	float:left;
+	padding:45px 0 15px 0;
+	vertical-align:middle;
+	border-bottom:1px solid #393939;
+}
+.pricetable-holder6.first-table .title-box {
+	padding:15px 0 15px 0;
+}
+.pricetable-holder6.first-table{
+	margin-top:83px;
+}
+.pricetable-holder6 .title-box .title {
+	color:#fff;
+}
+.pricetable-holder6 .features-list {
+	width:100%;
+	padding:0;
+	margin:0px;
+	float:left;
+}
+.pricetable-holder6 .features-list li {
+	width:100%;
+	padding:15px 0;
+	margin:0px;
+	float:left;
+	color:#727272;
+	border-bottom:1px solid #393939;
+}
+.pricetable-holder6 .features-list li i.green-4 {
+	color:#80b604;
+	font-size:18px;
+}
+.pricetable-holder6 .features-list li i.red {
+	color:#ff2f16;
+	font-size:18px;
+}
+.pricetable-holder6 .features-list li i.white {
+	color:#fff;
+	font-size:18px;
+}
+.pricetable-holder6 .features-list li:last-child {
+	border-bottom:none;
+}
+.pricetable-holder6 .features-list li:nth-child(even) {
+	background-color:#2a2a2a;
+}
+.pricetable-holder6.active .features-list li:nth-child(even) {
+	background-color:#80b604;
+}
+.pricetable-top-bg-strip {
+	width: 100%;
+	padding:0px;
+	margin:0px;
+	float:left;
+	height:25px;
+	background-color:#fff;
+}
+.pricetable-active-bg-strip {
+	width: 100%;
+	padding:0px;
+	margin:0px;
+	float:left;
+	height:25px;
+	background-color:#8ac700;
+}
+.pricetable-holder6.active {
+	background-color:#8ac700;
+	padding-bottom:60px;
+}
+.pricetable-holder6.active .features-list li {
+	color:#fff;
+	border-bottom:1px solid rgba(255, 255, 255, 0.2);
+}
+.pricetable-holder6.active .title-box {
+	color:#fff;
+	border-bottom:1px solid rgba(255, 255, 255, 0.2);
+}
+.pricetable-holder6.active .btn.btn-green-4 {
+	color:#242424;
+	background-color:#fff;
+}
+
+/* =========== parallax sections ============= */
+
+.parallax-section64 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/725.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+.parallax-section65 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/733.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+.parallax-section65 .iconbox-large {
+	color:#fff;
+	background-color:#8ac700;
+}
+
+
+/* =========== newsletter ============= */
+.newsletter .input_submit.green-4 {
+    background-color: #8ac700;
+}
+
+/* =========== footer paymen logos ============= */
+
+.footer-payment-logo-list{
+	width:100%;
+	padding:0px;
+	margin:0px;
+	float:left;
+	}
+.footer-payment-logo-list li{
+	padding:0 15px 0 0;
+	margin:0px;
+	float:left;
+	}
+
+/* =========== Domain search ============= */
+/* domain search
+ -----------------------------------------------*/
+
+#domain-search-holder {
+	width: 100%;
+	padding:0px;
+	margin:0 0 150px 0;
+	float:left
+}
+
+#domain-search-holder #dsearch {
+	background-color: #fff;
+	border: 1px solid #fff;
+	color: #727272;
+	font-size: 18px;
+	height: 80px;
+	padding: 7px 10px;
+	width: 72%;
+	border:1px solid #e4e4e4;
+}
+#domain-search-holder.two #dsearch {
+	width: 90%;
+}
+#domain-search-holder .drlist {
+	background-color: #EEEEEE;
+	color: #242424;
+	font-size: 18px;
+	height: 80px;
+	margin: 0px 0 0 -5px;
+	padding: 10px;
+	width: 102px;
+	font-weight: normal;
+	background-color: #fff;
+	border: 1px solid #e4e4e4;
+	border-left: 1px solid #e4e4e4;
+}
+#domain-search-holder #searchsubmit {
+	border: none;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: normal;
+	height: 77px;
+	overflow: hidden;
+	padding: 4px 25px;
+	margin-left: 0px;
+	text-align: center;
+	transition: all 0.3s ease-out 0s;
+	background-color: #8ac700;
+}
+#domain-search-holder #searchsubmit:hover {
+	color: #fff;
+	background-color: #242424;
+}
+#domain-search-holder ul.tld_list {
+	width: 100%;
+	padding: 10px 0 0 0;
+	margin: 0px;
+	float: left;
+}
+#domain-search-holder ul.tld_list li {
+	padding: 0 20px 0 0;
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 26px;
+	display: inline;
+	color: #161616;
+}
+#domain-search-holder ul.tld_list li.title {
+	padding: 0 20px 0 0;
+	margin: 0px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: #fff;
+}
+#domain-search-holder ul.tld_list li span {
+	padding: 0px;
+	margin: 0px;
+	font-size: 18px;
+	color: #fff;
+}
+
+/* =========== TLD Boxes ============= */
+/* tld boxes
+ -----------------------------------------------*/
+ 
+.tld-step-box {
+	position: relative;
+	width:100%;
+	padding:40px;
+	margin:0px;
+	float:left;
+	z-index:2;
+	text-align:center;
+	color:#fff;
+	top: -111px;
+	background-color:#8ac700;
+}
+.tld-step-box span {
+	font-size:60px;
+	color:#fff;
+	font-weight:300;
+}
+.domain-price-1 {
+	margin-right:15px;
+	text-decoration: line-through;
+}
+
+
+/* =========== domain pricing table ============= */
+
+.domain-pricing-table-holder {
+	width: 100%;
+	padding: 20px;
+	margin: 0px;
+	float: left;
+	background-color:#f1f1f1;
+}
+.table-style-2 {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+}
+.table-style-2 table {
+	width: 100%;
+	border-collapse: collapse;
+}
+.table-style-2 tr:nth-of-type(odd) {
+	background: #f1f1f1;
+}
+.table-style-2 tr:nth-of-type(even) {
+	background: #fff;
+}
+.table-style-2 th {
+	background: #242424;
+	color: #fff;
+	font-weight: bold;
+}
+.table-style-2 td, th {
+	padding: 30px;
+	color: #242424;
+	border: none;
+	text-align:center;
+}
+
+/* =========== Search topic input ============= */
+
+#search-topic #tsearch {
+	background-color: #fff;
+	border: 1px solid #fff;
+	color: #727272;
+	font-size: 18px;
+	height: 80px;
+	padding: 7px 10px;
+	width: 85%;
+	border:1px solid #e4e4e4;
+}
+#search-topic #searchsubmit {
+	border: none;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: normal;
+	height: 77px;
+	overflow: hidden;
+	padding: 4px 25px;
+	margin-left: 0px;
+	text-align: center;
+	transition: all 0.3s ease-out 0s;
+	background-color: #8ac700;
+}
+#search-topic #searchsubmit:hover {
+	color: #fff;
+	background-color: #242424;
+}
+
+/* =========== Sidebar elements ============= */
+
+.sidebar-posts {
+	width: 100%;
+	padding: 0px;
+	margin: 0 0 25px 0;
+	float: left;
+}
+.sidebar-posts .post-info {
+	font-size: 12px;
+	color: #cecece;
+}
+.blog1-post-info {
+	font-size: 12px;
+	color: #cecece;
+}
+.sidebar-posts:hover h6, .sidebar-posts.active h6 {
+	color: #fd602c;
+}
+
+
+
+/* =========== Coming soon page ============= */
+
+/*coming soon
+ ------------------------------ */
+.parallax-section66 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/758.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+.parallax-section67 {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("../images/759.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+/*Count down
+ ------------------------------ */
+
+.countdown_holder {
+	width: 60%;
+	padding: 0px;
+	text-align: center;
+	margin: 0 auto;
+}
+.countdown_holder.two {
+	width: 60%;
+	padding: 0 0 45px 0;
+	text-align: center;
+	margin: 0 auto;
+}
+.countdown_holder.two a {
+	margin-right: 15px;
+}
+div#clock {
+	color: white;
+	margin: 0;
+	width: 100%;
+	overflow: hidden;
+	padding: 0 0 0 90px;
+	text-align: center;
+}
+div#clock p {
+	border:1px solid #fff;
+	float: left;
+	padding: 20px 20px;
+	margin-right: 10px;
+}
+div#clock p b {
+	font-weight: normal;
+	text-transform: uppercase;
+}
+div#clock p span {
+	display: block;
+	font-size: 50px;
+	font-weight: bold;
+	padding: 5px 0 20px 0;
+}
+div#clock div.space {
+	color: #ccc;
+	display: block;
+	line-height: 1.7em;
+	font-size: 50px;
+	float: left;
+	height: 88px;
+	width: 30px;
+}
+/*styles two*/
+
+
+
+div#clock2 {
+	color: white;
+	margin: 0;
+	width: 100%;
+	overflow: hidden;
+	padding: 0 0 0 90px;
+	text-align: center;
+}
+div#clock2 p {
+	background: #fff;
+	float: left;
+	color: #161616;
+	padding: 20px 20px;
+	margin-right: 10px;
+	border: 1px solid #e4e4e4;
+}
+div#clock2 p b {
+	font-weight: normal;
+	text-transform: uppercase;
+}
+div#clock2 p span {
+	display: block;
+	font-size: 50px;
+	font-weight: bold;
+	padding: 5px 0 20px 0;
+}
+div#clock2 div.space {
+	color: #ccc;
+	display: block;
+	line-height: 1.7em;
+	font-size: 50px;
+	float: left;
+	height: 88px;
+	width: 30px;
+}
+
+/* =========== Sitemap list ============= */
+
+ul.sitemap {
+	padding: 0px;
+	margin: 0px;
+}
+ul.sitemap li {
+	margin: 0 0 8px;
+}
+ul.sitemap li a {
+	color: #fd602c;
+}
+ul.sitemap li a:hover {
+	text-decoration: underline;
+}
+ul.sitemap li ul {
+	padding-left: 30px;
+}
+
+/* =========== 404 error ============= */
+
+.error_holder {
+	width: 60%;
+	padding: 0px;
+	text-align: center;
+	margin: 0 auto;
+}
+.error_holder.two {
+	width:100%;
+	text-align: left;
+}
+.error_holder .title {
+	font-size: 110px;
+	font-weight: 400;
+	line-height: 65px;
+	margin: 0;
+	padding: 30px 0 30px;
+}
+.error_title_big {
+	font-size: 200px;
+	font-weight: bold;
+	line-height: 65px;
+	margin: 0;
+	padding: 30px 0 30px;
+}
+
+.error-search-box {
+	width: 100%;
+	padding: 0px;
+	margin: 0;
+	float:left
+}
+.error-search-box .email_input {
+	width: 80%;
+	color:#727272;
+	height: 50px;
+	border:1px solid #e4e4e4;
+}
+.error-search-box .input_submit {
+	width: 20%;
+	color:#fff;
+	height: 50px;
+	transition: all 0.3s ease-out 0s;
+	border:1px solid #fd602c;
+	background-color:#fd602c;
+}
+.error-search-box .input_submit:hover {
+	border:1px solid #242424;
+	background-color:#242424;
+}
+
+.error-title-big {
+    font-size: 200px;
+    font-weight: bold;
+    line-height: 65px;
+    margin: 0;
+    padding: 30px 0;
+}
+
+/* =========== corporate blog pages ============= */
+
+
+.blog-holder-12 {
+    float: left;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+}
+.blog-holder-12 .post-date-box {
+	width:120px;
+	height:120px;
+	font-size: 36px;
+	padding: 29px 0 0;
+}
+.blog-holder-12 .post-date-box.two {
+	top:150px;
+	color:#242424;
+	background-color:#fff;
+}
+.blog-holder-12 .image-holder .overlay {
+	padding:30px;
+	text-align:center;
+    position: absolute;
+    z-index: 1;
+	overflow:hidden;
+}
+.blog-holder-12 .post-date-box span {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+	padding-top:10px;
+}
+.blog-holder-12 .post-date-box.two span {
+    color: #242424;
+}
+.blog-holder-12 .image-holder .overlay .icon {
+	position:absolute;
+    background-color: #fd602c;
+    color: #fff;
+    font-size: 20px;
+    height: 60px;
+    line-height: 60px;
+    margin:0;
+    padding: 0;
+	display:inline-block;
+    text-align: center;
+    width: 60px;
+	z-index:4;
+	top:-60px;
+	transition: all 0.3s ease-out 0s;
+	border-radius:100%;
+}
+.blog-holder-12 .image-holder .overlay .icon:hover {
+    background-color: #fff;
+    color: #fd602c;
+}
+.blog-holder-12:hover .image-holder .overlay .icon {
+	top:160px;
+
+}
+
+/*date box small*/
+
+.blog-holder-12 .post-date-box.three {
+	width:80px;
+	height:80px;
+	font-size: 24px;
+	padding: 15px 0 0;
+}
+.blog-holder-12 .post-date-box.three span {
+	font-size:14px;
+	padding-top:1px;
+}
+.blog-holder-12 .post-date-box.three.four {
+	top:110px;
+	color:#242424;
+	background-color:#fff;
+	background-color:#fff;
+}
+.blog-holder-12 .post-date-box.three.four span {
+    color: #242424;
+}
+
+/*	Corporate Blog pagenation 
+ ------------------------------ */
+ 
+.blog-pagenation {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+	text-align:center;
+}
+.blog-pagenation li {
+    margin: 0;
+    padding: 0;
+	display:inline;
+}
+
+.blog-pagenation li a {
+    color: #242424;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 10px 0 0;
+    padding: 0;
+	display:inline-block;
+    text-align: center;
+    width: 40px;
+	border:1px solid #e4e4e4;
+}
+.blog-pagenation li a:hover, .blog-pagenation li a.active {
+    color: #fff;
+	border:1px solid #fd602c;
+	background-color:#fd602c;
+}
