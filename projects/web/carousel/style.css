@@ -1,0 +1,44 @@
+.carousel-card{
+    width: 350px;
+    height: 500px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0.3em 0.5em;
+}
+.inner-carousel-card{
+    display: flex;
+    flex-direction: column;
+    padding: 0.7em 0.9em;
+    height: max-content;
+    align-items: center;
+    justify-content: space-between;
+    color:white;
+    position: relative;
+    z-index: 1;
+}
+.banner {
+    position: relative;
+    background-image: url(https://images.unsplash.com/photo-1509473332032-f1ce823d92c4?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=3e2410208e8f8a78e4aa3550fddfbb44);
+    background-size: 100% 100%;
+    display: flex;
+    background-repeat: no-repeat;
+    top: 10px;
+    z-index: -1;
+    opacity: .9;
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in;
+}
+.banner::after {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(120deg, #eaee44, #33d0ff);
+    opacity: .4;
+    z-index: -2;
+}

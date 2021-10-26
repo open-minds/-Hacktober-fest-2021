@@ -1,0 +1,271 @@
+<!doctype html>
+<!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<!--<![endif]-->
+<!--<![endif]-->
+<html lang="en">
+
+<head>
+  <title>Capstone Project</title>
+  <meta charset="utf-8">
+  <!-- Meta -->
+  <meta name="keywords" content="" />
+  <meta name="author" content="">
+  <meta name="robots" content="" />
+  <meta name="description" content="" />
+
+  <!-- this styles only adds some repairs on idevices  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="/static/images/favicon.ico">
+
+  <!-- Google fonts - witch you want to use - (rest you can just remove) -->
+  <link
+    href='https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic'
+    rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900' rel='stylesheet'
+    type='text/css'>
+
+  <!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" media="screen" href="/static/js/bootstrap/bootstrap.min.css" type="text/css" />
+  <link rel="stylesheet" href="/static/js/mainmenu/menu.css" type="text/css" />
+  <link rel="stylesheet" href="/static/css/default.css" type="text/css" />
+  <link rel="stylesheet" href="/static/css/layouts.css" type="text/css" />
+  <link rel="stylesheet" href="/static/css/shortcodes.css" type="text/css" />
+  <link rel="stylesheet" href="/static/css/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" media="screen" href="/static/css/responsive-leyouts.css" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="/static/css/Simple-Line-Icons-Webfont/simple-line-icons.css"
+    media="screen" />
+  <link rel="stylesheet" href="/static/css/et-line-font/et-line-font.css">
+  <link rel="stylesheet" href="/static/js/jFlickrFeed/style.css" />
+
+
+  <link rel="stylesheet" type="text/css" href="/static/js/smart-forms/smart-forms.css">
+
+
+  <!-- Remove the below comments to use your color option -->
+  <!--<link rel="stylesheet" href="css/colors/lightblue.css" />-->
+  <!--<link rel="stylesheet" href="css/colors/orange.css" />-->
+  <!--<link rel="stylesheet" href="css/colors/green.css" />-->
+  <!--<link rel="stylesheet" href="css/colors/pink.css" />-->
+  <!--<link rel="stylesheet" href="css/colors/red.css" />-->
+  <!--<link rel="stylesheet" href="css/colors/purple.css" />-->
+  <!--<link rel="stylesheet" href="css/colors/bridge.css" />-->
+  <!--<link rel="stylesheet" href="css/colors/yellow.css" />-->
+  <!--<link rel="stylesheet" href="css/colors/violet.css" />-->
+  <!--<link rel="stylesheet" href="css/colors/cyan.css" />-->
+  <!--<link rel="stylesheet" href="css/colors/mossgreen.css" />-->
+
+</head>
+
+<body>
+  <div class="site_wrapper">
+    <div class="clearfix"></div>
+
+    <div id="header">
+      <div class="container">
+        <div class="navbar green navbar-default yamm">
+          <div class="navbar-header">
+            <button type="button" data-toggle="collapse" data-target="#navbar-collapse-grid"
+              class="navbar-toggle two three"><span class="icon-bar"></span><span class="icon-bar"></span><span
+                class="icon-bar"></span></button>
+            <a href="/" class="navbar-brand"><img src="images/logo.png" alt="" /></a> </div>
+          <div id="navbar-collapse-grid" class="navbar-collapse collapse pull-left">
+
+            <ul class="nav green navbar-nav">
+              <li><a href="/" class="dropdown-toggle">Home</a></li>
+              <li><a href="/properties" class="dropdown-toggle">Properties</a></li>
+              <li><a href="/jobs" class="dropdown-toggle active">Jobs</a></li>
+              <li><a href="/agents" class="dropdown-toggle">Agents</a></li>
+              <li><a href="/contact.html" class="dropdown-toggle">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end menu-->
+    <div class="clearfix"></div>
+
+    <section>
+      <div class="header-inner two">
+        <div class="inner text-center">
+          <h4 class="title text-white uppercase">Create a new job</h4>
+          <h5 class="text-white uppercase">Please fill out the form below</h5>
+        </div>
+        <div class="overlay bg-opacity-5"></div>
+      </div>
+      
+    <div class="clearfix"></div>
+    </section>
+
+    <section class="sec-padding">
+      <div class="container">
+        <div class="col-md-3 clearfix"></div>
+        <div class="col-md-6 clearfix">
+          <div class="smart-forms">
+            <form method="post" id="job-creation-form">
+              <div>
+                <div class="section">
+                  <label class="field prepend-icon">
+                    <input id="agent_id" type="text" name="agent_id" placeholder="Agent id" class="gui-input">
+                    <span class="field-icon"><i class="fa fa-user"></i></span>
+                  </label>
+                </div>
+                <div class="section">
+                  <label class="field prepend-icon">
+                    <input id="house_id" type="text" name="house_id" placeholder="House id" class="gui-input">
+                    <span class="field-icon"><i class="fa fa-home"></i></span>
+                  </label>
+                </div>
+
+                <div class="result"></div><!-- end .result  section -->
+
+              </div><!-- end .form-body section -->
+              <div class="form-footer">
+                <button type="submit" data-btntext-sending="Sending..." class="button btn-primary green">Submit</button>
+              </div><!-- end .form-footer section -->
+            </form>
+          </div>
+
+        </div>
+        <div class="col-md-3 clearfix"></div>
+      </div>
+    </section>
+    <!-- end section -->
+    <div class="clearfix"></div>
+
+    <section class="section-fulldark sec-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 clearfix">
+            <div class="item-holder">
+              <h4 class="uppercase footer-title less-mar3">Recent Posts</h4>
+              <div class="footer-title-bottomstrip"></div>
+              <div class="clearfix"></div>
+              <div class="image-left"><img src="http://placehold.it/80x80" alt="" /></div>
+              <div class="text-box-right">
+                <h6 class="text-white less-mar3 oswald nopadding"><a href="#">Clean And Modern</a></h6>
+                <p>Lorem ipsum dolor sit</p>
+                <div class="footer-post-info"> <span>By John Doe</span><span>May 19</span> </div>
+              </div>
+              <div class="divider-line solid dark opacity-4  margin"></div>
+              <div class="clearfix"></div>
+              <div class="image-left"><img src="http://placehold.it/80x80" alt="" /></div>
+              <div class="text-box-right">
+                <h6 class="text-white less-mar3 oswald"><a href="#">Layered PSD Files</a></h6>
+                <p>Lorem ipsum dolor sit</p>
+                <div class="footer-post-info"> <span>By John Doe</span><span>May 19</span> </div>
+              </div>
+            </div>
+          </div>
+          <!--end item-->
+
+          <div class="col-md-3 clearfix">
+            <h4 class="uppercase footer-title less-mar3">quick links</h4>
+            <div class="clearfix"></div>
+            <div class="footer-title-bottomstrip"></div>
+            <ul class="usefull-links">
+              <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i> Ullamcorper odio nec turpis</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i> Aliquam porttitor vestibulum ipsum</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i> Lobortis enim nec nisi</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i> Placerat bibendum</a></li>
+            </ul>
+          </div>
+          <!--end item-->
+
+          <div class="col-md-3 clearfix">
+            <div class="item-holder">
+              <h4 class="uppercase footer-title less-mar3">Newsletter</h4>
+              <div class="clearfix"></div>
+              <div class="footer-title-bottomstrip"></div>
+              <div class="newsletter">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit sit et justo amet. Suspendisse et justo.</p>
+                <br />
+                <form method="get" action="/">
+                  <input class="email_input dark" name="samplees" id="samplees" value="E-mail Address"
+                    onFocus="if(this.value == 'E-mail Address') {this.value = '';}"
+                    onBlur="if (this.value == '') {this.value = 'E-mail Address';}" type="text">
+                  <input name="submit" value="Go" class="input_submit dark" type="submit" />
+                </form>
+              </div>
+              <div class="margin-top3"></div>
+              <ul class="social-icons-3 dark-2">
+                <li><a class="twitter" href="https://twitter.com/codelayers"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.facebook.com/codelayers"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+              </ul>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+          <!--end item-->
+
+          <div class="col-md-3 clearfix">
+            <div class="item-holder">
+              <h4 class="uppercase footer-title less-mar3">Flicke Feed</h4>
+              <div class="clearfix"></div>
+              <div class="footer-title-bottomstrip"></div>
+              <ul id="basicuse" class="thumbs">
+              </ul>
+            </div>
+          </div>
+
+          <!--end item-->
+
+        </div>
+      </div>
+    </section>
+    <!--end section-->
+    <div class="clearfix"></div>
+    <section class="section-copyrights sec-moreless-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12"> <span>Copyright © 2019 <a
+                href="https://1.envato.market/hasta-html-by-codelayers">hasta</a> By <a
+                href="https://1.envato.market/codelayers">Codelayers</a> | All rights reserved.</span></div>
+        </div>
+      </div>
+    </section>
+    <!--end section-->
+    <div class="clearfix"></div>
+    <a href="#" class="scrollup green-3"></a><!-- end scroll to top of the page-->
+  </div>
+  <!-- end site wraper -->
+
+  <!-- ============ JS FILES ============ -->
+
+  <script type="text/javascript" src="/static/js/universal/jquery.js"></script>
+  <script src="/static/js/bootstrap/bootstrap.min.js" type="text/javascript"></script>
+  <script src="/static/js/jFlickrFeed/jflickrfeed.min.js"></script>
+  <script src="/static/js/jFlickrFeed/jquery.cycle.all.min.js"></script>
+  <script>
+    $('#basicuse').jflickrfeed({
+      limit: 6,
+      qstrings: {
+        id: '133294431@N08'
+      },
+      itemTemplate:
+        '<li>' +
+        '<a href="{{image_b}}"><img src="{{image_s}}" alt="{{title}}" /></a>' +
+        '</li>'
+    });
+  </script>
+  <script src="/static/js/mainmenu/customeUI.js"></script>
+  <script src="/static/js/scrolltotop/totop.js"></script>
+  <script src="/static/js/mainmenu/jquery.sticky.js"></script>
+
+  <script src="/static/js/mine.js"></script>
+  <script src="/static/js/job-actions.js"></script>
+  <script src="/static/js/scripts/functions.js" type="text/javascript"></script>
+</body>
+
+</html>

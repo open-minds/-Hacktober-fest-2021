@@ -1,0 +1,4 @@
+venv/
+.vscode/
+setup copy.sh
+__pycache__/

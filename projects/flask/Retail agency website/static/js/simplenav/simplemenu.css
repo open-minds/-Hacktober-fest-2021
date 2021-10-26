@@ -1,0 +1,499 @@
+
+
+.top-animate {
+  background: #fff !important;
+  top: 13px !important;
+  -webkit-transform: rotate(45deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+}
+
+.mid-animate { opacity: 0; }
+
+.bottom-animate {
+  background: #fff !important;
+  top: 13px !important;
+  -webkit-transform: rotate(-225deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-225deg);
+}
+
+.top-menu {
+  top: 5px;
+  width: 25px;
+  height: 2px;
+  border-radius: 10px;
+  background-color: #F9A530;
+}
+
+.mid-menu {
+  top: 13px;
+  width: 25px;
+  height: 2px;
+  border-radius: 10px;
+  background-color: #F9A530;
+}
+
+.bottom-menu {
+  top: 21px;
+  width: 25px;
+  height: 2px;
+  border-radius: 10px;
+  background-color: #F9A530;
+}
+
+.menui {
+  background: #fff;
+  transition: 0.6s ease;
+  transition-timing-function: cubic-bezier(.75, 0, .29, 1.01);
+  margin-top: 10px;
+  position: absolute;
+}
+
+.simplenavicon {
+ display: block;
+    height: 42px;
+    left: 1300px;
+    margin: 0;
+    padding: 9px;
+    position: fixed;
+    top: 10px;
+    width: 42px;
+    z-index: 999;
+}
+
+.simplenavicon2 {
+ display: block;
+    height: 40px;
+    left: 1300px;
+    margin: 0;
+    padding: 9px;
+    position: fixed;
+    top: 35px;
+    width: 40px;
+    z-index: 999
+}
+.mobilenav {
+	position: fixed;
+  z-index: 9999;
+  display: none;
+  width: 25%;
+  float:right;
+  left: 909px;
+  top: 58px;
+  padding:60px;
+  background:#fff;
+  border:1px solid #e4e4e4;
+  opacity: 1;
+}
+
+/*type two styles*/
+.mobilenav.two {
+	position: fixed;
+  z-index: 9999;
+  display: none;
+  width: 100%;
+  height:100%;
+  float:left;
+  left: 0;
+  top: 0;
+  padding:60px;
+  background: rgba(0, 0, 0, 0.9);
+  border:none;
+}
+
+.mobilenav.two li a {
+  color: #fff;
+  font-size:28px;
+  text-transform:uppercase;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.mobilenav.two li {
+border-bottom:none;
+padding: 20px 10px;
+}
+
+/*end type two styles*/
+
+
+
+
+.mobilenav li {
+	  border-bottom:1px solid #e4e4e4;
+	width:100%;
+  list-style-type: none;
+  text-align: center;
+  padding: 10px;
+}
+.mobilenav li.last {
+	  border-bottom:none;
+}
+.mobilenav li a {
+  color: #272727;
+  font-size:18px;
+  text-decoration: none;
+  font-weight: normal;
+}
+.mobilenav li a:hover {
+  color: #8b501f;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+
+.menu li:hover {
+	color: #8b501f;
+	}
+	
+/*.menu a, .menu a:visited {
+	color:#333;
+	text-decoration:none;
+	display:block;
+	width:94%;
+	padding:5px 3%;
+	}*/
+
+.menu li a:hover {
+	color: #8b501f;	
+}
+.menu li a.current{
+	color: #8b501f;
+}
+
+
+
+@media only screen and (max-width:1500px) {
+
+
+}
+
+
+@media only screen and (max-width:1280px) {
+
+.simplenavicon {
+    left: 1150px;
+}
+.mobilenav {
+    left: 835px;
+}
+.simplenavicon2 {
+    left: 1150px;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+@media only screen and (max-width:1199px) {
+
+.simplenavicon {
+    left: 1100px;
+}
+.mobilenav {
+    left: 800px;
+}
+.simplenavicon2 {
+    left: 1100px;
+}
+
+
+
+
+}
+
+
+@media only screen and (max-width:1112px) {
+
+
+.simplenavicon {
+    left: 1000px;
+}
+.mobilenav {
+    left: 720px;
+	padding: 40px;
+}
+.simplenavicon2 {
+    left: 1000px;
+}
+
+
+}
+
+
+@media only screen and (max-width:1080px) {
+
+.simplenavicon {
+    left: 940px;
+}
+.mobilenav {
+    left: 675px;
+	padding: 40px;
+}
+.simplenavicon2 {
+    left: 940px;
+}
+
+
+
+
+
+
+}
+
+
+@media only screen and (max-width:1024px) {
+
+
+.simplenavicon {
+    left: 940px;
+}
+.mobilenav {
+    left: 675px;
+	padding: 40px;
+}
+.simplenavicon2 {
+    left: 940px;
+}
+
+
+
+}
+
+
+@media only screen and (max-width:991px) {
+
+
+.simplenavicon {
+    left: 885px;
+}
+.mobilenav {
+    left: 640px;
+	padding: 40px;
+}
+.mobilenav li a {
+    font-size: 14px;
+}
+
+.mobilenav li a {
+    font-size: 14px;
+}
+.simplenavicon2 {
+    left: 885px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media only screen and (max-width:800px) {
+
+.simplenavicon {
+    left: 700px;
+}
+.simplenavicon2 {
+    left: 700px;
+}
+.mobilenav {
+    left: 366px;
+    padding: 40px;
+    width: 42%;
+}
+.mobilenav li a {
+    font-size: 14px;
+}
+
+.mobilenav li a {
+    font-size: 14px;
+}
+
+
+}
+
+@media only screen and (max-width:768px) {
+
+.simplenavicon {
+    left: 663px;
+}
+.mobilenav {
+    left: 345px;
+    padding: 20px;
+    width: 42%;
+}
+.mobilenav li a {
+    font-size: 14px;
+}
+
+.mobilenav li a {
+    font-size: 14px;
+}
+.simplenavicon2 {
+    left: 663px;
+}
+
+
+}
+
+@media only screen and (max-width:767px) {
+
+
+}
+
+@media only screen and (max-width:640px) {
+	
+.simplenavicon {
+    left: 550px;
+}
+.mobilenav {
+    left: 286px;
+    padding: 20px;
+    width: 42%;
+}
+.mobilenav li a {
+    font-size: 14px;
+}
+
+.mobilenav li a {
+    font-size: 14px;
+}
+
+.simplenavicon2 {
+    left: 550px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media only screen and (max-width:480px) {
+
+
+.simplenavicon {
+	top: 24px;
+    left: 400px;
+}
+.mobilenav {
+    left: 137px;
+    padding: 20px;
+    width: 56%;
+}
+.mobilenav li a {
+    font-size: 14px;
+}
+
+.mobilenav li a {
+    font-size: 14px;
+}
+.simplenavicon2 {
+	top: 24px;
+    left: 400px;
+}
+
+
+}
+
+@media only screen and (max-width:360px) {
+
+
+
+.simplenavicon {
+    left: 300px;
+}
+.mobilenav {
+    left: 56px;
+    padding: 20px;
+    width: 70%;
+}
+.mobilenav li a {
+    font-size: 14px;
+}
+
+.mobilenav li a {
+    font-size: 14px;
+}
+
+.mobilenav.two li a {
+    font-size: 17px;
+}
+.mobilenav.two li {
+    padding: 16px 10px;
+}
+.simplenavicon2 {
+    left: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media only screen and (max-width:320px) {
+
+
+.simplenavicon {
+	top: 0;
+    left: 238px;
+}
+.simplenavicon2 {
+	top: 0;
+    left: 238px;
+}
+.mobilenav {
+    left: 52px;
+    padding: 20px;
+    width: 61%;
+}
+.mobilenav li a {
+    font-size: 14px;
+}
+
+.mobilenav li a {
+    font-size: 14px;
+}
+
+
+}
+
+
+
+
+
+
+
+
