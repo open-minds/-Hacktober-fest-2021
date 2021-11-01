@@ -17,3 +17,4 @@
 - [aman339](https://github.com/settings/profile)
 - [Ghaicha Abdelkader](https://github.com/Ghaicha-Aek)
 - [Avelardo Valdez](https://github.com/AValdez)
+- [Meriem Mounchid](https://github.com/meriem-mounchid)
