@@ -1,4 +1,5 @@
 # List of contributors
+
 - [oussamabouchikhi](https://github.com/oussamabouchikhi)
 - [BAHRI_Aimene](https://github.com/Aimene-BAHRI)
 - [djawed-bkh](https://github.com/djawed-bkh)
@@ -15,4 +16,5 @@
 - [Mosaab Belk](https://github.com/mosaab001)
 - [aman339](https://github.com/settings/profile)
 - [Ghaicha Abdelkader](https://github.com/Ghaicha-Aek)
+- [Avelardo Valdez](https://github.com/AValdez)
 - [Meriem Mounchid](https://github.com/meriem-mounchid)
